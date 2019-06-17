@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "globals": {
+    "navigationToc": {
+      "type": "string",
+      "required": true,
+      "default": "Open table of contents",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "toc": {
+      "type": "string",
+      "required": true,
+      "default": "Table of contents",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "tocEnd": {
+      "type": "string",
+      "required": true,
+      "default": "You have reached the end of the table of contents.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "tocContentObject": {
+      "type": "string",
+      "required": true,
+      "default": "{{title}}. You have completed {{percentage}}%.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "optionalContent": {
+      "type": "string",
+      "required": true,
+      "default": "Optional Content",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "properties": {
+        "course": {
+          "type": "object",
+          "properties": {
+            "_toc": {
+              "type": "object",
+              "legend": "TOC",
+              "properties": {
+                "_excludeContentObjects": {
+                  "type": "array",
+                  "default": [],
+                  "title": "Exclusions",
+                  "inputType": "List",
+                  "_items": {
+                    "type": "string"
+                  },
+                  "help": "Exclude zero or more content objects from the TOC by listing their IDs."
+                },
+                "_grouping": {
+                  "type": "object",
+                  "default": {},
+                  "title": "Grouping",
+                  "inputType": {
+                    "type": "CodeEditor",
+                    "mode": "json"
+                  },
+                  "help": "Configure the visual organisation of content objects (see example.json)."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
