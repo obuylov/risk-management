@@ -1,141 +1,328 @@
 [
   {
-    "title": "Block title",
-    "displayTitle": "",
+    "title": "Теория",
+    "displayTitle": "Теория",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-top",
     "_trackingId": 1,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee354ea123007ffe192a6c",
-    "_parentId": "5cee354ea123007ffe192a6b",
-    "_type": "block"
+    "_id": "5cf8f550b7b6931869d765b7",
+    "_parentId": "5cf8f54fb7b6931869d765b1",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
-    "title": "Block title",
-    "displayTitle": "",
+    "title": "Теория",
+    "displayTitle": "Теория",
     "body": "",
-    "_classes": "photo",
+    "_classes": "one-block border-top",
     "_trackingId": 2,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee55aaa123007ffe192aa3",
-    "_parentId": "5cee55aaa123007ffe192aa2",
+    "_id": "5cf8f550b7b6931869d765b8",
+    "_parentId": "5cf8f54fb7b6931869d765b2",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
-    "displayTitle": "",
+    "title": "Практика",
+    "displayTitle": "Практика",
     "body": "",
-    "_classes": "",
+    "_classes": "same-blocks one-block border-top",
     "_trackingId": 3,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5677a123007ffe192aa6",
-    "_parentId": "5cee5677a123007ffe192aa5",
+    "_id": "5cf8f550b7b6931869d765b9",
+    "_parentId": "5cf8f550b7b6931869d765b5",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
-    "displayTitle": "",
+    "title": "Тест",
+    "displayTitle": "Тест",
     "body": "",
-    "_classes": "",
+    "_classes": "same-blocks one-block border-top",
     "_trackingId": 4,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee596da123007ffe192aad",
-    "_parentId": "5cee596ca123007ffe192aac",
+    "_id": "5cf8f550b7b6931869d765ba",
+    "_parentId": "5cf8f550b7b6931869d765b6",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
-    "displayTitle": "",
+    "title": "Теория",
+    "displayTitle": "Теория",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-top",
     "_trackingId": 5,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5a37a123007ffe192ab1",
-    "_parentId": "5cee5a37a123007ffe192ab0",
+    "_id": "5cf8f550b7b6931869d765bb",
+    "_parentId": "5cf8f550b7b6931869d765b3",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Russian Legislative Requirements",
-    "displayTitle": "Russian Legislative Requirements",
+    "title": "Поздравляем!",
+    "displayTitle": "Поздравляем!",
     "body": "",
-    "_classes": "same-blocks one-block border-top",
+    "_classes": "one-block border-top",
     "_trackingId": 6,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee613da123007ffe192ac3",
-    "_parentId": "5cee613da123007ffe192ac2",
+    "_id": "5cf8f550b7b6931869d765bc",
+    "_parentId": "5cf8f550b7b6931869d765b4",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "1. Main Documents Regulating Compliance Activities (in the current version)",
-    "displayTitle": "1. Main Documents Regulating Compliance Activities and Compliance Related Tutorials (in the current version)",
+    "title": "Теория",
+    "displayTitle": "Теория",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-top",
     "_trackingId": 7,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cefaaf3a123007ffe192bcb",
-    "_parentId": "annexes1",
+    "_id": "5cf8f550b7b6931869d765bd",
+    "_parentId": "5cf8f54fb7b6931869d765b0",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Тест",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -145,17 +332,43 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08862a123007ffe192c1e",
-    "_parentId": "5cee343aa123007ffe192a61",
+    "_id": "5cfba9ce36bab0456e80ba1f",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Тест",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -165,13 +378,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08958a123007ffe192c22",
-    "_parentId": "5cee3519a123007ffe192a65",
+    "_id": "5cfbb23a36bab0456e80ba2a",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -185,13 +424,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08988a123007ffe192c25",
-    "_parentId": "5cef0130a123007ffe192b27",
+    "_id": "5cfd6ef236bab0456e80bb0c",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -205,144 +470,362 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf089b1a123007ffe192c28",
-    "_parentId": "5cee3563a123007ffe192a6e",
+    "_id": "5cfe476836bab0456e80bbf1",
+    "_parentId": "5cfe437236bab0456e80bbc1",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Продолжить",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Как и зачем управлять рисками?",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block",
     "_trackingId": 12,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf089e1a123007ffe192c2b",
-    "_parentId": "5cee3584a123007ffe192a71",
+    "_id": "5cf8f550b7b6931869d765be",
+    "_parentId": "5cf8f54fb7b6931869d765b2",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Упражнение 2",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "same-blocks one-block",
     "_trackingId": 13,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08a09a123007ffe192c2e",
-    "_parentId": "5cee3597a123007ffe192a74",
+    "_id": "5cf8f550b7b6931869d765bf",
+    "_parentId": "5cf8f550b7b6931869d765b5",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Отметьте основные характеристики риска",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "same-blocks one-block",
     "_trackingId": 14,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08a2ea123007ffe192c31",
-    "_parentId": "5cee3599a123007ffe192a77",
+    "_id": "5cf8f550b7b6931869d765c0",
+    "_parentId": "5cf8f550b7b6931869d765b6",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Блок",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-bottom",
     "_trackingId": 15,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cf08a51a123007ffe192c34",
-    "_parentId": "5cee35bba123007ffe192a7a",
+    "_id": "5cf8f550b7b6931869d765c1",
+    "_parentId": "5cf8f54fb7b6931869d765b1",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "New Block Title",
+    "title": "Концепция защиты от рисков",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-bottom",
     "_trackingId": 16,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee343aa123007ffe192a62",
-    "_parentId": "5cee343aa123007ffe192a61",
+    "_id": "5cf8f550b7b6931869d765c2",
+    "_parentId": "5cf8f54fb7b6931869d765b0",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Области развития риск-культуры",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block",
     "_trackingId": 17,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3519a123007ffe192a66",
-    "_parentId": "5cee3519a123007ffe192a65",
-    "_type": "block"
+    "_id": "5cf8f550b7b6931869d765c3",
+    "_parentId": "5cf8f550b7b6931869d765b3",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-bottom",
     "_trackingId": 18,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3563a123007ffe192a6f",
-    "_parentId": "5cee3563a123007ffe192a6e",
-    "_type": "block"
+    "_id": "5cf91e80b7b6931869d76608",
+    "_parentId": "5cf8f550b7b6931869d765b4",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
     "title": "Block title",
@@ -355,9 +838,40 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3584a123007ffe192a72",
-    "_parentId": "5cee3584a123007ffe192a71",
-    "_type": "block"
+    "_id": "5cfbacc936bab0456e80ba21",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
     "title": "Block title",
@@ -370,9 +884,40 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3597a123007ffe192a75",
-    "_parentId": "5cee3597a123007ffe192a74",
-    "_type": "block"
+    "_id": "5cfbb31d36bab0456e80ba2c",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
     "title": "Block title",
@@ -385,9 +930,40 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3599a123007ffe192a78",
-    "_parentId": "5cee3599a123007ffe192a77",
-    "_type": "block"
+    "_id": "5cfd6fc536bab0456e80bb0e",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
     "title": "Block title",
@@ -400,33 +976,90 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee35bba123007ffe192a7b",
-    "_parentId": "5cee35bba123007ffe192a7a",
-    "_type": "block"
+    "_id": "5cfe437236bab0456e80bbc2",
+    "_parentId": "5cfe437236bab0456e80bbc1",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Далее",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
   },
   {
-    "title": "Block title",
+    "title": "Процесс управления рисками",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-bottom",
     "_trackingId": 23,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5d82a123007ffe192ab6",
-    "_parentId": "5cee354ea123007ffe192a6b",
+    "_id": "5cf8f550b7b6931869d765c4",
+    "_parentId": "5cf8f54fb7b6931869d765b2",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Продолжить",
+        "startText": "Продолжить",
+        "finalText": "Продолжить",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": false,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "EU Legislative Requirements",
-    "displayTitle": "EU Legislative Requirements",
+    "title": "Упражнение 3",
+    "displayTitle": "",
     "body": "",
     "_classes": "same-blocks one-block",
     "_trackingId": 24,
@@ -435,78 +1068,182 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee623aa123007ffe192ac8",
-    "_parentId": "5cee613da123007ffe192ac2",
+    "_id": "5cf8f550b7b6931869d765c5",
+    "_parentId": "5cf8f550b7b6931869d765b5",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Продолжить",
+        "startText": "Продолжить",
+        "finalText": "Продолжить",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Аппетит к риску ― это...",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "same-blocks one-block",
     "_trackingId": 25,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5ceef1fca123007ffe192b21",
-    "_parentId": "footer2",
+    "_id": "5cf8f550b7b6931869d765c6",
+    "_parentId": "5cf8f550b7b6931869d765b6",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Block title",
+    "title": "Золотые правила для правильных решений",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "one-block border-bottom",
     "_trackingId": 26,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef0130a123007ffe192b28",
-    "_parentId": "5cef0130a123007ffe192b27",
+    "_id": "5cf8f550b7b6931869d765c7",
+    "_parentId": "5cf8f550b7b6931869d765b3",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "footer",
     "_trackingId": 27,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef04b8a123007ffe192b2c",
-    "_parentId": "footer4",
+    "_id": "5cf9ec85b7b6931869d76616",
+    "_parentId": "5cf8f550b7b6931869d765b4",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "2. Main Tutorials Regulating Compliance Activities",
-    "displayTitle": "2. Main Tutorials Regulating Compliance Activities and Compliance Related Tutorials",
+    "title": "Block title",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "_trackingId": 28,
@@ -515,13 +1252,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cefac5fa123007ffe192bcd",
-    "_parentId": "annexes2",
+    "_id": "5cfbae6736bab0456e80ba23",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -535,13 +1298,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5c1da123007ffe192ab4",
-    "_parentId": "5cee3584a123007ffe192a71",
+    "_id": "5cfbb40236bab0456e80ba2e",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -555,33 +1344,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5f87a123007ffe192abe",
-    "_parentId": "5cee354ea123007ffe192a6b",
+    "_id": "5cfd70a536bab0456e80bb10",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Bank’s Internal Requirements",
-    "displayTitle": "Bank’s Internal Requirements",
-    "body": "",
-    "_classes": "same-blocks one-block border-bottom",
-    "_trackingId": 31,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee6289a123007ffe192acd",
-    "_parentId": "5cee613da123007ffe192ac2",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -589,19 +1384,91 @@
     "displayTitle": "",
     "body": "",
     "_classes": "",
+    "_trackingId": 31,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cfe46b436bab0456e80bbce",
+    "_parentId": "5cfe437236bab0456e80bbc1",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Далее",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "Из каких этапов состоит процесс управления рисками",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "same-blocks one-block border-bottom",
     "_trackingId": 32,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee64e2a123007ffe192ad8",
-    "_parentId": "5cee3597a123007ffe192a74",
+    "_id": "5cf8f550b7b6931869d765c8",
+    "_parentId": "5cf8f550b7b6931869d765b6",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -615,13 +1482,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee6600a123007ffe192ade",
-    "_parentId": "5cee3599a123007ffe192a77",
+    "_id": "5cfbaf3636bab0456e80ba25",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -635,13 +1528,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee6b0ba123007ffe192aed",
-    "_parentId": "5cee35bba123007ffe192a7a",
+    "_id": "5cfbb4a936bab0456e80ba30",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -655,18 +1574,44 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5ceef164a123007ffe192b1f",
-    "_parentId": "footer1",
+    "_id": "5cfd71ce36bab0456e80bb12",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "3. \"Compliance Hotline\" – a Possibility to Report Violations in the Area of Compliance",
-    "displayTitle": "3. \"Compliance Hotline\" – a Possibility to Report Violations in the Area of Compliance",
+    "title": "Block title",
+    "displayTitle": "",
     "body": "",
     "_classes": "",
     "_trackingId": 36,
@@ -675,33 +1620,85 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cefad50a123007ffe192bcf",
-    "_parentId": "annexes3",
+    "_id": "5cfe46e136bab0456e80bbda",
+    "_parentId": "5cfe437236bab0456e80bbc1",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Далее",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "footer",
     "_trackingId": 37,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee603ba123007ffe192ac0",
-    "_parentId": "5cee354ea123007ffe192a6b",
+    "_id": "5cf9e9a7b7b6931869d7660c",
+    "_parentId": "5cf8f550b7b6931869d765b6",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -715,13 +1712,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee634ea123007ffe192ad5",
-    "_parentId": "5cee613da123007ffe192ac2",
+    "_id": "5cfbb01036bab0456e80ba27",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -735,13 +1758,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee685ba123007ffe192aea",
-    "_parentId": "5cee3599a123007ffe192a77",
+    "_id": "5cfbbf7c36bab0456e80ba32",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -755,78 +1804,182 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef054ea123007ffe192b30",
-    "_parentId": "footer6",
+    "_id": "5cfd725636bab0456e80bb14",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "same-blocks one-block border-top border-bottom",
+    "_classes": "",
     "_trackingId": 41,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cefb177a123007ffe192bd1",
-    "_parentId": "annexes3",
+    "_id": "5cfe470636bab0456e80bbe6",
+    "_parentId": "5cfe437236bab0456e80bbc1",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "visible",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Далее",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "footer",
     "_trackingId": 42,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef043ca123007ffe192b2a",
-    "_parentId": "footer3",
+    "_id": "5cf9ebcab7b6931869d76612",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "footer",
     "_trackingId": 43,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef0502a123007ffe192b2e",
-    "_parentId": "footer5",
+    "_id": "5cf9ec3db7b6931869d76614",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
-    "displayTitle": "",
+    "displayTitle": "Block title",
     "body": "",
     "_classes": "",
     "_trackingId": 44,
@@ -835,33 +1988,80 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef0590a123007ffe192b32",
-    "_parentId": "footer7",
+    "_id": "5cfe317f36bab0456e80bbb0",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
     "title": "Block title",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "footer",
     "_trackingId": 45,
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cef05d9a123007ffe192b34",
-    "_parentId": "footer8",
+    "_id": "5cf9eb77b7b6931869d76610",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -875,433 +2075,39 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cefb255a123007ffe192bd8",
-    "_parentId": "annexes3",
+    "_id": "5cfe491c36bab0456e80bbf5",
+    "_parentId": "5cfe437236bab0456e80bbc1",
     "_type": "block",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "4. The Following Types of Gifts are Prohibited Irrespective of Their Value",
-    "displayTitle": "4. The Following Types of Gifts are Prohibited Irrespective of Their Value",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 47,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb351a123007ffe192bda",
-    "_parentId": "annexes4",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "5. Rules for Participation in Events",
-    "displayTitle": "5. Rules for Participation in Events",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 48,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb420a123007ffe192bdc",
-    "_parentId": "annexes5",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "6. Rules for Giving Gifts to Public Officials and Officers",
-    "displayTitle": "6. Rules for Giving Gifts to Public Officials and Officers",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 49,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb47ba123007ffe192bde",
-    "_parentId": "annexes6",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "7. In Order to Avoid Conflict of Interest, Bank Employees Are Prohibited from",
-    "displayTitle": "7. In Order to Avoid Conflict of Interest, Bank Employees Are Prohibited from",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 50,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb5a7a123007ffe192be2",
-    "_parentId": "annexes7",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "8. Regulatory Requirements of the European Union",
-    "displayTitle": "8. Regulatory Requirements of the European Union",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 51,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb614a123007ffe192be4",
-    "_parentId": "annexes8",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 52,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefb65ba123007ffe192be6",
-    "_parentId": "annexes8",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "9. Insider’s Obligations to Observe the Insider Dealing Legislation (224-FZ) and the Bank’s Internal Rules",
-    "displayTitle": "9. Insider’s Obligations to Observe the Insider Dealing Legislation (224-FZ) and the Bank’s Internal Rules",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 53,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefcfaaa123007ffe192be8",
-    "_parentId": "annexes9",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 54,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefcffea123007ffe192bea",
-    "_parentId": "annexes9",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "10. List of personal transactions with a financial instrument* ",
-    "displayTitle": "10. List of personal transactions with a financial instrument* ",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 55,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd163a123007ffe192bee",
-    "_parentId": "annexes10",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "11. Summary of Sets of Elements of Manipulation",
-    "displayTitle": "11. Summary of Sets of Elements of Manipulation",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 56,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd1dba123007ffe192bf0",
-    "_parentId": "annexes11",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 57,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd274a123007ffe192bf2",
-    "_parentId": "annexes11",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "12. Types of Economic Sanctions",
-    "displayTitle": "12. Types of Economic Sanctions",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 58,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd307a123007ffe192bf4",
-    "_parentId": "annexes12",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "13. Sanctions against the Bank",
-    "displayTitle": "13. Sanctions against the Bank",
-    "body": "",
-    "_classes": "same-blocks one-block border-top",
-    "_trackingId": 59,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd3cea123007ffe192bf6",
-    "_parentId": "annexes13",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "same-blocks one-block border-bottom",
-    "_trackingId": 60,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd450a123007ffe192bfc",
-    "_parentId": "annexes13",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 61,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd4aea123007ffe192c01",
-    "_parentId": "annexes13",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 62,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd71aa123007ffe192c0a",
-    "_parentId": "annexes13",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "14. Brief Description of Sanction Programs",
-    "displayTitle": "14. Brief Description of Sanction Programs",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 63,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd873a123007ffe192c0f",
-    "_parentId": "annexes14",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "15. Performance by Certain Categories of Employees of Activities in the Interests and on Behalf of Sberbank in Conditions of Sanctional Restrictions",
-    "displayTitle": "15. Performance by Certain Categories of Employees of Activities in the Interests and on Behalf of Sberbank in Conditions of Sanctional Restrictions",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 64,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd8fba123007ffe192c11",
-    "_parentId": "annexes15",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "16. Participation in International Forums, Conferences in the Interests or on Behalf of Sberbank",
-    "displayTitle": "16. Participation in International Forums, Conferences in the Interests or on Behalf of Sberbank",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 65,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cefd938a123007ffe192c13",
-    "_parentId": "annexes16",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 66,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cf7e5c9a123007ffe192d3a",
-    "_parentId": "footer9",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    }
-  },
-  {
-    "title": "Block title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 67,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "laspPage-article-block1",
-    "_parentId": "laspPage-article",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   }
 ]

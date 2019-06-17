@@ -1,6 +1,6 @@
 [
   {
-    "title": "New Article Title",
+    "title": "Концепция защиты от рисков",
     "displayTitle": "",
     "body": "",
     "_classes": "",
@@ -9,25 +9,344 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee343aa123007ffe192a61",
-    "_parentId": "5cee3439a123007ffe192a60",
+    "_id": "5cf8f54fb7b6931869d765b0",
+    "_parentId": "5cf8f54fb7b6931869d765ae",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "Теория",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765b1",
+    "_parentId": "5cf8f54fb7b6931869d765aa",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "Теория",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765b2",
+    "_parentId": "5cf8f54fb7b6931869d765a6",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": true,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Продолжить",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": false,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "Риск-культура",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f550b7b6931869d765b3",
+    "_parentId": "5cf8f54fb7b6931869d765a8",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "Завершение",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f550b7b6931869d765b4",
+    "_parentId": "5cf8f54fb7b6931869d765ac",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
@@ -40,308 +359,68 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee3519a123007ffe192a65",
-    "_parentId": "5cee3519a123007ffe192a64",
+    "_id": "5cfe437236bab0456e80bbc1",
+    "_parentId": "5cfe437236bab0456e80bbc0",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee3563a123007ffe192a6e",
-    "_parentId": "5cee3562a123007ffe192a6d",
-    "_type": "article",
-    "_onScreen": {
+    "_assessment": {
       "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee3584a123007ffe192a71",
-    "_parentId": "5cee3584a123007ffe192a70",
-    "_type": "article",
-    "_onScreen": {
+    "_trickle": {
       "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee3597a123007ffe192a74",
-    "_parentId": "5cee3597a123007ffe192a73",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee3599a123007ffe192a77",
-    "_parentId": "5cee3599a123007ffe192a76",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee35bba123007ffe192a7a",
-    "_parentId": "5cee35bba123007ffe192a79",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cef0130a123007ffe192b27",
-    "_parentId": "5cee354da123007ffe192a6a",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Additional Restrictions and Responsibilities in Respect of Handling Gifts Applicable to the Bank Executives",
-    "displayTitle": "Additional Restrictions and Responsibilities in Respect of Handling Gifts Applicable to the Bank Executives",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee354ea123007ffe192a6b",
-    "_parentId": "5cee354da123007ffe192a6a",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "full-article",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee55aaa123007ffe192aa2",
-    "_parentId": "5cee3519a123007ffe192a64",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "course/ru/assets/343707e332b003b827e6e582b2373f8b22774fd7.png",
-      "mobileSrc": "course/ru/assets/343707e332b003b827e6e582b2373f8b22774fd7.png",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "no-repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "full-article",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cee596ca123007ffe192aac",
-    "_parentId": "5cee3562a123007ffe192a6d",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "course/ru/assets/4ac9aff3f497382f687e639c8a09220403620d6f.png",
-      "mobileSrc": "course/ru/assets/4ac9aff3f497382f687e639c8a09220403620d6f.png",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "auto",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
+    "title": "Практика",
     "displayTitle": "",
     "body": "",
     "_classes": "same-height",
@@ -350,30 +429,69 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee613da123007ffe192ac2",
-    "_parentId": "5cee3584a123007ffe192a70",
+    "_id": "5cf8f550b7b6931869d765b5",
+    "_parentId": "5cf8f54fb7b6931869d765a6",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Article title",
-    "displayTitle": "",
+    "title": "Тест",
+    "displayTitle": "Тест",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -381,30 +499,69 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5677a123007ffe192aa5",
-    "_parentId": "5cee3519a123007ffe192a64",
+    "_id": "5cfba9ce36bab0456e80ba1e",
+    "_parentId": "5cf8f54fb7b6931869d765aa",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Article title",
-    "displayTitle": "",
+    "title": "Тест",
+    "displayTitle": "Тест",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -412,30 +569,69 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "5cee5a37a123007ffe192ab0",
-    "_parentId": "5cee3562a123007ffe192a6d",
+    "_id": "5cfbb23a36bab0456e80ba29",
+    "_parentId": "5cf8f54fb7b6931869d765ae",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Article title",
-    "displayTitle": "",
+    "title": "Тест",
+    "displayTitle": "Тест",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -443,800 +639,134 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "annexes1",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
+    "_id": "5cfd6ef236bab0456e80bb0b",
+    "_parentId": "5cf8f54fb7b6931869d765a8",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   },
   {
-    "title": "Article title",
+    "title": "Тест",
     "displayTitle": "",
     "body": "",
-    "_classes": "",
+    "_classes": "same-height",
     "instruction": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "_id": "annexes2",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
+    "_id": "5cf8f550b7b6931869d765b6",
+    "_parentId": "5cf8f54fb7b6931869d765a6",
     "_type": "article",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes3",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
+    "_assessment": {
       "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
     },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes4",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
+    "_trickle": {
       "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes5",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes6",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes7",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes8",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes9",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes10",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes11",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes12",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes13",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes14",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes15",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "annexes16",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer1",
-    "_parentId": "5cee3439a123007ffe192a60",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer2",
-    "_parentId": "5cee3519a123007ffe192a64",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer3",
-    "_parentId": "5cee354da123007ffe192a6a",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer4",
-    "_parentId": "5cee3562a123007ffe192a6d",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer5",
-    "_parentId": "5cee3584a123007ffe192a70",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer6",
-    "_parentId": "5cee3597a123007ffe192a73",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer7",
-    "_parentId": "5cee3599a123007ffe192a76",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer8",
-    "_parentId": "5cee35bba123007ffe192a79",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "footer",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "footer9",
-    "_parentId": "5cefaaf3a123007ffe192bc9",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
-    }
-  },
-  {
-    "title": "Article title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "laspPage-article",
-    "_parentId": "lastPage",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_canBackground": {
-      "src": "",
-      "mobileSrc": "",
-      "bannerHeight": 300,
-      "mobileBannerHeight": 150,
-      "backgroundSize": "cover",
-      "backgroundPosition": "center center",
-      "backgroundRepeat": "repeat",
-      "backgroundAttachement": "fixed",
-      "backgroundColor": "transparent",
-      "transparentChildren": true
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
     }
   }
 ]
