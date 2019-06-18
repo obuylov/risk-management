@@ -72,37 +72,6 @@
     }
   },
   {
-    "title": "Риск-культура",
-    "displayTitle": "Риск-культура",
-    "body": "",
-    "_classes": "",
-    "pageBody": "",
-    "linkText": "Начать",
-    "duration": "10 минут",
-    "_lockedBy": [],
-    "_lockType": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cf8f54fb7b6931869d765a8",
-    "_parentId": "course",
-    "_type": "page",
-    "_graphic": {
-      "alt": "",
-      "src": "course/ru/assets/cf2b3f68d289bb4ccb2381fba34e955f00747d02.png"
-    },
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_showPageCompletion": true
-    }
-  },
-  {
     "title": "Риски группы Сбербанк",
     "displayTitle": "Риски группы Сбербанк",
     "body": "",
@@ -122,6 +91,68 @@
     "_graphic": {
       "alt": "",
       "src": "course/ru/assets/375158ad30603b68ddb37e9be1a241543bb73ece.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  },
+  {
+    "title": "Концепция защиты от рисков",
+    "displayTitle": "Концепция защиты от рисков",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765ae",
+    "_parentId": "5cf8f54fb7b6931869d765a4",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/597b96062168d47ed33bb6332caab95e4f2a27ff.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  },
+  {
+    "title": "Риск-культура",
+    "displayTitle": "Риск-культура",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765a8",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/cf2b3f68d289bb4ccb2381fba34e955f00747d02.png"
     },
     "_onScreen": {
       "_isEnabled": false,
@@ -170,37 +201,6 @@
     "_bookmarking": {
       "_isEnabled": true,
       "_level": "page"
-    }
-  },
-  {
-    "title": "Концепция защиты от рисков",
-    "displayTitle": "Концепция защиты от рисков",
-    "body": "",
-    "_classes": "",
-    "pageBody": "",
-    "linkText": "Начать",
-    "duration": "10 минут",
-    "_lockedBy": [],
-    "_lockType": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "5cf8f54fb7b6931869d765ae",
-    "_parentId": "5cf8f54fb7b6931869d765a4",
-    "_type": "page",
-    "_graphic": {
-      "alt": "",
-      "src": "course/ru/assets/597b96062168d47ed33bb6332caab95e4f2a27ff.png"
-    },
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_showPageCompletion": true
     }
   }
 ]
