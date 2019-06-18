@@ -1,0 +1,206 @@
+[
+  {
+    "title": "Основы риск-менеджмента",
+    "displayTitle": "Основы риск-менеджмента",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "30 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765a4",
+    "_parentId": "course",
+    "_type": "menu",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/2873eb36695ac10fc5347bf192f10847dfc535f5.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    }
+  },
+  {
+    "title": "Что такое риск?",
+    "displayTitle": "Что такое риск?",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Просмотр",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765a6",
+    "_parentId": "5cf8f54fb7b6931869d765a4",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/f51f2627da45928dac06319dd9c47f1d73f57830.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    }
+  },
+  {
+    "title": "Риск-культура",
+    "displayTitle": "Риск-культура",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765a8",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/cf2b3f68d289bb4ccb2381fba34e955f00747d02.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  },
+  {
+    "title": "Риски группы Сбербанк",
+    "displayTitle": "Риски группы Сбербанк",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Просмотр",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765aa",
+    "_parentId": "5cf8f54fb7b6931869d765a4",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/375158ad30603b68ddb37e9be1a241543bb73ece.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  },
+  {
+    "title": "Завершение",
+    "displayTitle": "Завершение",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "1 минута",
+    "_lockedBy": [
+      "5cf8f54fb7b6931869d765a4",
+      "5cf8f54fb7b6931869d765a8"
+    ],
+    "_lockType": "custom",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765ac",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/c2d548eb404d07875f3b8446620fe8390c0eb9a5.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "page"
+    }
+  },
+  {
+    "title": "Концепция защиты от рисков",
+    "displayTitle": "Концепция защиты от рисков",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "Начать",
+    "duration": "10 минут",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5cf8f54fb7b6931869d765ae",
+    "_parentId": "5cf8f54fb7b6931869d765a4",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": "course/ru/assets/597b96062168d47ed33bb6332caab95e4f2a27ff.png"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  }
+]
