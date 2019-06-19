@@ -264,8 +264,8 @@
                 "_autoHide": true,
                 "_className": "",
                 "text": "Продолжить",
-                "startText": "Продолжить",
-                "finalText": "Продолжить",
+                "startText": "Begin",
+                "finalText": "Finish",
                 "_component": "trickle-button"
             },
             "_stepLocking": {
@@ -463,7 +463,7 @@
         "title": "Что такое риск? | Навигация",
         "displayTitle": "",
         "body": "",
-        "_classes": "footer",
+        "_classes": "",
         "_trackingId": 37,
         "instruction": "",
         "_isOptional": false,
@@ -471,7 +471,7 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9e9a7b7b6931869d7660c",
-        "_parentId": "5cf8f550b7b6931869d765b6",
+        "_parentId": "footer-1",
         "_type": "block",
         "_onScreen": {
             "_isEnabled": false,
@@ -587,7 +587,7 @@
                 "_className": "",
                 "text": "Продолжить",
                 "startText": "Begin",
-                "finalText": "Finish",
+                "finalText": "Продолжить",
                 "_component": "trickle-button"
             },
             "_stepLocking": {
@@ -1131,7 +1131,7 @@
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -1153,7 +1153,7 @@
         "title": "Риски группы Сбербанк | Навигация",
         "displayTitle": "",
         "body": "",
-        "_classes": "footer",
+        "_classes": "",
         "_trackingId": 45,
         "instruction": "",
         "_isOptional": false,
@@ -1161,7 +1161,7 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9eb77b7b6931869d76610",
-        "_parentId": "5cfba9ce36bab0456e80ba1e",
+        "_parentId": "footer-2",
         "_type": "block",
         "_onScreen": {
             "_isEnabled": false,
@@ -1264,25 +1264,25 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": false,
-            "_autoScroll": false,
+            "_isEnabled": true,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
-                "startText": "Begin",
-                "finalText": "Finish",
+                "text": "Продолжить",
+                "startText": "Продолжить",
+                "finalText": "Продолжить",
                 "_component": "trickle-button"
             },
             "_stepLocking": {
                 "_isEnabled": true,
-                "_isCompletionRequired": true,
+                "_isCompletionRequired": false,
                 "_isLockedOnRevisit": false
             }
         }
@@ -2000,11 +2000,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2046,11 +2046,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2092,11 +2092,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2138,11 +2138,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2184,11 +2184,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2210,7 +2210,7 @@
         "title": "Концепция защиты от рисков | Навигация",
         "displayTitle": "",
         "body": "",
-        "_classes": "footer",
+        "_classes": "",
         "_trackingId": 42,
         "instruction": "",
         "_isOptional": false,
@@ -2218,7 +2218,7 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9ebcab7b6931869d76612",
-        "_parentId": "5cfbb23a36bab0456e80ba29",
+        "_parentId": "footer-3",
         "_type": "block",
         "_onScreen": {
             "_isEnabled": false,
@@ -2367,25 +2367,25 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": false,
-            "_autoScroll": false,
+            "_isEnabled": true,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
-                "startText": "Begin",
-                "finalText": "Finish",
+                "text": "Продолжить",
+                "startText": "Продолжить",
+                "finalText": "Продолжить",
                 "_component": "trickle-button"
             },
             "_stepLocking": {
                 "_isEnabled": true,
-                "_isCompletionRequired": true,
+                "_isCompletionRequired": false,
                 "_isLockedOnRevisit": false
             }
         }
@@ -2413,8 +2413,8 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": false,
+            "_isEnabled": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2460,7 +2460,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2470,7 +2470,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2506,7 +2506,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2516,7 +2516,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2551,8 +2551,8 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": false,
+            "_isEnabled": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2598,7 +2598,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2608,7 +2608,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2644,7 +2644,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2654,7 +2654,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2690,7 +2690,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2700,7 +2700,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2736,7 +2736,7 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
@@ -2746,7 +2746,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Continue",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2782,11 +2782,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2828,11 +2828,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2874,11 +2874,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2920,11 +2920,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2966,11 +2966,11 @@
         },
         "_trickle": {
             "_isEnabled": true,
-            "_autoScroll": false,
+            "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
-                "_isEnabled": true,
+                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
@@ -2992,7 +2992,7 @@
         "title": "Риск-культура | Навигация",
         "displayTitle": "",
         "body": "",
-        "_classes": "footer",
+        "_classes": "",
         "_trackingId": 43,
         "instruction": "",
         "_isOptional": false,
@@ -3000,7 +3000,7 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9ec3db7b6931869d76614",
-        "_parentId": "5cfd6ef236bab0456e80bb0b",
+        "_parentId": "footer-4",
         "_type": "block",
         "_onScreen": {
             "_isEnabled": false,
@@ -3130,7 +3130,7 @@
         "title": "Завершение | Навигация",
         "displayTitle": "",
         "body": "",
-        "_classes": "footer",
+        "_classes": "",
         "_trackingId": 27,
         "instruction": "",
         "_isOptional": false,
@@ -3138,7 +3138,7 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9ec85b7b6931869d76616",
-        "_parentId": "5cf8f550b7b6931869d765b4",
+        "_parentId": "footer-5",
         "_type": "block",
         "_onScreen": {
             "_isEnabled": false,

@@ -208,8 +208,8 @@
       }
     ],
     "dummyAnswers": [],
-    "_attempts": 0,
-    "_canShowModelAnswer": false,
+    "_attempts": -1,
+    "_canShowModelAnswer": true,
     "_canShowFeedback": true,
     "_canShowMarking": false,
     "_shouldDisplayAttempts": false,
@@ -275,7 +275,7 @@
       "_isEnabled": true
     },
     "instruction": "",
-    "_attempts": 0,
+    "_attempts": -1,
     "_canShowModelAnswer": false,
     "_canShowFeedback": true,
     "_canShowMarking": false,
