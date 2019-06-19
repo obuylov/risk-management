@@ -59,59 +59,6 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Что такое риск?",
-    "displayTitle": "Что такое риск?",
-    "body": "",
-    "_id": "5cf8f550b7b6931869d765cd",
-    "_parentId": "5cf8f550b7b6931869d765b8",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_media": {
-      "mp4": "course/ru/assets/cafe5c5be85c7b5882dca8154642c3e75d915eb6.mp4",
-      "ogv": "",
-      "webm": "",
-      "mp3": "",
-      "source": "",
-      "type": "",
-      "poster": "course/ru/assets/cd88fc80c6cfd4f46b7f42ce253c990de12fe550.png",
-      "cc": []
-    },
-    "_setCompletionOn": "inview",
-    "_useClosedCaptions": false,
-    "_startLanguage": "en",
-    "_showVolumeControl": true,
-    "_startVolume": "80%",
-    "_allowFullScreen": true,
-    "_playsinline": true,
-    "_preventForwardScrubbing": false,
-    "_transcript": {
-      "_setCompletionOnView": true,
-      "_inlineTranscript": true,
-      "_externalTranscript": true,
-      "inlineTranscriptButton": "Открыть текст",
-      "inlineTranscriptCloseButton": "Закрыть текст",
-      "inlineTranscriptBody": "<p><strong>Риск</strong>&nbsp;<strong>―</strong>&nbsp;неотъемлемая часть нашей повседневной жизни. Чаще всего мы говорим о риске, когда можем понести расходы и потери. Но не все ли расходы и потери связаны&nbsp;с риском?</p><p>Представьте, что Вы купили автомобиль. Вряд ли Вы скажите, что у Вас появился риск расходов на бензин. Совершая покупку, Вы понимали, что вскоре придется регулярно&nbsp;заправлять автомобиль бензином,&nbsp;но в то же время Вы можете говорить о риске угона, риске <u>д</u>орожно-транспортного происшествия и множестве других. Как скоро это произойдет и произойдет ли вообще <strong>―</strong>&nbsp;неизвестно. Однако вероятность этого события нужно учитывать.</p><p>Различие между расходами на бензин и расходами на ремонт в результате ДТП в неопределенности наступления события.</p><p>Таким образом, <strong>риск ―&nbsp;</strong>это неблагоприятное событие, ведущее к потерям, которое&nbsp;обладает тремя характеристиками:</p><ol><li>Вероятность возникновения этого события</li><li>Величина потерь в случае если это событие наступит</li><li>Временной горизонт, то есть период времени для которого определена вероятность наступления события</li></ol><p><strong>Риск</strong> <strong>―</strong>&nbsp;это не что-то, чего следует опасаться и избегать. Со своими рисками связано почти любое улучшение качества жизни: переезд, вступления в брак, развитие компании, внедрение новой системы и так далее.</p><p>Важно помнить что рисками можно и нужно управлять. В работе Банка обязательно существуют риски фактически они и составляют основу его работы.&nbsp;Банк оказывает множество услуг, связанных с движением денежных средств, и это подразумевает управление значительными объемами рисков. Большинство рисков, связанных с работой Банка, можно разделить на два типа:</p><p><strong>Первый тип</strong>&nbsp;<strong>―</strong>&nbsp;риски, связанные с перераспределением денежных средств. Банк привлекает депозиты клиентов и размещает их в виде кредитов и прочих финансовых активов, принимая на себя при этом различные риски: кредитные, процентные, валютные, риски ликвидности и другие. Без управления этими рисками невозможно получение чистого процентного дохода.</p><p><strong>Второй тип</strong> <strong>―</strong>&nbsp;риски, связанные с функционированием расчетно-платежной инфраструктуры, внутренними системами и процессами, человеческим фактором.</p><p>Без управления этими рисками невозможно получения комиссионного дохода. Теперь мы видим, что эффективное управление рисками становится синонимом управления Банком. Ведь от грамотной работы с рисками зависит прибыль Банка коммерческого предприятия.</p><p>В последующих разделах мы подробно расскажем об управлении рисками и о том, что такое «риск-культура».</p>",
-      "transcriptLinkButton": "Скачать аудиоподкаст",
-      "transcriptLink": "course/ru/assets/af68a95f846f5d847caa2fd6f9d835cd12f68380.mp3"
-    },
-    "_playerOptions": ""
-  },
-  {
-    "_component": "media",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
     "title": "Как и зачем управлять рисками?",
     "displayTitle": "Как и зачем управлять рисками?",
     "body": "",
@@ -159,6 +106,59 @@
     "_playerOptions": ""
   },
   {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Что такое риск?",
+    "displayTitle": "Что такое риск?",
+    "body": "",
+    "_id": "5cf8f550b7b6931869d765cd",
+    "_parentId": "5cf8f550b7b6931869d765b8",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/ru/assets/cafe5c5be85c7b5882dca8154642c3e75d915eb6.mp4",
+      "ogv": "",
+      "webm": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/ru/assets/cd88fc80c6cfd4f46b7f42ce253c990de12fe550.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_showVolumeControl": true,
+    "_startVolume": "80%",
+    "_allowFullScreen": true,
+    "_playsinline": true,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": true,
+      "_externalTranscript": true,
+      "inlineTranscriptButton": "Открыть текст",
+      "inlineTranscriptCloseButton": "Закрыть текст",
+      "inlineTranscriptBody": "<p><strong>Риск</strong>&nbsp;<strong>―</strong>&nbsp;неотъемлемая часть нашей повседневной жизни. Чаще всего мы говорим о риске, когда можем понести расходы и потери. Но не все ли расходы и потери связаны&nbsp;с риском?</p><p>Представьте, что Вы купили автомобиль. Вряд ли Вы скажите, что у Вас появился риск расходов на бензин. Совершая покупку, Вы понимали, что вскоре придется регулярно&nbsp;заправлять автомобиль бензином,&nbsp;но в то же время Вы можете говорить о риске угона, риске <u>д</u>орожно-транспортного происшествия и множестве других. Как скоро это произойдет и произойдет ли вообще <strong>―</strong>&nbsp;неизвестно. Однако вероятность этого события нужно учитывать.</p><p>Различие между расходами на бензин и расходами на ремонт в результате ДТП в неопределенности наступления события.</p><p>Таким образом, <strong>риск ―&nbsp;</strong>это неблагоприятное событие, ведущее к потерям, которое&nbsp;обладает тремя характеристиками:</p><ol><li>Вероятность возникновения этого события</li><li>Величина потерь в случае если это событие наступит</li><li>Временной горизонт, то есть период времени для которого определена вероятность наступления события</li></ol><p><strong>Риск</strong> <strong>―</strong>&nbsp;это не что-то, чего следует опасаться и избегать. Со своими рисками связано почти любое улучшение качества жизни: переезд, вступления в брак, развитие компании, внедрение новой системы и так далее.</p><p>Важно помнить что рисками можно и нужно управлять. В работе Банка обязательно существуют риски фактически они и составляют основу его работы.&nbsp;Банк оказывает множество услуг, связанных с движением денежных средств, и это подразумевает управление значительными объемами рисков. Большинство рисков, связанных с работой Банка, можно разделить на два типа:</p><p><strong>Первый тип</strong>&nbsp;<strong>―</strong>&nbsp;риски, связанные с перераспределением денежных средств. Банк привлекает депозиты клиентов и размещает их в виде кредитов и прочих финансовых активов, принимая на себя при этом различные риски: кредитные, процентные, валютные, риски ликвидности и другие. Без управления этими рисками невозможно получение чистого процентного дохода.</p><p><strong>Второй тип</strong> <strong>―</strong>&nbsp;риски, связанные с функционированием расчетно-платежной инфраструктуры, внутренними системами и процессами, человеческим фактором.</p><p>Без управления этими рисками невозможно получения комиссионного дохода. Теперь мы видим, что эффективное управление рисками становится синонимом управления Банком. Ведь от грамотной работы с рисками зависит прибыль Банка коммерческого предприятия.</p><p>В последующих разделах мы подробно расскажем об управлении рисками и о том, что такое «риск-культура».</p>",
+      "transcriptLinkButton": "Скачать аудиоподкаст",
+      "transcriptLink": "course/ru/assets/af68a95f846f5d847caa2fd6f9d835cd12f68380.mp3"
+    },
+    "_playerOptions": ""
+  },
+  {
     "_component": "matching",
     "_classes": "",
     "_isOptional": false,
@@ -181,10 +181,10 @@
       "_isEnabled": true
     },
     "instruction": "",
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": false,
-    "_canShowMarking": true,
+    "_attempts": 0,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
     "_shouldResetAllAnswers": true,
     "_shouldDisplayAttempts": false,
     "_isRandom": true,
@@ -279,10 +279,10 @@
     ],
     "_feedback": {
       "title": "",
-      "correct": "",
+      "correct": "Совершенно верно!",
       "_incorrect": {
-        "final": "",
-        "notFinal": ""
+        "final": "Упражнение выполнено неверно, рекомендуем пройти его еще раз.",
+        "notFinal": "Упражнение выполнено неверно, рекомендуем пройти его еще раз."
       },
       "_partlyCorrect": {
         "final": "",
@@ -291,7 +291,7 @@
     },
     "_buttons": {
       "_submit": {
-        "buttonText": "Ответить",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_reset": {
@@ -299,11 +299,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -359,21 +359,22 @@
         "feedback": ""
       }
     ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": false,
-    "_canShowMarking": true,
+    "_attempts": 0,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldResetAllAnswers": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
+    "_isRandom": true,
     "_questionWeight": 1,
+    "_recordInteraction": true,
     "_selectable": 1,
     "_feedback": {
       "title": "",
-      "correct": "",
+      "correct": "Совершенно верно!",
       "_incorrect": {
-        "final": "",
-        "notFinal": ""
+        "final": "Упражнение выполнено неверно, рекомендуем пройти его еще раз.",
+        "notFinal": "Упражнение выполнено неверно, рекомендуем пройти его еще раз."
       },
       "_partlyCorrect": {
         "final": "",
@@ -382,7 +383,7 @@
     },
     "_buttons": {
       "_submit": {
-        "buttonText": "Ответить",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_reset": {
@@ -390,11 +391,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -1185,10 +1186,10 @@
       }
     ],
     "dummyAnswers": [],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": false,
-    "_canShowMarking": true,
+    "_attempts": 0,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
     "_shouldDisplayAttempts": false,
     "_isRandom": true,
     "_recordInteraction": true,
@@ -1197,16 +1198,16 @@
       "correct": "<p>Упражнение выполнено верно.</p>",
       "_incorrect": {
         "final": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>",
-        "notFinal": ""
+        "notFinal": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>"
       },
       "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
+        "final": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>",
+        "notFinal": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>"
       }
     },
     "_buttons": {
       "_submit": {
-        "buttonText": "Ответить",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_reset": {
@@ -1214,7 +1215,7 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Обратная связь",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
@@ -1222,7 +1223,7 @@
         "ariaLabel": ""
       },
       "_showFeedback": {
-        "buttonText": "Обратная связь",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "remainingAttemptsText": "",
@@ -1240,7 +1241,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "5cf91cebb7b6931869d76603",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "block-final",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -1270,7 +1271,7 @@
     "displayTitle": "",
     "body": "<p>Уважаемый пользователь!</p><p>Вы прошли все темы курса —&nbsp;от основных понятий риск-менеджмента до кейсов, упражнений и тестирований —&nbsp;и доказали, что Вам по плечу не только внимательное изучение теоретических сведений, но и успешное выполнение практических задач.&nbsp;</p><p>Мы уверены, что полученные знания помогут Вам достичь новых высот в сфере управления рисками.</p><p><strong>Успехов в работе!</strong></p>",
     "_id": "5cf91d5eb7b6931869d76607",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "block-final",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3274,8 +3275,8 @@
     "title": "Component title",
     "displayTitle": "",
     "body": "",
-    "_id": "cover2",
-    "_parentId": "case1-block1",
+    "_id": "cover1",
+    "_parentId": "case1-block0",
     "_type": "component",
     "_layout": "full",
     "_onScreen": {
@@ -3289,8 +3290,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/ru/assets/cover2.jpg",
-      "small": "course/ru/assets/cover2.jpg",
+      "large": "course/ru/assets/cover1.jpg",
+      "small": "course/ru/assets/cover1.jpg",
       "attribution": ""
     }
   },
@@ -3305,7 +3306,7 @@
     "displayTitle": "",
     "body": "<p>Вы работаете в клиентском подразделении. Рабочий день уже подходит к концу. Но внезапно звонит финансовый директор одной из компаний, которые находятся у Вас на обслуживании.</p>",
     "_id": "5cfe477b36bab0456e80bbf2",
-    "_parentId": "case1-block2",
+    "_parentId": "case1-block1",
     "_type": "component",
     "_layout": "full",
     "_onScreen": {
@@ -3329,7 +3330,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_1",
-    "_parentId": "case1-block3",
+    "_parentId": "case1-block2",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3359,7 +3360,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_2",
-    "_parentId": "case1-block3",
+    "_parentId": "case1-block2",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3389,7 +3390,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_3",
-    "_parentId": "case1-block4",
+    "_parentId": "case1-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3419,7 +3420,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_4",
-    "_parentId": "case1-block4",
+    "_parentId": "case1-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3449,7 +3450,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_5",
-    "_parentId": "case1-block5",
+    "_parentId": "case1-block4",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3479,7 +3480,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_6",
-    "_parentId": "case1-block5",
+    "_parentId": "case1-block4",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3509,7 +3510,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_7",
-    "_parentId": "case1-block6",
+    "_parentId": "case1-block5",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3539,7 +3540,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_8",
-    "_parentId": "case1-block6",
+    "_parentId": "case1-block5",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3559,6 +3560,127 @@
     }
   },
   {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>Как Вы поступите в данной ситуации?</p>",
+    "_id": "5cfe493436bab0456e80bbf6",
+    "_parentId": "case1-block6",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Закрою учетную систему и спокойно пойду домой. Это не моя проблема, потому что рано или поздно тот, кто делал зачисление, обратится в Банк — и все, кому это нужно, разберутся",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Позвоню в бэк-офис — пусть они исправят ситуацию. А кому-либо в своем подразделении рассказывать не стану, чтобы не выдавать допустивших ошибку коллег.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Немедленно сообщу об инциденте риск-координатору своего подразделения, а также своему непосредственному руководителю.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Решу проблему сам: назову финдиректору «Танцующих слонов» реквизиты той организации, куда должен был отправиться платеж, — пусть сами перечислят им деньги.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "cover2",
+    "_parentId": "case2-block0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/ru/assets/cover2.jpg",
+      "small": "course/ru/assets/cover2.jpg",
+      "attribution": ""
+    }
+  },
+  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -3569,7 +3691,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block1",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3599,7 +3721,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_2",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block1",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3629,7 +3751,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_3",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block2",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3659,7 +3781,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-4",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block2",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3689,7 +3811,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_5",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3719,7 +3841,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_8",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3749,7 +3871,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_9",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block4",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3779,7 +3901,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_10",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block4",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3809,7 +3931,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_11",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block5",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3839,7 +3961,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_12",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block5",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3869,7 +3991,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_13",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block6",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3899,7 +4021,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_14",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block6",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3929,7 +4051,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_15",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block7",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3959,7 +4081,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-16",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block7",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3989,7 +4111,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-17",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block8",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4019,7 +4141,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_18",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block8",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4049,7 +4171,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_19",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block9",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4079,7 +4201,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_20",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block9",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4109,7 +4231,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_21",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block10",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4139,7 +4261,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_22",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block10",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4169,7 +4291,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_23",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block11",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4199,7 +4321,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_24",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block11",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4229,7 +4351,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_25",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block12",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4259,7 +4381,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_26",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block12",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4289,7 +4411,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_27",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block13",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4319,7 +4441,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_28",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block13",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4576,127 +4698,6 @@
       "large": "course/ru/assets/case4-9.png",
       "small": "course/ru/assets/case4-9.png",
       "attribution": ""
-    }
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "",
-    "body": "",
-    "_id": "cover1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/ru/assets/cover1.jpg",
-      "small": "course/ru/assets/cover1.jpg",
-      "attribution": ""
-    }
-  },
-  {
-    "_component": "mcq",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "",
-    "body": "<p>Как Вы поступите в данной ситуации?</p>",
-    "_id": "5cfe493436bab0456e80bbf6",
-    "_parentId": "case1-block7",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "text": "Закрою учетную систему и спокойно пойду домой. Это не моя проблема, потому что рано или поздно тот, кто делал зачисление, обратится в Банк — и все, кому это нужно, разберутся",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Позвоню в бэк-офис — пусть они исправят ситуацию. А кому-либо в своем подразделении рассказывать не стану, чтобы не выдавать допустивших ошибку коллег.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Немедленно сообщу об инциденте риск-координатору своего подразделения, а также своему непосредственному руководителю.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Решу проблему сам: назову финдиректору «Танцующих слонов» реквизиты той организации, куда должен был отправиться платеж, — пусть сами перечислят им деньги.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "title": "",
-      "correct": "",
-      "_incorrect": {
-        "final": "",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
     }
   }
 ]
