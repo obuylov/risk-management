@@ -1334,6 +1334,52 @@
         }
     },
     {
+        "title": "Концепция защиты от рисков | Кейс | Вступление",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "block-padding",
+        "_trackingId": 71,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case2-block01",
+        "_parentId": "case-2",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Продолжить",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
         "title": "Концепция защиты от рисков | Кейс | Ряд 1",
         "displayTitle": "",
         "body": "",
@@ -2345,11 +2391,379 @@
         }
     },
     {
-        "title": "Риск-культура | Тест | Вопрос 1",
+        "title": "Риск-культура | Кейс 1 | Обложка",
         "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 10,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case3-block1",
+        "_parentId": "case-3",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 1 | Вступление",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 72,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case3-block2",
+        "_parentId": "case-3",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 1 | Ряд 1",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 73,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case3-block3",
+        "_parentId": "case-3",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Обложка",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 74,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block1",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Вступление",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 75,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block2",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Ряд 1",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 76,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block3",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Ряд 2",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 77,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block4",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Ряд 3",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 78,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block5",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": false,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Тест | Вопрос 1",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 79,
         "instruction": "",
         "_isOptional": false,
         "_isAvailable": true,
@@ -2724,52 +3138,6 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "5cf9ec85b7b6931869d76616",
-        "_parentId": "5cf8f550b7b6931869d765b4",
-        "_type": "block",
-        "_onScreen": {
-            "_isEnabled": false,
-            "_classes": "",
-            "_percentInviewVertical": 50
-        },
-        "_assessment": {
-            "_quizBankID": 1
-        },
-        "_trickle": {
-            "_isEnabled": false,
-            "_autoScroll": false,
-            "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "hidden",
-                "_isFullWidth": false,
-                "_autoHide": true,
-                "_className": "",
-                "text": "Continue",
-                "startText": "Begin",
-                "finalText": "Finish",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        }
-    },
-    {
-        "title": "Temp",
-        "displayTitle": "",
-        "body": "",
-        "_classes": "footer",
-        "_trackingId": 55,
-        "instruction": "",
-        "_isOptional": false,
-        "_isAvailable": true,
-        "_isHidden": false,
-        "_isVisible": true,
-        "_id": "5cf8f550b7b6931869d765bc",
         "_parentId": "5cf8f550b7b6931869d765b4",
         "_type": "block",
         "_onScreen": {

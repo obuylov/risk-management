@@ -3265,6 +3265,7 @@
       "remainingAttemptText": ""
     }
   },
+
   {
     "_component": "graphic",
     "_classes": "",
@@ -3650,6 +3651,7 @@
       "remainingAttemptText": ""
     }
   },
+
   {
     "_component": "graphic",
     "_classes": "",
@@ -3675,10 +3677,34 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/ru/assets/cover2.jpg",
-      "small": "course/ru/assets/cover2.jpg",
+      "large": "course/ru/assets/cover1.jpg",
+      "small": "course/ru/assets/cover1.jpg",
       "attribution": ""
     }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>К вам пришел коллега с просьбой о помощи.</p>",
+    "_id": "case2-into-text",
+    "_parentId": "case2-block01",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
   },
   {
     "_component": "graphic",
@@ -4470,8 +4496,62 @@
     "title": "Component title",
     "displayTitle": "",
     "body": "",
+    "_id": "cover3",
+    "_parentId": "case3-block1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/ru/assets/cover1.jpg",
+      "small": "course/ru/assets/cover1.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>Вы - андеррайдер, и Вам в работу поступила заявка на выдачу кредита для ИП.</p>",
+    "_id": "case3-into-text",
+    "_parentId": "case3-block2",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
     "_id": "case3_1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case3-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4501,7 +4581,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case3_2",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case3-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4530,8 +4610,62 @@
     "title": "Component title",
     "displayTitle": "",
     "body": "",
+    "_id": "cover4",
+    "_parentId": "case4-block1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/ru/assets/cover2.jpg",
+      "small": "course/ru/assets/cover2.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>Вы - сотрудник Банка, и Вам понадобилось снять наличные средства в банкомате, который находится в офисе обслуживания в том же здании, где Вы работаете.</p>",
+    "_id": "case4-into-text",
+    "_parentId": "case4-block2",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
     "_id": "case4_1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4561,7 +4695,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case4_2",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4591,7 +4725,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case4_3",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block4",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4621,7 +4755,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case4_4",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block4",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4651,7 +4785,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case4_5",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block5",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4681,7 +4815,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case4_6",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case4-block5",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
