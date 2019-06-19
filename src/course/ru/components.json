@@ -3275,8 +3275,8 @@
     "title": "Component title",
     "displayTitle": "",
     "body": "",
-    "_id": "cover2",
-    "_parentId": "case1-block1",
+    "_id": "cover1",
+    "_parentId": "case1-block0",
     "_type": "component",
     "_layout": "full",
     "_onScreen": {
@@ -3290,8 +3290,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/ru/assets/cover2.jpg",
-      "small": "course/ru/assets/cover2.jpg",
+      "large": "course/ru/assets/cover1.jpg",
+      "small": "course/ru/assets/cover1.jpg",
       "attribution": ""
     }
   },
@@ -3306,7 +3306,7 @@
     "displayTitle": "",
     "body": "<p>Вы работаете в клиентском подразделении. Рабочий день уже подходит к концу. Но внезапно звонит финансовый директор одной из компаний, которые находятся у Вас на обслуживании.</p>",
     "_id": "5cfe477b36bab0456e80bbf2",
-    "_parentId": "case1-block2",
+    "_parentId": "case1-block1",
     "_type": "component",
     "_layout": "full",
     "_onScreen": {
@@ -3330,7 +3330,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_1",
-    "_parentId": "case1-block3",
+    "_parentId": "case1-block2",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3360,7 +3360,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_2",
-    "_parentId": "case1-block3",
+    "_parentId": "case1-block2",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3390,7 +3390,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_3",
-    "_parentId": "case1-block4",
+    "_parentId": "case1-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3420,7 +3420,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_4",
-    "_parentId": "case1-block4",
+    "_parentId": "case1-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3450,7 +3450,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_5",
-    "_parentId": "case1-block5",
+    "_parentId": "case1-block4",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3480,7 +3480,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_6",
-    "_parentId": "case1-block5",
+    "_parentId": "case1-block4",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3510,7 +3510,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_7",
-    "_parentId": "case1-block6",
+    "_parentId": "case1-block5",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3540,7 +3540,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case1_8",
-    "_parentId": "case1-block6",
+    "_parentId": "case1-block5",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3560,6 +3560,127 @@
     }
   },
   {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>Как Вы поступите в данной ситуации?</p>",
+    "_id": "5cfe493436bab0456e80bbf6",
+    "_parentId": "case1-block6",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Закрою учетную систему и спокойно пойду домой. Это не моя проблема, потому что рано или поздно тот, кто делал зачисление, обратится в Банк — и все, кому это нужно, разберутся",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Позвоню в бэк-офис — пусть они исправят ситуацию. А кому-либо в своем подразделении рассказывать не стану, чтобы не выдавать допустивших ошибку коллег.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Немедленно сообщу об инциденте риск-координатору своего подразделения, а также своему непосредственному руководителю.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Решу проблему сам: назову финдиректору «Танцующих слонов» реквизиты той организации, куда должен был отправиться платеж, — пусть сами перечислят им деньги.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "",
+    "_id": "cover2",
+    "_parentId": "case2-block0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/ru/assets/cover2.jpg",
+      "small": "course/ru/assets/cover2.jpg",
+      "attribution": ""
+    }
+  },
+  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -3570,7 +3691,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block1",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3600,7 +3721,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_2",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block1",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3630,7 +3751,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_3",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block2",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3660,7 +3781,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-4",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block2",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3690,7 +3811,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_5",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block3",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3720,7 +3841,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_8",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block3",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3750,7 +3871,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_9",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block4",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3780,7 +3901,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_10",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block4",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3810,7 +3931,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_11",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block5",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3840,7 +3961,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_12",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block5",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3870,7 +3991,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_13",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block6",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3900,7 +4021,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_14",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block6",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3930,7 +4051,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_15",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block7",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -3960,7 +4081,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-16",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block7",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -3990,7 +4111,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2-17",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block8",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4020,7 +4141,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_18",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block8",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4050,7 +4171,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_19",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block9",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4080,7 +4201,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_20",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block9",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4110,7 +4231,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_21",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block10",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4140,7 +4261,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_22",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block10",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4170,7 +4291,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_23",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block11",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4200,7 +4321,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_24",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block11",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4230,7 +4351,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_25",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block12",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4260,7 +4381,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_26",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block12",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4290,7 +4411,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_27",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block13",
     "_type": "component",
     "_layout": "left",
     "_onScreen": {
@@ -4320,7 +4441,7 @@
     "displayTitle": "",
     "body": "",
     "_id": "case2_28",
-    "_parentId": "5cf8f550b7b6931869d765bc",
+    "_parentId": "case2-block13",
     "_type": "component",
     "_layout": "right",
     "_onScreen": {
@@ -4577,127 +4698,6 @@
       "large": "course/ru/assets/case4-9.png",
       "small": "course/ru/assets/case4-9.png",
       "attribution": ""
-    }
-  },
-  {
-    "_component": "graphic",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "",
-    "body": "",
-    "_id": "cover1",
-    "_parentId": "5cf8f550b7b6931869d765bc",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/ru/assets/cover1.jpg",
-      "small": "course/ru/assets/cover1.jpg",
-      "attribution": ""
-    }
-  },
-  {
-    "_component": "mcq",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Component title",
-    "displayTitle": "",
-    "body": "<p>Как Вы поступите в данной ситуации?</p>",
-    "_id": "5cfe493436bab0456e80bbf6",
-    "_parentId": "case1-block7",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "text": "Закрою учетную систему и спокойно пойду домой. Это не моя проблема, потому что рано или поздно тот, кто делал зачисление, обратится в Банк — и все, кому это нужно, разберутся",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Позвоню в бэк-офис — пусть они исправят ситуацию. А кому-либо в своем подразделении рассказывать не стану, чтобы не выдавать допустивших ошибку коллег.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Немедленно сообщу об инциденте риск-координатору своего подразделения, а также своему непосредственному руководителю.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Решу проблему сам: назову финдиректору «Танцующих слонов» реквизиты той организации, куда должен был отправиться платеж, — пусть сами перечислят им деньги.",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "title": "",
-      "correct": "",
-      "_incorrect": {
-        "final": "",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
     }
   }
 ]
