@@ -108,7 +108,7 @@ module.exports = function (grunt, options) {
                     '<%= sourcedir %>extensions/**/*.less',
                     '<%= sourcedir %>menu/<%= menu %>/**/*.less',
                     '<%= sourcedir %>theme/<%= theme %>/**/*.less',
-                    '<%= sourcedir %>styles/*.less'
+                    '<%= sourcedir %>styles/custom.less'
                 ],
                 config: '<%= outputdir %>course/config.<%= jsonext %>',
                 sourcemaps: false,
