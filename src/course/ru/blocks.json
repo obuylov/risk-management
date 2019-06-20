@@ -873,52 +873,52 @@
             }
         }
     },
-  {
-    "title": "Риски группы Сбербанк | Тест | Результаты",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 38,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "assessment-block2",
-    "_parentId": "5cfba9ce36bab0456e80ba1e",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    {
+        "title": "Риски группы Сбербанк | Тест | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 82,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "assessment-block2",
+        "_parentId": "5cfba9ce36bab0456e80ba1e",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Продолжить",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
     },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_trickle": {
-      "_isEnabled": true,
-      "_autoScroll": true,
-      "_scrollDuration": 500,
-      "_scrollTo": "@block +1",
-      "_button": {
-        "_isEnabled": true,
-        "_styleBeforeCompletion": "hidden",
-        "_styleAfterClick": "hidden",
-        "_isFullWidth": false,
-        "_autoHide": true,
-        "_className": "",
-        "text": "Продолжить",
-        "startText": "Begin",
-        "finalText": "Finish",
-        "_component": "trickle-button"
-      },
-      "_stepLocking": {
-        "_isEnabled": true,
-        "_isCompletionRequired": true,
-        "_isLockedOnRevisit": false
-      }
-    }
-  },
     {
         "title": "Риски группы Сбербанк | Кейс | Обложка",
         "displayTitle": "",
@@ -2298,52 +2298,52 @@
             }
         }
     },
-  {
-    "title": "Концепция защиты от рисков | Тест | Результаты",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 39,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "assessment-block3",
-    "_parentId": "5cfbb23a36bab0456e80ba29",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    {
+        "title": "Концепция защиты от рисков | Тест | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 83,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "assessment-block3",
+        "_parentId": "5cfbb23a36bab0456e80ba29",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
     },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_trickle": {
-      "_isEnabled": true,
-      "_autoScroll": true,
-      "_scrollDuration": 500,
-      "_scrollTo": "@block +1",
-      "_button": {
-        "_isEnabled": false,
-        "_styleBeforeCompletion": "hidden",
-        "_styleAfterClick": "hidden",
-        "_isFullWidth": false,
-        "_autoHide": true,
-        "_className": "",
-        "text": "Continue",
-        "startText": "Begin",
-        "finalText": "Finish",
-        "_component": "trickle-button"
-      },
-      "_stepLocking": {
-        "_isEnabled": true,
-        "_isCompletionRequired": true,
-        "_isLockedOnRevisit": false
-      }
-    }
-  },
     {
         "title": "Концепция защиты от рисков | Навигация",
         "displayTitle": "",
@@ -3126,52 +3126,52 @@
             }
         }
     },
-  {
-    "title": "Риск-культура | Тест | Результаты",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "_trackingId": 40,
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_id": "assessment-block4",
-    "_parentId": "5cfd6ef236bab0456e80bb0b",
-    "_type": "block",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
+    {
+        "title": "Риск-культура | Тест | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 84,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "assessment-block4",
+        "_parentId": "5cfd6ef236bab0456e80bb0b",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
     },
-    "_assessment": {
-      "_quizBankID": 1
-    },
-    "_trickle": {
-      "_isEnabled": true,
-      "_autoScroll": true,
-      "_scrollDuration": 500,
-      "_scrollTo": "@block +1",
-      "_button": {
-        "_isEnabled": false,
-        "_styleBeforeCompletion": "hidden",
-        "_styleAfterClick": "hidden",
-        "_isFullWidth": false,
-        "_autoHide": true,
-        "_className": "",
-        "text": "Continue",
-        "startText": "Begin",
-        "finalText": "Finish",
-        "_component": "trickle-button"
-      },
-      "_stepLocking": {
-        "_isEnabled": true,
-        "_isCompletionRequired": true,
-        "_isLockedOnRevisit": false
-      }
-    }
-  },
     {
         "title": "Риск-культура | Навигация",
         "displayTitle": "",
