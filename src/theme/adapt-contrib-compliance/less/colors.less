@@ -7,9 +7,10 @@
 @light_green: #50F29A;
 @orange: #f4a024;
 @dark-orange: #ff7b00;
-@red: #ff5740;
+@red: #FF8484;
 @gray: #c4c4c4;
 @light-gray: #d2d2d2;
+@ultra-light-gray: #f4f4f4;
 @blue: #2295B0;
 @light-blue: #43B7B9;
 @green-gradient: linear-gradient(90deg, #04873F -4.58%, #31BF08 127.92%);
@@ -44,7 +45,7 @@
 @background-color-inverted: @sber_green;
 // Validation States
 @validation-error: @red;
-@validation-success: @sber_green;
+@validation-success: @light-blue;
 // Disabled States
 @disabled-color: @light-gray;
 @disabled-color-inverted: @white;
@@ -100,7 +101,7 @@
 @drawer-icon-color-hover: darken(@drawer-icon-color, 40%);
 
 @drawer-item-color: @drawer-color;
-@drawer-item-color-hover: darken(@drawer-item-color, 40%);
+@drawer-item-color-hover: @secondary-color;
 @drawer-item-color-selected: @drawer-item-color-hover;
 @drawer-item-color-disabled: @item-color-disabled;
 
@@ -117,13 +118,13 @@
 // Components
 @component-background-color: darken(@background-color, 10%);
 
-@item-color: @primary-color;
-@item-color-hover: @button-color-hover;
+@item-color: @quaternary-color;
+@item-color-hover: @ultra-light-gray;
 @item-color-disabled: @disabled-color;
-@item-color-visited: @sber_green;
+@item-color-visited: @disabled-color;
 @item-color-selected: @item-color-hover;
 
-@item-text-color: @button-text-color;
+@item-text-color: @quaternary-color-inverted;
 @item-text-color-hover: @item-text-color;
 @item-text-color-disabled: @item-text-color;
 @item-text-color-visited: @item-text-color;
@@ -132,8 +133,8 @@
 @item-body-color: @background-color;
 @item-body-text-color: @foreground-color;
 
-@item-border-color: @item-color;
-@item-border-color-hover: @item-color-hover;
+@item-border-color: @light-gray;
+@item-border-color-hover: transparent;
 @item-border-color-disabled: @item-color-disabled;
 @item-border-color-visited: @item-color-visited;
 @item-border-color-selected: @item-color-selected;

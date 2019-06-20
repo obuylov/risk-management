@@ -56,10 +56,10 @@
   }
 
   .mcq-item-inner {
-    padding-top: @item-padding-top;
-    padding-bottom: @item-padding-bottom;
-    padding-right: @item-padding-right;
-    padding-left: (@icon-size+(@item-padding-left*2));
+    padding-top: @mcq-padding-top;
+    padding-bottom: @mcq-padding-bottom;
+    padding-right: @mcq-padding-right;
+    padding-left: (@icon-size+(@mcq-padding-left*2));
   }
 
   .mcq-correct-icon {
@@ -73,11 +73,11 @@
   .mcq-item-state {
     background: none;
     position: absolute;
-    left: @item-padding-left;
+    left: @mcq-padding-left;
 
     .dir-rtl & {
       left: inherit;
-      right: @item-padding-left;
+      right: @mcq-padding-left;
     }
 
     width: @icon-size;
@@ -127,7 +127,7 @@
         border-color: @item-border-color-hover;
 
         .mcq-item-icon {
-          color: none;
+          color: initial;
         }
       }
 
