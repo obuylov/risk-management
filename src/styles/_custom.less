@@ -1,3 +1,5 @@
+@import "../theme/adapt-contrib-compliance/less/colors.less";
+
 .block-padding {
   padding-bottom: 40px;
 }
@@ -8,7 +10,7 @@
 }
 
 .page .page-header-inner {
-  background: linear-gradient(269.8deg, #369BB3 0.73%, #43B6B9 98.67%);
+  background: @blue-gradient;
 }
 
 .article .article-inner {
@@ -38,7 +40,8 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
 }
 
-.article .article-title, .block .block-title {
+.article .article-title,
+.block .block-title {
   font-size: 24px;
   text-align: center;
   color: @black;
@@ -109,23 +112,39 @@
   padding: 0
 }
 
-.accordion-component .accordion-item-title:hover, .accordion-component .accordion-item-title.selected, .accordion-component .accordion-item-title.selected:hover, .doubleaccordion-component .item-title.selected, .no-touch .doubleaccordion-component .item-title:hover, .doubleaccordion-component .item-title.selected:hover, .doubleaccordion-component .child-item-title:hover, .doubleaccordion-component .child-item-title.selected, .doubleaccordion-component .child-item-title.selected:hover, .doubleaccordion-component .child-item-title.visited, .accordion-component .accordion-item-title:hover {
+.accordion-component .accordion-item-title:hover,
+.accordion-component .accordion-item-title.selected,
+.accordion-component .accordion-item-title.selected:hover,
+.doubleaccordion-component .item-title.selected,
+.no-touch .doubleaccordion-component .item-title:hover,
+.doubleaccordion-component .item-title.selected:hover,
+.doubleaccordion-component .child-item-title:hover,
+.doubleaccordion-component .child-item-title.selected,
+.doubleaccordion-component .child-item-title.selected:hover,
+.doubleaccordion-component .child-item-title.visited,
+.accordion-component .accordion-item-title:hover {
   background-color: @primary-color !important
 }
 
-.doubleaccordion-component .item-title, .accordion-component .accordion-item-title, .doubleaccordion-component .child-item-title {
+.doubleaccordion-component .item-title,
+.accordion-component .accordion-item-title,
+.doubleaccordion-component .child-item-title {
   background-color: @gray !important;
   outline: none;
   width: 100%
 }
 
-.accordion-component .accordion-item-body, .doubleaccordion-component .item-body, .doubleaccordion-component .child-item-body {
+.accordion-component .accordion-item-body,
+.doubleaccordion-component .item-body,
+.doubleaccordion-component .child-item-body {
   width: 100%;
   border: 1px solid @gray !important;
   box-sizing: border-box
 }
 
-.tabs-component .tabs-navigation-item-inner.selected, .tabs-component .tabs-navigation-item-inner.selected:hover, .tabs-component .tabs-navigation-item-inner:hover {
+.tabs-component .tabs-navigation-item-inner.selected,
+.tabs-component .tabs-navigation-item-inner.selected:hover,
+.tabs-component .tabs-navigation-item-inner:hover {
   background-color: @primary-color !important
 }
 
@@ -220,12 +239,12 @@ ul li {
 .stacklist-button button {
   margin-top: 10px;
   outline: none;
-  background-color: @orange;
+  background-image: @secondary-gradient;
   border-radius: 8px
 }
 
 .stacklist-button button:hover {
-  background-color: @dark-orange !important
+  background-color: #2295B0;
 }
 
 .page-level-progress-navigation-bar {
@@ -291,7 +310,8 @@ button, a {
   background-color: rgba(0, 0, 0, 0.5)
 }
 
-.no-touch .button:hover, .no-touch button:hover {
+.no-touch .button:hover,
+.no-touch button:hover {
   border: 0
 }
 
@@ -309,7 +329,6 @@ button, a {
 }
 
 .notify .notify-popup-button {
-  background-color: @orange;
   border-radius: 8px;
   color: #fff;
   outline: none
@@ -363,11 +382,13 @@ button, a {
   flex-direction: column-reverse
 }
 
-.drawer, .drawer .drawer-item, .drawer .page-level-progress-item-title {
+.drawer, .drawer .drawer-item,
+.drawer .page-level-progress-item-title {
   background-color: #ffff
 }
 
-.drawer .drawer-item:hover, .no-touch .drawer .drawer-item .drawer-item-open:hover {
+.drawer .drawer-item:hover,
+.no-touch .drawer .drawer-item .drawer-item-open:hover {
   background-color: @sber_green;
   color: white
 }
@@ -377,7 +398,8 @@ button, a {
   color: @black
 }
 
-.narrative-content, .stacklist-item {
+.narrative-content,
+.stacklist-item {
   background: @white !important;
   color: @black !important
 }
@@ -400,7 +422,8 @@ button, a {
   flex-wrap: wrap
 }
 
-.same-height .same-blocks .component-left, .same-height .same-blocks .component-right {
+.same-height .same-blocks .component-left,
+.same-height .same-blocks .component-right {
   float: none
 }
 
@@ -409,11 +432,15 @@ button, a {
   align-items: center
 }
 
-.same-height .same-blocks .graphic-inner, .same-height .same-blocks .text-inner {
+.same-height .same-blocks .graphic-inner,
+.same-height .same-blocks .text-inner {
   height: 100%
 }
 
-p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
+p, ul li,
+.menu-body-inner,
+.menu-item-title,
+.menu-item-button button {
   font-size: 16px !important
 }
 
@@ -426,7 +453,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   padding: 0 45px 45px !important
 }
 
-.menu-item-duration, .page-level-progress-menu-item {
+.menu-item-duration,
+.page-level-progress-menu-item {
   right: 45px !important
 }
 
@@ -467,7 +495,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   padding: 25px 10px
 }
 
-.no-padding-top .block-inner, .no-padding-top .component-inner {
+.no-padding-top .block-inner,
+.no-padding-top .component-inner {
   padding-top: 0
 }
 
@@ -491,12 +520,17 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   border-color: @light-gray
 }
 
-.glossary .glossary-checkbox-container, .glossary-item .glossary-item-term, .drawer .drawer-item .drawer-item-open, .drawer .drawer-toolbar, .drawer.has-toc .toc-item-title {
+.glossary .glossary-checkbox-container,
+.glossary-item .glossary-item-term,
+.drawer .drawer-item .drawer-item-open,
+.drawer .drawer-toolbar,
+.drawer.has-toc .toc-item-title {
   color: black;
   border-color: @light-gray
 }
 
-.no-touch .glossary-item .glossary-item-term:hover, .glossary-item .glossary-item-term.selected {
+.no-touch .glossary-item .glossary-item-term:hover,
+.glossary-item .glossary-item-term.selected {
   background-color: @sber_green
 }
 
@@ -515,7 +549,9 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   bottom: 48px
 }
 
-.menu .page-level-progress-menu-item-indicator, .menu .page-level-progress-menu-item, .menu .page-level-progress-menu-item-indicator-bar {
+.menu .page-level-progress-menu-item-indicator,
+.menu .page-level-progress-menu-item,
+.menu .page-level-progress-menu-item-indicator-bar {
   width: 70px;
   height: 10px !important
 }
@@ -528,7 +564,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   border-top: none
 }
 
-#course-progress .progress-bar.complete, #course-progress .progress-bar {
+#course-progress .progress-bar.complete,
+#course-progress .progress-bar {
   height: 10px !important;
   border: none;
   box-sizing: border-box
@@ -543,7 +580,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
     word-break: break-all
   }
 
-  .drawer .drawer-item .drawer-item-title, .glossary-item button {
+  .drawer .drawer-item .drawer-item-title,
+  .glossary-item button {
     font-size: 18px
   }
 
@@ -578,7 +616,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
 
 }
 
-.drawer .drawer-item:hover button, .no-touch .drawer .drawer-item .drawer-item-open:hover button {
+.drawer .drawer-item:hover button,
+.no-touch .drawer .drawer-item .drawer-item-open:hover button {
   color: white !important
 }
 
@@ -591,7 +630,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   color: white !important
 }
 
-.narrative-component .narrative-content, .mode-large.narrative-component .narrative-slide-container {
+.narrative-component .narrative-content,
+.mode-large.narrative-component .narrative-slide-container {
   width: 49%
 }
 
@@ -599,7 +639,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   margin-right: 0
 }
 
-#glossaryCheckbox, .glossary .glossary-textbox-container .glossary-textbox-label {
+#glossaryCheckbox,
+.glossary .glossary-textbox-container .glossary-textbox-label {
   display: none
 }
 
@@ -611,7 +652,9 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   right: 0
 }
 
-.doubleaccordion-component .item-title, .child-item-title-inner, .accordion-item-title-inner {
+.doubleaccordion-component .item-title,
+.child-item-title-inner,
+.accordion-item-title-inner {
   font-size: 16px
 }
 
@@ -619,7 +662,8 @@ p, ul li, .menu-body-inner, .menu-item-title, .menu-item-button button {
   padding-bottom: 75px
 }
 
-.no-padding-bottom .block-inner, .no-padding-bottom .component-inner {
+.no-padding-bottom .block-inner,
+.no-padding-bottom .component-inner {
   padding-bottom: 0
 }
 
@@ -652,13 +696,15 @@ ol {
 }
 
 
-.mcq-component .mcq-item label, .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
+.mcq-component .mcq-item label,
+.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
   background-color: white;
   border: none;
   color: black;
 }
 
-.mcq-component .mcq-item label .mcq-answer-icon.radio, .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover .mcq-item-icon {
+.mcq-component .mcq-item label .mcq-answer-icon.radio,
+.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover .mcq-item-icon {
   color: @light-gray;
 }
 
@@ -710,7 +756,8 @@ ol {
   background-color: #ff5740;
 }
 
-.mcq-widget.disabled .mcq-item label.selected.disabled, .mcq-widget.disabled .mcq-item label.disabled {
+.mcq-widget.disabled .mcq-item label.selected.disabled,
+.mcq-widget.disabled .mcq-item label.disabled {
   background-color: white;
   color: black;
   border-top: 1px solid @light-gray;
@@ -728,7 +775,8 @@ ol {
   border-radius: 10px;
 }
 
-.dragndrop-inner .dragndrop-answers .dragndrop-answer, .dragndrop-inner .dragndrop-answers .dragndrop-answer.ui-state-placed {
+.dragndrop-inner .dragndrop-answers .dragndrop-answer,
+.dragndrop-inner .dragndrop-answers .dragndrop-answer.ui-state-placed {
   background-color: @gray;
   color: white;
   border: none;
@@ -747,7 +795,8 @@ ol {
 
 }
 
-.dropdown button, .dropdown li {
+.dropdown button,
+.dropdown li {
   background-color: white;
   border: 1px solid @light-gray;
   color: black;
@@ -758,7 +807,8 @@ ol {
   font-size: 16px;
 }
 
-.dropdown button:hover, .dropdown button[aria-expanded='true'] {
+.dropdown button:hover,
+.dropdown button[aria-expanded='true'] {
   background-color: @sber_green;
   color: white;
 }
@@ -805,7 +855,8 @@ ol {
   border-color: #3599B3 transparent transparent transparent;
 }
 
-.dropdown button:disabled, .dropdown button[disabled] {
+.dropdown button:disabled,
+.dropdown button[disabled] {
   background-color: white !important;
   color: black !important;
   border: 1px solid @light-gray;
