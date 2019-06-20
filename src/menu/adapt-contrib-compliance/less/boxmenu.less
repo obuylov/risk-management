@@ -119,16 +119,19 @@
     a {
       text-decoration: none;
       background-color: @button-color;
+      background-image: @button-gradient;
       color: @button-text-color;
       padding: @button-padding;
 
       &:hover {
         background-color: @button-hover-color;
+        background-image: @button-gradient-hover;
         color: @button-text-hover-color;
       }
 
       &.visited {
         background-color: @button-disabled-color;
+        background-image: @button-gradient-disabled;
         color: @button-text-disabled-color;
       }
     }

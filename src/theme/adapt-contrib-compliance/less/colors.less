@@ -3,12 +3,17 @@
 
 @white: #ffffff;
 @black: #000000;
-@sber_green: #359AB3;
-@orange: linear-gradient(90deg, #44B9B9 -4.58%, #308FB1 127.92%);
-@dark-orange: #2295B0;
+@sber_green: #009B0A;
+@light_green: #50F29A;
+@orange: #f4a024;
+@dark-orange: #ff7b00;
 @red: #ff5740;
 @gray: #c4c4c4;
 @light-gray: #d2d2d2;
+@blue: #2295B0;
+@light-blue: #43B7B9;
+@green-gradient: linear-gradient(90deg, #04873F -4.58%, #31BF08 127.92%);
+@blue-gradient: linear-gradient(269.8deg, #369BB3 0.73%, #43B6B9 98.67%);
 
 // Main Colors
 // ===========
@@ -16,12 +21,19 @@
 // Components
 @primary-color: @sber_green;
 @primary-color-inverted: @white;
+
+@primary-gradient: @blue-gradient;
+@secondary-gradient: @blue-gradient;
+
 // Buttons
-@secondary-color: @orange;
+@secondary-color: @blue;
 @secondary-color-inverted: @white;
+
+
+
 // Navigation Bar
 @tertiary-color: @white;
-@tertiary-color-inverted: @black;
+@tertiary-color-inverted: @sber_green;
 // Drawer
 @quaternary-color: @white;
 @quaternary-color-inverted: @black;
@@ -34,7 +46,7 @@
 @validation-error: @red;
 @validation-success: @sber_green;
 // Disabled States
-@disabled-color: @dark-orange;
+@disabled-color: @light-gray;
 @disabled-color-inverted: @white;
 
 @transparency: rgba(255, 255, 255, 0.8);
@@ -51,7 +63,7 @@
 
 // Buttons
 @button-color: @secondary-color;
-@button-color-hover: @dark-orange;
+@button-color-hover: @blue;
 @button-color-disabled: @disabled-color;
 
 @button-text-color: @secondary-color-inverted;
@@ -62,11 +74,15 @@
 @button-border-color-hover: @button-color-hover;
 @button-border-color-disabled: @button-color-disabled;
 
-// Navigation 
+@button-gradient: @secondary-gradient;
+@button-gradient-hover: none;
+@button-gradient-disabled: none;
+
+// Navigation
 @navigation-color: @tertiary-color;
 
 @navigation-icon-color: @tertiary-color-inverted;
-@navigation-icon-color-hover: darken(@navigation-icon-color, 40%);
+@navigation-icon-color-hover: darken(@navigation-icon-color, 10%);
 
 @navigation-progress-color: @navigation-icon-color;
 @navigation-progress-color-hover: darken(@navigation-progress-color, 40%);
@@ -102,12 +118,12 @@
 @component-background-color: darken(@background-color, 10%);
 
 @item-color: @primary-color;
-@item-color-hover: darken(@item-color, 20%);
+@item-color-hover: @button-color-hover;
 @item-color-disabled: @disabled-color;
 @item-color-visited: @sber_green;
 @item-color-selected: @item-color-hover;
 
-@item-text-color: @primary-color-inverted;
+@item-text-color: @button-text-color;
 @item-text-color-hover: @item-text-color;
 @item-text-color-disabled: @item-text-color;
 @item-text-color-visited: @item-text-color;
@@ -124,10 +140,10 @@
 @item-border-color-inverted: @item-text-color;
 
 // Menu
-@menu-item-color: @primary-color;
+@menu-item-color: @secondary-color;
 @menu-item-text-color: @primary-color-inverted;
-@menu-item-progress-color: darken(@menu-item-color, 20%);
-@menu-item-progress-fill-color: @menu-item-text-color;
+@menu-item-progress-color: lighten(@menu-item-color, 20%);
+@menu-item-progress-fill-color: @light_green;
 @menu-item-progress-border-color: transparent;
 
 // Notify
@@ -142,3 +158,7 @@
 
 @notify-button-text-color: @notify-color;
 @notify-button-text-color-hover: @notify-text-color;
+
+//Header
+@page-header-color: @primary-color;
+@page-header-gradient: @secondary-gradient;
