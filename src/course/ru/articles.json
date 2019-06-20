@@ -1,7 +1,8 @@
 [
+
   {
     "title": "Что такое риск? | Теория",
-    "displayTitle": "",
+    "displayTitle": "Теория",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -71,7 +72,7 @@
   },
   {
     "title": "Что такое риск? | Практика",
-    "displayTitle": "",
+    "displayTitle": "Практика",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -141,7 +142,7 @@
   },
   {
     "title": "Что такое риск? | Тест",
-    "displayTitle": "",
+    "displayTitle": "Тест",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -162,10 +163,10 @@
       "_id": "test1",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 60,
+      "_scoreToPass": 80,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
-      "_suppressMarking": false,
+      "_suppressMarking": true,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
       "_randomisation": {
@@ -180,7 +181,7 @@
       "_questions": {
         "_resetType": "soft",
         "_canShowFeedback": false,
-        "_canShowMarking": false,
+        "_canShowMarking": true,
         "_canShowModelAnswer": false
       }
     },
@@ -281,7 +282,7 @@
   },
   {
     "title": "Риски группы Сбербанк | Теория",
-    "displayTitle": "",
+    "displayTitle": "Теория",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -369,13 +370,13 @@
     },
     "_assessment": {
       "_isEnabled": true,
-      "_id": "test2",
+      "_id": "test1",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 60,
+      "_scoreToPass": 80,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
-      "_suppressMarking": false,
+      "_suppressMarking": true,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
       "_randomisation": {
@@ -390,7 +391,7 @@
       "_questions": {
         "_resetType": "soft",
         "_canShowFeedback": false,
-        "_canShowMarking": false,
+        "_canShowMarking": true,
         "_canShowModelAnswer": false
       }
     },
@@ -561,7 +562,7 @@
   },
   {
     "title": "Концепция защиты от рисков | Теория",
-    "displayTitle": "",
+    "displayTitle": "Теория",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -719,13 +720,13 @@
     },
     "_assessment": {
       "_isEnabled": true,
-      "_id": "test3",
+      "_id": "test1",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 60,
+      "_scoreToPass": 80,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
-      "_suppressMarking": false,
+      "_suppressMarking": true,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
       "_randomisation": {
@@ -740,7 +741,7 @@
       "_questions": {
         "_resetType": "soft",
         "_canShowFeedback": false,
-        "_canShowMarking": false,
+        "_canShowMarking": true,
         "_canShowModelAnswer": false
       }
     },
@@ -841,7 +842,7 @@
   },
   {
     "title": "Риск-культура | Теория",
-    "displayTitle": "",
+    "displayTitle": "Теория",
     "body": "",
     "_classes": "",
     "instruction": "",
@@ -1069,13 +1070,13 @@
     },
     "_assessment": {
       "_isEnabled": true,
-      "_id": "test4",
+      "_id": "test1",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 60,
+      "_scoreToPass": 80,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
-      "_suppressMarking": false,
+      "_suppressMarking": true,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
       "_randomisation": {
@@ -1090,7 +1091,7 @@
       "_questions": {
         "_resetType": "soft",
         "_canShowFeedback": false,
-        "_canShowMarking": false,
+        "_canShowMarking": true,
         "_canShowModelAnswer": false
       }
     },
@@ -1191,7 +1192,7 @@
   },
   {
     "title": "Завершение",
-    "displayTitle": "",
+    "displayTitle": "Поздравляем!",
     "body": "",
     "_classes": "",
     "instruction": "",

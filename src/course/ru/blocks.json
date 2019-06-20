@@ -1,7 +1,7 @@
 [
     {
         "title": "Что такое риск? | Теория | Что такое риск?",
-        "displayTitle": "Теория",
+        "displayTitle": "",
         "body": "",
         "_classes": "block-padding",
         "_trackingId": 2,
@@ -139,7 +139,7 @@
     },
     {
         "title": "Что такое риск? | Практика | Упражнение 1",
-        "displayTitle": "Практика",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 3,
@@ -230,54 +230,8 @@
         }
     },
     {
-        "title": "Что такое риск? | Практика | Упражнение 3",
-        "displayTitle": "",
-        "body": "",
-        "_classes": "",
-        "_trackingId": 24,
-        "instruction": "",
-        "_isOptional": false,
-        "_isAvailable": true,
-        "_isHidden": false,
-        "_isVisible": true,
-        "_id": "5cf8f550b7b6931869d765c5",
-        "_parentId": "5cf8f550b7b6931869d765b5",
-        "_type": "block",
-        "_onScreen": {
-            "_isEnabled": false,
-            "_classes": "",
-            "_percentInviewVertical": 50
-        },
-        "_assessment": {
-            "_quizBankID": 1
-        },
-        "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": true,
-            "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "hidden",
-                "_isFullWidth": false,
-                "_autoHide": true,
-                "_className": "",
-                "text": "Продолжить",
-                "startText": "Begin",
-                "finalText": "Finish",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        }
-    },
-    {
         "title": "Что такое риск? | Тест | Вопрос 1",
-        "displayTitle": "Тест",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 4,
@@ -460,6 +414,98 @@
         }
     },
     {
+        "title": "Что такое риск? | Тест | Вопрос 5",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 81,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "5cf8f550b7b6931869d765q5",
+        "_parentId": "5cf8f550b7b6931869d765b6",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Что такое риск? | Тест | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 80,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "assessment-block1",
+        "_parentId": "5cf8f550b7b6931869d765b6",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Continue",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
         "title": "Что такое риск? | Навигация",
         "displayTitle": "",
         "body": "",
@@ -507,7 +553,7 @@
     },
     {
         "title": "Риски группы Сбербанк | Теория | Риски группы Сбербанк",
-        "displayTitle": "Теория",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 1,
@@ -827,6 +873,52 @@
             }
         }
     },
+  {
+    "title": "Риски группы Сбербанк | Тест | Результаты",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 38,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "assessment-block2",
+    "_parentId": "5cfba9ce36bab0456e80ba1e",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Продолжить",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
     {
         "title": "Риски группы Сбербанк | Кейс | Обложка",
         "displayTitle": "",
@@ -1197,7 +1289,7 @@
     },
     {
         "title": "Концепция защиты от рисков | Теория | Эволюция риск-менеджмента",
-        "displayTitle": "Теория",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 7,
@@ -2206,6 +2298,52 @@
             }
         }
     },
+  {
+    "title": "Концепция защиты от рисков | Тест | Результаты",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 39,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "assessment-block3",
+    "_parentId": "5cfbb23a36bab0456e80ba29",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
     {
         "title": "Концепция защиты от рисков | Навигация",
         "displayTitle": "",
@@ -2254,7 +2392,7 @@
     },
     {
         "title": "Риск-культура | Теория | Что такое риск-культура",
-        "displayTitle": "Теория",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 5,
@@ -2988,6 +3126,52 @@
             }
         }
     },
+  {
+    "title": "Риск-культура | Тест | Результаты",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 40,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "assessment-block4",
+    "_parentId": "5cfd6ef236bab0456e80bb0b",
+    "_type": "block",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": false,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
     {
         "title": "Риск-культура | Навигация",
         "displayTitle": "",
@@ -3036,7 +3220,7 @@
     },
     {
         "title": "Завершение | Поздравление",
-        "displayTitle": "Поздравляем!",
+        "displayTitle": "",
         "body": "",
         "_classes": "",
         "_trackingId": 6,

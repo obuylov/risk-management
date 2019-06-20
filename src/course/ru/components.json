@@ -233,7 +233,7 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "",
+        "buttonText": "Пройти еще раз",
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
@@ -389,99 +389,7 @@
         "ariaLabel": ""
       },
       "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_component": "mcq",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Упражнение 3",
-    "displayTitle": "Упражнение 3",
-    "body": "<p><strong>Эффективное управление рисками НЕ включает в себя:</strong></p>",
-    "_id": "5cf8f550b7b6931869d765d6",
-    "_parentId": "5cf8f550b7b6931869d765c5",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "text": "Поиск баланса между рисками и возможностями",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Сведение вероятности риска до нуля",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Учет последствий",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Учет затрат на меры по ограничению",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 0,
-    "_canShowModelAnswer": false,
-    "_canShowFeedback": true,
-    "_canShowMarking": false,
-    "_shouldResetAllAnswers": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_questionWeight": 1,
-    "_recordInteraction": true,
-    "_selectable": 1,
-    "_feedback": {
-      "title": "",
-      "correct": "Совершенно верно!",
-      "_incorrect": {
-        "final": "Упражнение выполнено неверно, рекомендуем пройти его еще раз.",
-        "notFinal": "Упражнение выполнено неверно, рекомендуем пройти его еще раз."
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
+        "buttonText": "Пройти еще раз",
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
@@ -508,8 +416,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 1",
-    "displayTitle": "Вопрос 1",
-    "body": "<p><strong>В процессе управления рисками первым этапом является:</strong></p>",
+    "displayTitle": "В процессе управления рисками первым этапом является:",
+    "body": "",
     "_id": "5cf8f550b7b6931869d765d7",
     "_parentId": "5cf8f550b7b6931869d765ba",
     "_type": "component",
@@ -546,11 +454,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -576,11 +484,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -599,8 +507,7 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 2",
-    "displayTitle": "Вопрос 2",
-    "body": "<p><strong>Отметьте основные характеристики риска</strong></p>",
+    "displayTitle": "Отметьте основные характеристики риска",
     "_id": "5cf8f550b7b6931869d765d8",
     "_parentId": "5cf8f550b7b6931869d765c0",
     "_type": "component",
@@ -632,11 +539,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -662,11 +569,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -685,8 +592,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 3",
-    "displayTitle": "Вопрос 3",
-    "body": "<p><strong>Аппетит к риску ― это...</strong></p>",
+    "displayTitle": "Аппетит к риску ― это...",
+    "body": "",
     "_id": "5cf8f550b7b6931869d765d9",
     "_parentId": "5cf8f550b7b6931869d765c6",
     "_type": "component",
@@ -723,11 +630,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -753,11 +660,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -776,8 +683,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос  4",
-    "displayTitle": "Вопрос  4",
-    "body": "<p><strong>Из каких этапов состоит процесс управления рисками</strong></p>",
+    "displayTitle": "Из каких этапов состоит процесс управления рисками",
+    "body": "",
     "_id": "5cf8f550b7b6931869d765da",
     "_parentId": "5cf8f550b7b6931869d765c8",
     "_type": "component",
@@ -814,11 +721,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -844,11 +751,11 @@
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Показать правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "Скрыть правильный ответ",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "_showFeedback": {
@@ -858,6 +765,135 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Вопрос 5",
+    "displayTitle": "Эффективное управление рисками НЕ включает в себя:",
+    "body": "",
+    "_id": "5cf8f550b7b6931869d765d6",
+    "_parentId": "5cf8f550b7b6931869d765q5",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Поиск баланса между рисками и возможностями",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Сведение вероятности риска до нуля",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Учет последствий",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Учет затрат на меры по ограничению",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Ответить",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "assessment1",
+    "_parentId": "assessment-block1",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "Результаты",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "test1",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>Вами были допущены ошибки при прохождении тестирования. Изучите повторно темы, затрагиваемые в тестировании, и проверьте свои знания еще раз.</p>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "<p>Ваш результат: {{scoreAsPercent}}% из 100%.</p>{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>К сожалению, Вы не справились.</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Отлично!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
   },
   {
     "_component": "bottomNavigation",
@@ -969,7 +1005,6 @@
       }
     }
   },
-
   {
     "_component": "media",
     "_classes": "block-padding",
@@ -1175,11 +1210,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -1266,11 +1301,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -1304,7 +1339,7 @@
         "ariaLabel": ""
       },
       "_showFeedback": {
-        "buttonText": "Обратная связь",
+        "buttonText": "",
         "ariaLabel": ""
       },
       "remainingAttemptsText": "",
@@ -1357,11 +1392,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -1448,11 +1483,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -1539,11 +1574,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -1583,6 +1618,44 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "assessment2",
+    "_parentId": "assessment-block2",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "Результаты",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "test2",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>Вами были допущены ошибки при прохождении тестирования. Изучите повторно темы, затрагиваемые в тестировании, и проверьте свои знания еще раз.</p>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "<p>Ваш результат: {{scoreAsPercent}}% из 100%.</p>{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>К сожалению, Вы не справились.</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Отлично!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
   },
   {
     "_component": "graphic",
@@ -2079,7 +2152,6 @@
       }
     }
   },
-
   {
     "_component": "media",
     "_classes": "",
@@ -3066,11 +3138,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -3157,11 +3229,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -3248,11 +3320,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -3339,11 +3411,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -3425,11 +3497,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -3469,6 +3541,44 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "assessment3",
+    "_parentId": "assessment-block3",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "Результаты",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "test3",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>Вами были допущены ошибки при прохождении тестирования. Изучите повторно темы, затрагиваемые в тестировании, и проверьте свои знания еще раз.</p>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "<p>Ваш результат: {{scoreAsPercent}}% из 100%.</p>{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>К сожалению, Вы не справились.</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Отлично!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
   },
   {
     "_component": "bottomNavigation",
@@ -3580,7 +3690,6 @@
       }
     }
   },
-
   {
     "_component": "media",
     "_classes": "",
@@ -4081,11 +4190,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -4172,11 +4281,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -4258,11 +4367,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -4349,11 +4458,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -4435,11 +4544,11 @@
       }
     ],
     "_attempts": 1,
-    "_canShowModelAnswer": true,
+    "_canShowModelAnswer": false,
     "_canShowFeedback": false,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
@@ -4479,6 +4588,44 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "assessment4",
+    "_parentId": "assessment-block4",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "Результаты",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "test4",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>Вами были допущены ошибки при прохождении тестирования. Изучите повторно темы, затрагиваемые в тестировании, и проверьте свои знания еще раз.</p>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "<p>Ваш результат: {{scoreAsPercent}}% из 100%.</p>{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>К сожалению, Вы не справились.</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Отлично!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
   },
   {
     "_component": "bottomNavigation",
@@ -4590,7 +4737,6 @@
       }
     }
   },
-
   {
     "_component": "graphic",
     "_classes": "",
