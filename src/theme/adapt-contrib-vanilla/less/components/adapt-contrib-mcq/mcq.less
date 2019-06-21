@@ -6,6 +6,7 @@
   }
 
   .mcq-item label {
+    color: @black;
     position: relative;
     display: block;
     margin-bottom: @item-margin-bottom;
@@ -15,7 +16,7 @@
     z-index: 1;
 
     &.selected {
-      color: black;
+      color: @black;
       background-color: #f4f4f4;
       border-top: 1px solid @light-gray;
       border-bottom: 1px solid @light-gray;
@@ -42,7 +43,7 @@
             content: "\e633";
           }
 
-          border: 3px solid @item-text-color-selected;
+          border: 3px solid @gray;
           width: 18px;
           height: 18px;
           font-size: 18px;
@@ -111,7 +112,7 @@
       .mcq-item-icon {
         height: 25px;
         width: 25px;
-        color: white !important;
+        color: @white;
         font-size: 20px;
         text-align: center;
         line-height: 28px;
@@ -140,7 +141,7 @@
         outline: 2px solid #35a4ef;
         background-color: #f4f4f4;
         border: none;
-        color: black;
+        color: @black;
 
         .mcq-item-icon {
           color: none;

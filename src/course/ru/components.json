@@ -1308,7 +1308,7 @@
     "_isRandom": true,
     "_recordInteraction": true,
     "_questionWeight": 1,
-    "_selectable": 1,
+    "_selectable": 4,
     "_feedback": {
       "title": "",
       "correct": "",
@@ -3910,6 +3910,136 @@
       "attribution": ""
     }
   },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Упражнение по кейсу",
+    "displayTitle": "Как Вы поступите в данной ситуации?",
+    "body": "",
+    "_id": "praktika1-test",
+    "_parentId": "case3-block4",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Приступлю к рассмотрению заявки",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Сделаю отказ по заявке без объяснения причин",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Попрошу руководителя перераспределить заявку другому сотруднику",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Попрошу у дяди хороший подарок на День рожденья",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Ответить",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "praktika1-assessment",
+    "_parentId": "case3-block5",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "praktika1",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>К сожалению, Вы не справились!</p><p>При конфликте интересов необходимо сообщить об этом руководителю.<p/>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>Вы ответили неверно!</p><p>Здесь очевидный конфликт интересов. В соответствии с установленными правилами в Банке сотрудник должен попросить руководителя перераспределить заявку другому сотруднику. Мы должны руководствоваться золотым правилом риск-культуры: «Я применяю правила таким образом, что любому очевидна моя приверженность интересам Банка».</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Совершенно верно!</p><p>Здесь очевидный конфликт интересов. В соответствии с установленными правилами в Банке сотрудник должен попросить руководителя перераспределить заявку другому сотруднику. Мы должны руководствоваться золотым правилом риск-культуры: «Я применяю правила таким образом, что любому очевидна моя приверженность интересам Банка».</p><p>Поздравляем! Вы успешно прошли кейс!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
+  },
+
   {
     "_component": "graphic",
     "_classes": "",
