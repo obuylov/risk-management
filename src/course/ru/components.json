@@ -1172,8 +1172,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 1",
-    "displayTitle": "Вопрос 1",
-    "body": "<p><strong>Кредитный риск&nbsp;—&nbsp;это...</strong></p>",
+    "displayTitle": "Кредитный риск&nbsp;—&nbsp;это...",
+    "body": "",
     "_id": "5cfbaa0336bab0456e80ba20",
     "_parentId": "5cfba9ce36bab0456e80ba1f",
     "_type": "component",
@@ -1263,8 +1263,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 2",
-    "displayTitle": "Вопрос 2",
-    "body": "<p><strong>Клиент пришел оформлять кредитную карту. Какие риски несет Банк при ее выпуске и выдаче Клиенту?</strong></p>",
+    "displayTitle": "Клиент пришел оформлять кредитную карту. Какие риски несет Банк при ее выпуске и выдаче Клиенту?",
+    "body": "",
     "_id": "5cfbacd536bab0456e80ba22",
     "_parentId": "5cfbacc936bab0456e80ba21",
     "_type": "component",
@@ -1354,8 +1354,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 3",
-    "displayTitle": "Вопрос 3",
-    "body": "<p><strong>Какой вид риска является наиболее существенным&nbsp;для Сбербанка?</strong></p>",
+    "displayTitle": "Какой вид риска является наиболее существенным&nbsp;для Сбербанка?",
+    "body": "",
     "_id": "5cfbae7136bab0456e80ba24",
     "_parentId": "5cfbae6736bab0456e80ba23",
     "_type": "component",
@@ -1445,8 +1445,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 4",
-    "displayTitle": "Вопрос 4",
-    "body": "<p><strong>Риск ликвидности&nbsp;— это...</strong></p>",
+    "displayTitle": "Риск ликвидности&nbsp;— это...",
+    "body": "",
     "_id": "5cfbaf3d36bab0456e80ba26",
     "_parentId": "5cfbaf3636bab0456e80ba25",
     "_type": "component",
@@ -1536,8 +1536,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 5",
-    "displayTitle": "Вопрос 5",
-    "body": "<p><strong>Как называется риск потерь Банка в результате ошибок сотрудников, отказа информационной системы, мошенничества, некачественных ВНД и стандартов, стихийных бедствий?&nbsp;</strong></p>",
+    "displayTitle": "Как называется риск потерь Банка в результате ошибок сотрудников, отказа информационной системы, мошенничества, некачественных ВНД и стандартов, стихийных бедствий?",
+    "body": "",
     "_id": "5cfbb02036bab0456e80ba28",
     "_parentId": "5cfbb01036bab0456e80ba27",
     "_type": "component",
@@ -1961,7 +1961,7 @@
     "title": "Component title",
     "displayTitle": "",
     "body": "<p>Как Вы поступите в данной ситуации?</p>",
-    "_id": "5cfe493436bab0456e80bbf6",
+    "_id": "praktika1-test",
     "_parentId": "case1-block6",
     "_type": "component",
     "_layout": "full",
@@ -1987,7 +1987,7 @@
       },
       {
         "text": "Немедленно сообщу об инциденте риск-координатору своего подразделения, а также своему непосредственному руководителю.",
-        "_shouldBeSelected": false,
+        "_shouldBeSelected": true,
         "feedback": ""
       },
       {
@@ -2041,6 +2041,44 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "praktika1-assessment",
+    "_parentId": "case1-block7",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "praktika1",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>К сожалению, Вы не справились!</p><p>Недопустимо игнорирование или сокрытие ошибки даже с целью выгородить своих коллег.<p/>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>Вы ответили неверно!</p><p><p>Произошедшее &mdash; инцидент операционного риска. Банк должен знать обо всех инцидентах. Когда Вы сообщите о произошедшем риск-координатору подразделения и своему непосредственному руководителю, информация будет своевременно направлена в блок &laquo;Риски&raquo;, а руководитель примет решение о том, как действовать в сложившейся ситуации.</p><p>Если же игнорировать или скрывать ошибку, проблема только усугубится.</p><p>Покрывая коллег в этой ситуации, Вы вредите:</p><ul><li>Банку (так как информация о произошедшем важна для работы с причинами, понимания влияния риска на Банк);</li><li>Коллегам;</li><li>Себе (так как тоже нарушаете ВИД и правила риск- культуры)</li></ul></p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Совершенно верно!</p><p>Действительно, при выявлении инцидента операционного риска Вы обязаны незамедлительно сообщить о нем непосредственному руководителю, а также риск- координатору своего подразделения.</p><p>Поздравляем! Вы успешно прошли кейс!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
   },
   {
     "_component": "bottomNavigation",
@@ -2673,6 +2711,93 @@
     }
   },
   {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p>Как следует ответить на данный вопрос коллеги: для чего предназначена «Концепция трех линий защиты от рисков»?</p>",
+    "_id": "praktika2-test1",
+    "_parentId": "case2-test1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Для организации эффективного управления рисками, обеспечения комплексного многоуровневого контроля рисков",
+        "_shouldBeSelected": true,
+        "feedback": "Совершенно верно!"
+      },
+      {
+        "text": "Для организации порядка работы сотрудников Банка при оценке рисков и доходности",
+        "_shouldBeSelected": false,
+        "feedback": "<p>Вы ответили неверно!</p><p>Необходимо ответить коллеге, что «Концепция трех линий защиты от рисков» предназначена для организации эффективного управления рисками, обеспечения комплексного многоуровневого контроля рисков.</p>"
+      },
+      {
+        "text": "Для определения приоритетности в работе с рисками",
+        "_shouldBeSelected": false,
+        "feedback": "<p>Вы ответили неверно!</p><p>Необходимо ответить коллеге, что «Концепция трех линий защиты от рисков» предназначена для организации эффективного управления рисками, обеспечения комплексного многоуровневого контроля рисков.</p>"
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "Упражнение",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+
+  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -2850,6 +2975,96 @@
       "large": "course/ru/assets/case2-27.png",
       "small": "course/ru/assets/case2-27.png",
       "attribution": ""
+    }
+  },
+
+  {
+    "_component": "dragndrop",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "title": "Упражнение 2",
+    "displayTitle": " ",
+    "body": "",
+    "_id": "praktika2-test2",
+    "_parentId": "case2-test2",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Для этого перетащите плашки с названиями этапов, чтобы получилась верная последовательность",
+    "_items": [
+      {
+        "text": "Первая линия защиты",
+        "accepted": [
+          "Старший менеджер по обслуживанию, менеджер по продажам"
+        ]
+      },
+      {
+        "text": "Вторая линия защиты",
+        "accepted": [
+          "Руководитель отдела методологии управления рыночными рисками, аналитик отдела риск-технологий Управления розничных рисков"
+        ]
+      },
+      {
+        "text": "Третья линия защиты",
+        "accepted": [
+          "Стажер отдела аудита филиалов, аудитор отдела кредитных операций"
+        ]
+      }
+    ],
+    "dummyAnswers": [],
+    "_attempts": -1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 0,
+    "_feedback": {
+      "title": "Упражнение",
+      "correct": "<p>Упражнение выполнено верно.</p>",
+      "_incorrect": {
+        "final": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>",
+        "notFinal": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>",
+        "notFinal": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Пройти еще раз",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
     }
   },
   {
@@ -3033,6 +3248,84 @@
     }
   },
   {
+    "_id": "praktika2-test3",
+    "_parentId": "case2-test3",
+    "_type": "component",
+    "_component": "objectMatching",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_isRandom": true,
+    "_shouldDisplayAttempts": false,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": false,
+    "_recordInteraction": true,
+    "title": "Упражнение 3",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_categoryTitle": "",
+    "_optionTitle": "",
+    "_defaultAnswerBGColor": "#c4c4c4",
+    "_items": [
+      {
+        "question": "<p>1-я линия защиты</p>",
+        "answer": "Принятие бизнес-решений с учетом оптимизации риска и доходности",
+        "questionBGColor": "#54F09C"
+      },
+      {
+        "question": "<p>2-я линия защиты</p>",
+        "answer": "Независимая экспертиза принимаемых рисков или андеррайтинг",
+        "questionBGColor": "#65E3E6"
+      },
+      {
+        "question": "<p>3-я линия защиты</p>",
+        "answer": "Оценка эффективности функционирования подразделений по работе с рисками",
+        "questionBGColor": "#FF8584"
+      }
+    ],
+    "_feedback": {
+      "title": "Упражнение",
+      "correct": "Упражнение выполнено верно.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>"
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Ответить",
+        "ariaLabel": "Ответить"
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -3093,6 +3386,45 @@
     }
   },
   {
+    "_component": "assessmentResults",
+    "_id": "praktika2-assessment",
+    "_parentId": "case2-block14",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "praktika2",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>Пройдите кейс еще раз, стараясь не допускать ошибок.<p/>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>К сожалению, Вы не справились!</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Совершенно верно!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
+  },
+
+  {
     "_component": "mcq",
     "_classes": "",
     "_isOptional": false,
@@ -3100,8 +3432,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 1",
-    "displayTitle": "Вопрос 1",
-    "body": "<p><strong>Каким образом информация об инциденте операционного риска&nbsp;направляется в Блок «Риски»‎?</strong></p>",
+    "displayTitle": "Каким образом информация об инциденте операционного риска&nbsp;направляется в Блок «Риски»\u200E?",
+    "body": "",
     "_id": "5cfbb26136bab0456e80ba2b",
     "_parentId": "5cfbb23a36bab0456e80ba2a",
     "_type": "component",
@@ -3191,8 +3523,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 2",
-    "displayTitle": "Вопрос 2",
-    "body": "<p><strong>Кому следует сообщить об инциденте операционного риска?</strong></p>",
+    "displayTitle": "Кому следует сообщить об инциденте операционного риска?",
+    "body": "",
     "_id": "5cfbb32b36bab0456e80ba2d",
     "_parentId": "5cfbb31d36bab0456e80ba2c",
     "_type": "component",
@@ -3282,8 +3614,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 3",
-    "displayTitle": "Вопрос 3",
-    "body": "<p><strong>Когда об инциденте операционного риска нужно сообщить внутри своего подразделения?</strong></p>",
+    "displayTitle": "Когда об инциденте операционного риска нужно сообщить внутри своего подразделения?",
+    "body": "",
     "_id": "5cfbb41536bab0456e80ba2f",
     "_parentId": "5cfbb40236bab0456e80ba2e",
     "_type": "component",
@@ -3373,8 +3705,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 4",
-    "displayTitle": "Вопрос 4",
-    "body": "<p><strong>Функции бизнес-подразделения как первой линии защиты от рисков:</strong></p>",
+    "displayTitle": "Функции бизнес-подразделения как первой линии защиты от рисков:",
+    "body": "",
     "_id": "5cfbb4b636bab0456e80ba31",
     "_parentId": "5cfbb4a936bab0456e80ba30",
     "_type": "component",
@@ -3464,8 +3796,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 5",
-    "displayTitle": "Вопрос 5",
-    "body": "<p><strong>Кто такой риск-координатор?</strong></p>",
+    "displayTitle": "Кто такой риск-координатор?",
+    "body": "",
     "_id": "5cfbbfc536bab0456e80ba33",
     "_parentId": "5cfbbf7c36bab0456e80ba32",
     "_type": "component",
@@ -3920,7 +4252,7 @@
     "title": "Упражнение по кейсу",
     "displayTitle": "Как Вы поступите в данной ситуации?",
     "body": "",
-    "_id": "praktika1-test",
+    "_id": "praktika3-test",
     "_parentId": "case3-block4",
     "_type": "component",
     "_layout": "full",
@@ -4003,7 +4335,7 @@
   },
   {
     "_component": "assessmentResults",
-    "_id": "praktika1-assessment",
+    "_id": "praktika3-assessment",
     "_parentId": "case3-block5",
     "_type": "component",
     "_classes": "",
@@ -4018,7 +4350,7 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "_assessmentId": "praktika1",
+    "_assessmentId": "praktika3",
     "_retry": {
       "button": "Пройти заново",
       "feedback": "<p>К сожалению, Вы не справились!</p><p>При конфликте интересов необходимо сообщить об этом руководителю.<p/>",
@@ -4039,7 +4371,6 @@
       }
     ]
   },
-
   {
     "_component": "graphic",
     "_classes": "",
@@ -4281,9 +4612,138 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
+    "title": "Упражнение по кейсу",
+    "displayTitle": "Как Вы поступите в данной ситуации?",
+    "body": "",
+    "_id": "praktika4-test",
+    "_parentId": "case4-block6",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Пойду в магазин, куплю угощение коллегам",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Повешу объявление, что банкомат не работает",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Поставлю в известность ответственных за банкомат коллег и попрошу заменить выданную купюру",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Сниму денег побольше",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Ответить",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "assessmentResults",
+    "_id": "praktika4-assessment",
+    "_parentId": "case4-block7",
+    "_type": "component",
+    "_classes": "",
+    "_layout": "full",
+    "_resetType": "hard",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_isVisibleBeforeCompletion": true,
+    "_setCompletionOn": "pass",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_assessmentId": "praktika4",
+    "_retry": {
+      "button": "Пройти заново",
+      "feedback": "<p>К сожалению, Вы не справились!</p><p>Недопустимо использовать чужие ошибки в своих интересах. Ведь на месте коллеги, допустившего ошибку, может оказаться каждый!<p/>",
+      "_routeToAssessment": true
+    },
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>Вы ответили неверно!</p><p>Вы как сотрудник должны понимать, какие убытки понесет Банк и какие негативные последствия будут для сотрудника, который ошибся при загрузке кассет.</p><p>Правильным будет, если Вы вовремя предпримите следующий действия:</p><p>― Поставите в известность ответственных коллег</p><p>― Попросите заменить выданную купюру</p><p>Мы должны руководствоваться следующими золотыми правилами риск-культуры:</p><p>― &laquo;От ответственного отношения к рискам зависит доход Банка и каждого&raquo;</p><p>― &laquo;Совместными усилиями мы добьемся большего для каждого&raquo;</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "<p>Совершенно верно!</p><p>Вы как сотрудник должны понимать, какие убытки понесет Банк и какие негативные последствия будут для сотрудника, который ошибся при загрузке кассет. Мы должны руководствоваться следующими золотыми правилами риск-культуры:</p><p>― &laquo;От ответственного отношения к рискам зависит доход Банка и каждого&raquo;</p><p>― &laquo;Совместными усилиями мы добьемся большего для каждого&raquo;</p><p>Поздравляем! Вы успешно прошли кейс!</p>",
+        "_allowRetry": false,
+        "_classes": "high-score"
+      }
+    ]
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "title": "Вопрос 1",
-    "displayTitle": "Вопрос 1",
-    "body": "<p><strong>К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Мое внимательное отношение к угрозам и рискам — основа надежности Банка»?</strong></p>",
+    "displayTitle": "К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Мое внимательное отношение к угрозам и рискам — основа надежности Банка»?",
+    "body": "",
     "_id": "5cfd6f0236bab0456e80bb0d",
     "_parentId": "5cfd6ef236bab0456e80bb0c",
     "_type": "component",
@@ -4373,8 +4833,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 2",
-    "displayTitle": "Вопрос 2",
-    "body": "<p><strong>К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Сообщая об ошибках, я забочусь не только о себе, но и о коллегах, ведь на ошибках учатся»?</strong></p>",
+    "displayTitle": "К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Сообщая об ошибках, я забочусь не только о себе, но и о коллегах, ведь на ошибках учатся»?",
+    "body": "",
     "_id": "5cfd6fd936bab0456e80bb0f",
     "_parentId": "5cfd6fc536bab0456e80bb0e",
     "_type": "component",
@@ -4464,8 +4924,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 3",
-    "displayTitle": "Вопрос 3",
-    "body": "<p><strong>Что представляет&nbsp;собой риск-культура?&nbsp;</strong></p>",
+    "displayTitle": "Что представляет&nbsp;собой риск-культура?",
+    "body": "",
     "_id": "5cfd70b236bab0456e80bb11",
     "_parentId": "5cfd70a536bab0456e80bb10",
     "_type": "component",
@@ -4550,8 +5010,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 4",
-    "displayTitle": "Вопрос 4",
-    "body": "<p><strong>К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Я уверен, что конструктивная критика делает лучше мою работу и работу моих коллег»?</strong></p>",
+    "displayTitle": "К какой области развития риск-культуры относится следующее золотое правило:&nbsp;«Я уверен, что конструктивная критика делает лучше мою работу и работу моих коллег»?",
+    "body": "",
     "_id": "5cfd71d236bab0456e80bb13",
     "_parentId": "5cfd71ce36bab0456e80bb12",
     "_type": "component",
@@ -4641,8 +5101,8 @@
     "_isHidden": false,
     "_isVisible": true,
     "title": "Вопрос 5",
-    "displayTitle": "Вопрос 5",
-    "body": "<p><strong>Укажите наиболее эффективный способ предотвращения негативного поведения в контексте риск-культуры:</strong></p>",
+    "displayTitle": "Укажите наиболее эффективный способ предотвращения негативного поведения в контексте риск-культуры:",
+    "body": "",
     "_id": "5cfd727436bab0456e80bb15",
     "_parentId": "5cfd725636bab0456e80bb14",
     "_type": "component",

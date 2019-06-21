@@ -653,7 +653,7 @@
       "_id": "praktika2",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 100,
+      "_scoreToPass": 30,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
       "_suppressMarking": true,
@@ -670,7 +670,7 @@
       },
       "_questions": {
         "_resetType": "soft",
-        "_canShowFeedback": false,
+        "_canShowFeedback": true,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
       }
@@ -936,7 +936,7 @@
       "_scoreToPass": 100,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
-      "_suppressMarking": true,
+      "_suppressMarking": false,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
       "_randomisation": {

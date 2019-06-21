@@ -11,6 +11,10 @@
     "_hideEasing": "easeInQuart",
     "_duration": 400
   },
+  "_devtools": {
+    "_isEnabled": false,
+    "_theme": "theme-dark"
+  },
   "_accessibility": {
     "_isEnabled": false,
     "_isEnabledOnTouchDevices": false,

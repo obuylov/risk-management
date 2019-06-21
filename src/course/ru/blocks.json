@@ -1045,7 +1045,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1091,7 +1091,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1126,7 +1126,7 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": true,
+            "_isEnabled": "Далее",
             "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
@@ -1183,7 +1183,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1207,6 +1207,52 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "case1-block6",
+        "_parentId": "case-1",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Продолжить",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риски группы Сбербанк | Кейс | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 88,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case1-block7",
         "_parentId": "case-1",
         "_type": "block",
         "_onScreen": {
@@ -1500,12 +1546,12 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1551,7 +1597,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1597,7 +1643,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1643,7 +1689,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1689,7 +1735,53 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Концепция защиты от рисков | Кейс | Вопрос 1",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "block-padding",
+        "_trackingId": 92,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case2-test1",
+        "_parentId": "case-2",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1735,7 +1827,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1781,7 +1873,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1827,7 +1919,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1873,13 +1965,59 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
             },
             "_stepLocking": {
                 "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Концепция защиты от рисков | Кейс | Вопрос 2",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "block-padding",
+        "_trackingId": 93,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case2-test2",
+        "_parentId": "case-2",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Далее",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": false,
                 "_isCompletionRequired": true,
                 "_isLockedOnRevisit": false
             }
@@ -1919,7 +2057,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1965,7 +2103,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2011,7 +2149,53 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Концепция защиты от рисков | Кейс | Вопрос 3",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "block-padding",
+        "_trackingId": 94,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case2-test3",
+        "_parentId": "case-2",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2056,7 +2240,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2064,6 +2248,52 @@
             "_stepLocking": {
                 "_isEnabled": true,
                 "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Концепция защиты от рисков | Кейс | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 89,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case2-block14",
+        "_parentId": "case-2",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": false,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Продолжить",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": false,
                 "_isLockedOnRevisit": false
             }
         }
@@ -2667,7 +2897,7 @@
         }
     },
     {
-        "title": "Риск-культура | Кейс 1 | Упражнение",
+        "title": "Риск-культура | Кейс 1 | Вопрос",
         "displayTitle": "",
         "body": "",
         "_classes": "",
@@ -2746,7 +2976,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Далее",
+                "text": "Продолжить",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2884,7 +3114,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2930,7 +3160,7 @@
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -2954,6 +3184,98 @@
         "_isHidden": false,
         "_isVisible": true,
         "_id": "case4-block5",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": true,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Далее",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Вопрос",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 90,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block6",
+        "_parentId": "case-4",
+        "_type": "block",
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "",
+            "_percentInviewVertical": 50
+        },
+        "_assessment": {
+            "_quizBankID": 1
+        },
+        "_trickle": {
+            "_isEnabled": true,
+            "_autoScroll": true,
+            "_scrollDuration": 500,
+            "_scrollTo": "@block +1",
+            "_button": {
+                "_isEnabled": false,
+                "_styleBeforeCompletion": "hidden",
+                "_styleAfterClick": "hidden",
+                "_isFullWidth": false,
+                "_autoHide": true,
+                "_className": "",
+                "text": "Далее",
+                "startText": "Begin",
+                "finalText": "Finish",
+                "_component": "trickle-button"
+            },
+            "_stepLocking": {
+                "_isEnabled": true,
+                "_isCompletionRequired": true,
+                "_isLockedOnRevisit": false
+            }
+        }
+    },
+    {
+        "title": "Риск-культура | Кейс 2 | Результаты",
+        "displayTitle": "",
+        "body": "",
+        "_classes": "",
+        "_trackingId": 91,
+        "instruction": "",
+        "_isOptional": false,
+        "_isAvailable": true,
+        "_isHidden": false,
+        "_isVisible": true,
+        "_id": "case4-block7",
         "_parentId": "case-4",
         "_type": "block",
         "_onScreen": {
