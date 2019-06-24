@@ -3,9 +3,9 @@
   "version": "4.2.0",
   "description": "Adapt Learning output framework",
   "scripts": {
-	"dev":"grunt dev",
-	"build":"grunt build",
-	"server":"grunt server"
+    "dev": "grunt dev",
+    "build": "grunt build",
+    "server": "grunt server"
   },
   "repository": {
     "type": "git",

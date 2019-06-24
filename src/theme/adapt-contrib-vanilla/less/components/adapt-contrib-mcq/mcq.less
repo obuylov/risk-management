@@ -22,7 +22,7 @@
       border-bottom: 1px solid @light-gray;
 
       .mcq-answer-icon {
-        color: @item-text-color-selected;
+        color: #c4c4c4;
 
         &.radio {
           &:before {
@@ -43,7 +43,6 @@
             content: "\e633";
           }
 
-          border: 3px solid @gray;
           width: 18px;
           height: 18px;
           font-size: 18px;
@@ -67,6 +66,7 @@
   }
 
   .mcq-item-inner {
+    font-size: 18px;
     padding-top: @item-padding-top;
     padding-bottom: @item-padding-bottom;
     padding-right: @item-padding-right;
@@ -138,13 +138,12 @@
   .mcq-widget {
     &:not(.disabled) {
       .mcq-item label:hover {
-        outline: 2px solid #35a4ef;
         background-color: #f4f4f4;
         border: none;
         color: @black;
 
         .mcq-item-icon {
-          color: none;
+          color: transparent;
         }
       }
 
@@ -182,4 +181,9 @@
   color: black;
   border-top: 1px solid @light-gray;
   border-bottom: 1px solid @light-gray;
+}
+
+.mcq-component .mcq-item label .mcq-answer-icon.checkbox, .mcq-component .mcq-item label.selected .mcq-answer-icon.checkbox{
+  color: #c4c4c4;
+  border: 3px solid #c4c4c4;
 }

@@ -148,3 +148,20 @@
     text-align: center;
   }
 }
+
+.buttons-cluster {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  button {
+    float: none;
+  }
+}
+
+
+@media (max-width: @device-width-small) {
+  .media-component .media-transcript-button-container button {
+    padding: 14px 10px;
+  }
+}
