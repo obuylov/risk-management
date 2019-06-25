@@ -50,6 +50,10 @@
         padding-right: 0px;
       }
     }
+
+    .notify-popup-title-inner {
+      display: none;
+    }
   }
 
   .notify-popup-title {
@@ -244,4 +248,14 @@
 
 .notify-popup-body-inner {
   color: @black;
+  font-size: 18px;
+}
+
+
+.correct .notify-popup-inner .notify-popup-body-inner {
+  color: @sber_green;
+}
+
+.incorrect .notify-popup-inner .notify-popup-body-inner, .partially-correct .notify-popup-inner .notify-popup-body-inner{
+  color: @red;
 }
