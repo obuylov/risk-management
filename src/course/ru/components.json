@@ -159,108 +159,14 @@
     "_playerOptions": ""
   },
   {
-    "_component": "dragndrop",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Упражнение 1",
-    "displayTitle": "Упражнение 1",
-    "body": "<p><strong>Соберите верную последовательность процесса управления рисками на примере риска потерять работу</strong></p>",
-    "_id": "5cf90c10b7b6931869d76602",
-    "_parentId": "5cf8f550b7b6931869d765b9",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Для этого перетащите плашки с названиями этапов, чтобы получилась верная последовательность",
-    "_items": [
-      {
-        "text": "Увольнение с работы",
-        "accepted": [
-          "Идентификация"
-        ]
-      },
-      {
-        "text": "Недостаточный уровень подготовки и квалификации, регулярное нарушение дисциплины",
-        "accepted": [
-          "Анализ причин"
-        ]
-      },
-      {
-        "text": "Сокращение доходов, потеря арендованного жилья",
-        "accepted": [
-          "Оценка"
-        ]
-      },
-      {
-        "text": "Пройти курсы повышения квалификации, наладить дисциплину",
-        "accepted": [
-          "Реагирование"
-        ]
-      }
-    ],
-    "dummyAnswers": [],
-    "_attempts": -1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": false,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_feedback": {
-      "correct": "<p>Упражнение выполнено верно.</p>",
-      "_incorrect": {
-        "final": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>",
-        "notFinal": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>"
-      },
-      "_partlyCorrect": {
-        "final": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>",
-        "notFinal": "<p>Упражнение выполнено неверно, рекомендуем пройти его ещё раз.</p>"
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "Пройти еще раз",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
     "_component": "matching",
     "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Упражнение 2",
-    "displayTitle": "Упражнение 2",
+    "title": "Упражнение",
+    "displayTitle": "",
     "body": "<p><strong>Соберите верную последовательность процесса управления рисками на примере риска потерять работу</strong></p>",
     "_id": "5cf8f550b7b6931869d765d5",
     "_parentId": "5cf8f550b7b6931869d765bf",
@@ -872,7 +778,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "test1",
     "_retry": {
@@ -1634,7 +1540,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "test2",
     "_retry": {
@@ -1707,7 +1613,7 @@
       "_percentInviewVertical": 50
     },
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -1958,7 +1864,7 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
+    "title": "Упражнение",
     "displayTitle": "",
     "body": "<p>Как Вы поступите в данной ситуации?</p>",
     "_id": "praktika1-test",
@@ -2057,7 +1963,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "praktika1",
     "_retry": {
@@ -2333,7 +2239,7 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
+    "title": "Кейс",
     "displayTitle": "",
     "body": "<p>К Вам пришел коллега с просьбой о помощи.</p>",
     "_id": "case2-into-text",
@@ -2717,7 +2623,7 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
+    "title": "Упражнение",
     "displayTitle": "",
     "body": "<p>Как следует ответить на данный вопрос коллеги: для чего предназначена «Концепция трех линий защиты от рисков»?</p>",
     "_id": "praktika2-test1",
@@ -2761,7 +2667,7 @@
     "_selectable": 1,
     "_feedback": {
       "title": "Упражнение",
-      "correct": "",
+      "correct": "Совершенно верно!",
       "_incorrect": {
         "final": "",
         "notFinal": ""
@@ -2796,7 +2702,6 @@
       "remainingAttemptText": ""
     }
   },
-
   {
     "_component": "graphic",
     "_classes": "",
@@ -2977,9 +2882,8 @@
       "attribution": ""
     }
   },
-
   {
-    "_component": "dragndrop",
+    "_component": "matching",
     "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
@@ -3000,46 +2904,80 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Для этого перетащите плашки с названиями этапов, чтобы получилась верная последовательность",
+    "instruction": "Соотнесите линии защиты и должность сотрудников",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldResetAllAnswers": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "placeholder": "Выберите вариант ответа",
     "_items": [
       {
         "text": "Первая линия защиты",
-        "accepted": [
-          "Старший менеджер по обслуживанию, менеджер по продажам"
+        "_options": [
+          {
+            "text": "Старший менеджер по обслуживанию, менеджер по продажам",
+            "_isCorrect": true
+          },
+          {
+            "text": "Руководитель отдела методологии управления рыночными рисками, аналитик отдела риск-технологий Управления розничных рисков",
+            "_isCorrect": false
+          },
+          {
+            "text": "Стажер отдела аудита филиалов, аудитор отдела кредитных операций",
+            "_isCorrect": false
+          }
         ]
       },
       {
         "text": "Вторая линия защиты",
-        "accepted": [
-          "Руководитель отдела методологии управления рыночными рисками, аналитик отдела риск-технологий Управления розничных рисков"
+        "_options": [
+          {
+            "text": "Старший менеджер по обслуживанию, менеджер по продажам",
+            "_isCorrect": false
+          },
+          {
+            "text": "Руководитель отдела методологии управления рыночными рисками, аналитик отдела риск-технологий Управления розничных рисков",
+            "_isCorrect": true
+          },
+          {
+            "text": "Стажер отдела аудита филиалов, аудитор отдела кредитных операций",
+            "_isCorrect": false
+          }
         ]
       },
       {
         "text": "Третья линия защиты",
-        "accepted": [
-          "Стажер отдела аудита филиалов, аудитор отдела кредитных операций"
+        "_options": [
+          {
+            "text": "Старший менеджер по обслуживанию, менеджер по продажам",
+            "_isCorrect": false
+          },
+          {
+            "text": "Руководитель отдела методологии управления рыночными рисками, аналитик отдела риск-технологий Управления розничных рисков",
+            "_isCorrect": false
+          },
+          {
+            "text": "Стажер отдела аудита филиалов, аудитор отдела кредитных операций",
+            "_isCorrect": true
+          }
         ]
       }
     ],
-    "dummyAnswers": [],
-    "_attempts": -1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": false,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 0,
     "_feedback": {
-      "title": "Упражнение",
-      "correct": "<p>Упражнение выполнено верно.</p>",
+      "title": "",
+      "correct": "Совершенно верно!",
       "_incorrect": {
-        "final": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>",
-        "notFinal": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>"
+        "final": "Упражнение выполнено неверно.",
+        "notFinal": "Упражнение выполнено неверно."
       },
       "_partlyCorrect": {
-        "final": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>",
-        "notFinal": "<p>Ответ неверный.</p><p>Расскажите коллеге, что стажер аудита филиалов и аудитор находятся на 3-й линии защиты, менеджер по обслуживанию и менеджер по продажам - на 1-й линии, как сотрудники бизнес-подразделений, руководитель и аналитик блока Риски - на 2-й линии защиты от рисков.</p>"
+        "final": "",
+        "notFinal": ""
       }
     },
     "_buttons": {
@@ -3248,10 +3186,10 @@
     }
   },
   {
+    "_component": "objectMatching",
     "_id": "praktika2-test3",
     "_parentId": "case2-test3",
     "_type": "component",
-    "_component": "objectMatching",
     "_classes": "",
     "_layout": "full",
     "_attempts": 1,
@@ -3289,11 +3227,11 @@
       "title": "Упражнение",
       "correct": "Упражнение выполнено верно.",
       "_incorrect": {
-        "notFinal": "",
+        "notFinal": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>",
         "final": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>"
       },
       "_partlyCorrect": {
-        "notFinal": "",
+        "notFinal": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>",
         "final": "<p>Сотрудники на 1-й линии защиты от рисков отвечают за принятие бизнес-решений с учетом оптимизации риска и доходности; сотрудники на 2-й линии осуществляют независимую экспертизу принимаемых рисков или андеррайтинг; в функции сотрудников на 3-й линии защиты входит оценка эффективности функционирования подразделений по работе с рисками.</p>"
       }
     },
@@ -3400,7 +3338,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "praktika2",
     "_retry": {
@@ -3423,7 +3361,6 @@
       }
     ]
   },
-
   {
     "_component": "mcq",
     "_classes": "",
@@ -3889,7 +3826,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "test3",
     "_retry": {
@@ -4165,7 +4102,7 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
+    "title": "Кейс 1",
     "displayTitle": "",
     "body": "<p>Вы — андеррайдер, и Вам в работу поступила заявка на выдачу кредита для ИП.</p>",
     "_id": "case3-into-text",
@@ -4348,7 +4285,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "praktika3",
     "_retry": {
@@ -4408,7 +4345,7 @@
     "_isAvailable": true,
     "_isHidden": false,
     "_isVisible": true,
-    "title": "Component title",
+    "title": "Кейс 2",
     "displayTitle": "",
     "body": "<p>Вы — сотрудник Банка, и Вам понадобилось снять наличные средства в банкомате, который находится в офисе обслуживания в том же здании, где Вы работаете.</p>",
     "_id": "case4-into-text",
@@ -4711,7 +4648,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "praktika4",
     "_retry": {
@@ -5194,7 +5131,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "pass",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_assessmentId": "test4",
     "_retry": {
@@ -5380,87 +5317,6 @@
       "_isEnabled": true
     },
     "instruction": ""
-  },
-  {
-    "_component": "slider",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "title": "Пожалуйста, оцените наш курс:",
-    "displayTitle": "Пожалуйста, оцените наш курс:",
-    "body": "",
-    "_id": "5cf91e8cb7b6931869d76609",
-    "_parentId": "5cf91e80b7b6931869d76608",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_attempts": 1,
-    "_canShowModelAnswer": false,
-    "_canShowFeedback": false,
-    "_canShowMarking": false,
-    "_shouldDisplayAttempts": false,
-    "_questionWeight": 1,
-    "_recordInteraction": true,
-    "labelStart": "",
-    "labelEnd": "",
-    "_scaleStart": 1,
-    "_scaleEnd": 5,
-    "_scaleStep": 1,
-    "_correctAnswer": "1, 2, 3, 4, 5",
-    "_correctRange": {
-      "_bottom": 0,
-      "_top": 0
-    },
-    "_showScaleIndicator": true,
-    "_showNumber": true,
-    "_showScale": true,
-    "_showScaleNumbers": true,
-    "_feedback": {
-      "title": "",
-      "correct": "<p>Спасибо за обратную связь! Мы учтем Ваши комментарии в последующих курсах.</p>",
-      "_incorrect": {
-        "final": "",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "Оценить",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
   },
   {
     "_component": "bottomNavigation",

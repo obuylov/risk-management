@@ -214,18 +214,18 @@
             "_closeViaLMSFinish": false,
             "_isEnabled": true,
             "_notifyPromptIfIncomplete": {
-                "_isEnabled": false,
-                "title": "Confirm close",
-                "body": "<p>Are you sure you want to close the window?</p>",
-                "confirm": "Close window",
-                "cancel": "Cancel"
+                "_isEnabled": true,
+                "title": "Закрыть курс",
+                "body": "<p>Вы еще не прошли курс. Уверены, что хотите закрыть его?</p>",
+                "confirm": "Закрыть",
+                "cancel": "Отмена"
             },
             "_notifyPromptIfComplete": {
-                "_isEnabled": false,
-                "title": "Confirm close",
-                "body": "<p>Are you sure you want to close the window?</p>",
-                "confirm": "Close window",
-                "cancel": "Cancel"
+                "_isEnabled": true,
+                "title": "Закрыть курс",
+                "body": "<p>Вы уверены, что хотите закрыть курс?</p>",
+                "confirm": "Закрыть",
+                "cancel": "Отмена"
             }
         },
         "browserPromptIfIncomplete": "",

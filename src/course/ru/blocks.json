@@ -138,53 +138,7 @@
         }
     },
     {
-        "title": "Что такое риск? | Практика | Упражнение 1",
-        "displayTitle": "",
-        "body": "",
-        "_classes": "",
-        "_trackingId": 3,
-        "instruction": "",
-        "_isOptional": false,
-        "_isAvailable": true,
-        "_isHidden": false,
-        "_isVisible": true,
-        "_id": "5cf8f550b7b6931869d765b9",
-        "_parentId": "5cf8f550b7b6931869d765b5",
-        "_type": "block",
-        "_onScreen": {
-            "_isEnabled": false,
-            "_classes": "",
-            "_percentInviewVertical": 50
-        },
-        "_assessment": {
-            "_quizBankID": 1
-        },
-        "_trickle": {
-            "_isEnabled": false,
-            "_autoScroll": true,
-            "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": false,
-                "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "hidden",
-                "_isFullWidth": false,
-                "_autoHide": true,
-                "_className": "",
-                "text": "Continue",
-                "startText": "Begin",
-                "finalText": "Finish",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        }
-    },
-    {
-        "title": "Что такое риск? | Практика | Упражнение 2",
+        "title": "Что такое риск? | Практика | Упражнение",
         "displayTitle": "",
         "body": "",
         "_classes": "",
@@ -994,7 +948,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1040,7 +994,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1086,7 +1040,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1126,18 +1080,18 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": "Далее",
+            "_isEnabled": true,
             "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
-                "text": "Продолжить",
+                "text": "Далее",
                 "startText": "Begin",
                 "finalText": "Finish",
                 "_component": "trickle-button"
@@ -1178,7 +1132,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1337,7 +1291,7 @@
         "title": "Концепция защиты от рисков | Теория | Эволюция риск-менеджмента",
         "displayTitle": "",
         "body": "",
-        "_classes": "",
+        "_classes": "block-padding",
         "_trackingId": 7,
         "instruction": "",
         "_isOptional": false,
@@ -1383,7 +1337,7 @@
         "title": "Концепция защиты от рисков | Теория | Концепция защиты от рисков",
         "displayTitle": "",
         "body": "",
-        "_classes": "",
+        "_classes": "block-padding",
         "_trackingId": 16,
         "instruction": "",
         "_isOptional": false,
@@ -1500,7 +1454,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1592,7 +1546,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1638,7 +1592,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1684,7 +1638,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1730,7 +1684,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1822,7 +1776,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1868,7 +1822,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1914,7 +1868,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -1960,7 +1914,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -2017,7 +1971,7 @@
                 "_component": "trickle-button"
             },
             "_stepLocking": {
-                "_isEnabled": false,
+                "_isEnabled": true,
                 "_isCompletionRequired": true,
                 "_isLockedOnRevisit": false
             }
@@ -2052,7 +2006,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -2098,7 +2052,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -2144,7 +2098,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -2236,7 +2190,7 @@
             "_button": {
                 "_isEnabled": true,
                 "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "hidden",
+                "_styleAfterClick": "visible",
                 "_isFullWidth": false,
                 "_autoHide": true,
                 "_className": "",
@@ -2275,7 +2229,7 @@
             "_quizBankID": 1
         },
         "_trickle": {
-            "_isEnabled": false,
+            "_isEnabled": true,
             "_autoScroll": true,
             "_scrollDuration": 500,
             "_scrollTo": "@block +1",
@@ -2293,7 +2247,7 @@
             },
             "_stepLocking": {
                 "_isEnabled": true,
-                "_isCompletionRequired": false,
+                "_isCompletionRequired": true,
                 "_isLockedOnRevisit": false
             }
         }
@@ -2879,7 +2833,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -3109,7 +3063,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -3155,7 +3109,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -3201,7 +3155,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
@@ -3661,52 +3615,6 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "hidden",
-                "_isFullWidth": false,
-                "_autoHide": true,
-                "_className": "",
-                "text": "Continue",
-                "startText": "Begin",
-                "finalText": "Finish",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        }
-    },
-    {
-        "title": "Завершение | Оценка курса",
-        "displayTitle": "",
-        "body": "",
-        "_classes": "",
-        "_trackingId": 18,
-        "instruction": "",
-        "_isOptional": false,
-        "_isAvailable": true,
-        "_isHidden": false,
-        "_isVisible": true,
-        "_id": "5cf91e80b7b6931869d76608",
-        "_parentId": "5cf8f550b7b6931869d765b4",
-        "_type": "block",
-        "_onScreen": {
-            "_isEnabled": false,
-            "_classes": "",
-            "_percentInviewVertical": 50
-        },
-        "_assessment": {
-            "_quizBankID": 1
-        },
-        "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": true,
-            "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": false,
                 "_styleBeforeCompletion": "hidden",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,

@@ -653,7 +653,7 @@
       "_id": "praktika2",
       "_attempts": -1,
       "_isPercentageBased": true,
-      "_scoreToPass": 30,
+      "_scoreToPass": 100,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
       "_suppressMarking": true,
