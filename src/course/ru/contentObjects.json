@@ -165,8 +165,8 @@
     }
   },
   {
-    "title": "Завершение",
-    "displayTitle": "Завершение",
+    "title": "Завершение курса",
+    "displayTitle": "Завершение курса",
     "body": "",
     "_classes": "",
     "pageBody": "",
@@ -176,7 +176,7 @@
       "5cf8f54fb7b6931869d765a4",
       "5cf8f54fb7b6931869d765a8"
     ],
-    "_lockType": "custom",
+    "_lockType": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,

@@ -22,15 +22,15 @@
             "ariaLabel": "Скрыть правильный ответ"
         },
         "_showFeedback": {
-            "buttonText": "Показать обратную связь",
-            "ariaLabel": "Показать обратную связь"
+            "buttonText": "Показать комментарий",
+            "ariaLabel": "Показать комментарий"
         },
         "remainingAttemptsText": "remaining attempts",
         "remainingAttemptText": "final attempt",
         "disabledAriaLabel": "This button is disabled at the moment"
     },
     "_classes": "",
-    "_lockType": "",
+    "_lockType": "custom",
     "_id": "course",
     "_start": {
         "_isEnabled": false,
