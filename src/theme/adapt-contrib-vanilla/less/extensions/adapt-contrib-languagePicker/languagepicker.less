@@ -1,10 +1,24 @@
-.languagepicker .languagepicker-inner .languagepicker-languages .languagepicker-language {
-  background-color: @button-color;
-  border-radius: 8px;
-  color: #fff;
-  outline: none
-}
+.languagepicker {
+  .languagepicker-inner {
+    .languagepicker-title-inner {
+      text-align: center;
+    }
 
-.languagepicker .languagepicker-inner .languagepicker-languages .languagepicker-language:hover {
-  background-color: @button-color-hover;
+    .languagepicker-languages {
+      .languagepicker-language {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: @button-color;
+        border-radius: 8px;
+        color: @white;
+        font-weight: 600;
+        outline: none;
+
+        &:hover {
+          background-color: @button-color-hover;
+        }
+      }
+    }
+  }
 }

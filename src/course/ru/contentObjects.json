@@ -170,8 +170,8 @@
     "body": "",
     "_classes": "close-course",
     "pageBody": "",
-    "linkText": "Завершить курс",
-    "duration": "1 минута",
+    "linkText": "Завершить",
+    "duration": "",
     "_lockedBy": [
       "5cf8f54fb7b6931869d765a4",
       "5cf8f54fb7b6931869d765a8"
@@ -186,7 +186,7 @@
     "_type": "page",
     "_graphic": {
       "alt": "",
-      "src": "course/ru/assets/597b96062168d47ed33bb6332caab95e4f2a27ff.png"
+      "src": "course/ru/assets/flags.png"
     },
     "_onScreen": {
       "_isEnabled": false,

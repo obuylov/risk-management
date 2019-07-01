@@ -468,5 +468,15 @@
     "title": "cover2",
     "description": "cover2",
     "tags": []
+  },
+  "osnovi.png": {
+    "title": "management basics",
+    "description": "management basics",
+    "tags": []
+  },
+  "flags.png": {
+    "title": "flags",
+    "description": "flags",
+    "tags": []
   }
 }

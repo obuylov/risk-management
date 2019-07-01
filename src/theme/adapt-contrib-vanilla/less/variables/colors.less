@@ -4,6 +4,7 @@
 @white: #ffffff;
 @black: #000000;
 @gray: #c4c4c4;
+@dark-gray: #383838;
 @light-gray: #d2d2d2;
 @ultra-gray: #F2F2F2;
 @sber_green: #009B0A;
@@ -12,7 +13,6 @@
 @blue: #2295B0;
 @light-blue: #43B7B9;
 @blue-gradient: linear-gradient(269.8deg, #369BB3 0.73%, #43B6B9 98.67%);
-// @orange: #f4a024;
 // @orange: #f4a024;
 // @dark-orange: #ff7b00;
 @red: #ff5740;
@@ -117,7 +117,7 @@
 @component-background-color: darken(@background-color, 10%);
 
 @item-color: @primary-color;
-@item-color-hover: darken(@item-color, 20%);
+@item-color-hover: @primary-color;
 @item-color-disabled: @disabled-color;
 @item-color-visited: @primary-color;
 @item-color-selected: @item-color-hover;

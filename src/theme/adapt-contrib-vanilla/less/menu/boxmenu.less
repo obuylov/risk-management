@@ -12,7 +12,6 @@
   .menu-header {
     margin-bottom: -30px;
     background-color: @background-color-inverted;
-    background-position: center;
   }
 
   .menu-header-inner {
@@ -33,10 +32,15 @@
   .menu-title {
     margin: @menu-block-title-margin-top 0 @menu-block-title-margin-bottom;
     color: @foreground-color-inverted;
+    line-height: 100%;
   }
 
   .menu-title-inner {
     font-size: 40px;
+
+    @media screen and (max-width: @device-width-small) {
+      font-size: 24px;
+    }
   }
 
   .menu-body {
@@ -148,7 +152,8 @@
 
     button {
       padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*2);
-      color: @button-text-color;
+      color: @white;
+      font-weight: 600;
       background-color: @secondary-color;
       border-radius: 5px;
 
@@ -164,7 +169,7 @@
 }
 
 .menu .menu-item-button button.visited {
-  background-color: @primary-color;
+  background-color: @button-color-hover;
 }
 
 @media all and (max-width: @device-width-medium) {

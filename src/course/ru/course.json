@@ -162,52 +162,6 @@
             "no": "Нет"
         }
     },
-    "_toc": {
-        "_grouping": {
-            "_classes": "",
-            "_items": [
-                {
-                    "title": "",
-                    "_ariaLevel": 1,
-                    "_classes": "",
-                    "_contentObjects": [
-                        "5cf8f54fb7b6931869d765a4"
-                    ],
-                    "_grouping": {
-                        "_classes": "",
-                        "_items": [
-                            {
-                                "title": "",
-                                "_ariaLevel": 2,
-                                "_classes": "menu-level-2",
-                                "_contentObjects": [
-                                    "5cf8f54fb7b6931869d765a6",
-                                    "5cf8f54fb7b6931869d765aa",
-                                    "5cf8f54fb7b6931869d765ae"
-                                ]
-                            }
-                        ]
-                    }
-                },
-                {
-                    "title": "",
-                    "_ariaLevel": 1,
-                    "_classes": "",
-                    "_contentObjects": [
-                        "5cf8f54fb7b6931869d765a8"
-                    ]
-                },
-                {
-                    "title": "",
-                    "_ariaLevel": 1,
-                    "_classes": "",
-                    "_contentObjects": [
-                        "5cf8f54fb7b6931869d765ac"
-                    ]
-                }
-            ]
-        }
-    },
     "_close": {
         "_isEnabled": true,
         "_button": {
@@ -238,7 +192,7 @@
     },
     "_menuBackground": {
         "_menuHeader": {
-            "_link": "course/ru/assets/acefcf84aed5a066fa3ecf862690da7fd4554801.jpg",
+            "_link": "course/ru/assets/acefcf84aed5a066fa3ecf862690da7fd4554801.png",
             "_applyToPage": false
         },
         "_backgroundLink": ""

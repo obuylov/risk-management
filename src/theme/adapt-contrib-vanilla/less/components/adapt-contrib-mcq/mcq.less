@@ -5,10 +5,6 @@
     position: relative;
   }
 
-  .mcq-body-inner p {
-    font-size: 18px;
-  }
-
   .mcq-item label {
     color: @black;
     position: relative;
@@ -123,15 +119,15 @@
         border-radius: 50%;
         border: 2px solid white;
 
-        &.mcq-correct-icon, &.mcq-incorrect-icon {
-          color: @white;
-          background-color: @white;
+        &.mcq-correct-icon {
+          color: @validation-success;
+          background-color: @primary-color;
         }
 
-        //&.mcq-incorrect-icon {
-        //  color: @validation-error;
-        //  background-color: @white;
-        //}
+        &.mcq-incorrect-icon {
+          color: @validation-error;
+          background-color: #ff5740;
+        }
       }
     }
   }
