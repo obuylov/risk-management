@@ -39,7 +39,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -109,7 +109,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -179,7 +179,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -249,7 +249,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -319,7 +319,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -389,7 +389,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -459,7 +459,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -529,7 +529,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -599,7 +599,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -669,7 +669,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": true,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -739,7 +739,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -809,7 +809,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -879,7 +879,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -949,7 +949,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -1019,7 +1019,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -1089,7 +1089,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": true,
         "_canShowModelAnswer": false
@@ -1159,7 +1159,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -1229,7 +1229,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false
@@ -1299,7 +1299,7 @@
         "_randomisation": false
       },
       "_questions": {
-        "_resetType": "soft",
+        "_resetType": "hard",
         "_canShowFeedback": false,
         "_canShowMarking": false,
         "_canShowModelAnswer": false

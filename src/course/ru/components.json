@@ -183,7 +183,7 @@
     "instruction": "",
     "_attempts": -1,
     "_canShowModelAnswer": false,
-    "_canShowFeedback": false,
+    "_canShowFeedback": true,
     "_canShowMarking": false,
     "_shouldResetAllAnswers": true,
     "_shouldDisplayAttempts": false,
@@ -279,10 +279,10 @@
     ],
     "_feedback": {
       "title": "",
-      "correct": "Совершенно верно!",
+      "correct": "Совершенно верно! Идем дальше!",
       "_incorrect": {
-        "final": "Упражнение выполнено неверно, рекомендуем пройти его еще раз.",
-        "notFinal": "Упражнение выполнено неверно, рекомендуем пройти его еще раз."
+        "final": "Упражнение выполнено неверно. Рекомендуем пройти его еще раз.",
+        "notFinal": "Упражнение выполнено неверно. Рекомендуем пройти его еще раз."
       },
       "_partlyCorrect": {
         "final": "",
@@ -770,7 +770,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "Тест",
     "displayTitle": "",
     "body": "",
@@ -1532,7 +1532,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "Тест",
     "displayTitle": "",
     "body": "",
@@ -1902,7 +1902,7 @@
         "feedback": ""
       }
     ],
-    "_attempts": 1,
+    "_attempts": -1,
     "_canShowModelAnswer": true,
     "_canShowFeedback": true,
     "_canShowMarking": true,
@@ -1955,7 +1955,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "",
     "displayTitle": "",
     "body": "",
@@ -2581,7 +2581,7 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/ru/assets/case2-17.png",
+      "large": "course/ru/assets/case2-16.png",
       "small": "course/ru/assets/case2-17.png",
       "attribution": ""
     }
@@ -2643,7 +2643,7 @@
       {
         "text": "Для организации эффективного управления рисками, обеспечения комплексного многоуровневого контроля рисков",
         "_shouldBeSelected": true,
-        "feedback": "Совершенно верно!"
+        "feedback": "Совершенно верно! Идем дальше!"
       },
       {
         "text": "Для организации порядка работы сотрудников Банка при оценке рисков и доходности",
@@ -2656,7 +2656,7 @@
         "feedback": "<p>Вы ответили неверно!</p><p>Необходимо ответить коллеге, что «Концепция трех линий защиты от рисков» предназначена для организации эффективного управления рисками, обеспечения комплексного многоуровневого контроля рисков.</p>"
       }
     ],
-    "_attempts": 1,
+    "_attempts": -1,
     "_canShowModelAnswer": true,
     "_canShowFeedback": true,
     "_canShowMarking": true,
@@ -2667,7 +2667,7 @@
     "_selectable": 1,
     "_feedback": {
       "title": "Упражнение",
-      "correct": "Совершенно верно!",
+      "correct": "Совершенно верно! Идем дальше!",
       "_incorrect": {
         "final": "",
         "notFinal": ""
@@ -2904,8 +2904,8 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Соотнесите линии защиты и должность сотрудников",
-    "_attempts": 1,
+    "instruction": "Соотнесите линии защиты и должность сотрудников.",
+    "_attempts": -1,
     "_canShowModelAnswer": true,
     "_canShowFeedback": true,
     "_canShowMarking": true,
@@ -2970,7 +2970,7 @@
     ],
     "_feedback": {
       "title": "",
-      "correct": "Совершенно верно!",
+      "correct": "Совершенно верно! Идем дальше!",
       "_incorrect": {
         "final": "Упражнение выполнено неверно.",
         "notFinal": "Упражнение выполнено неверно."
@@ -3192,25 +3192,25 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_attempts": 1,
+    "_attempts": -1,
     "_questionWeight": 1,
-    "_isRandom": true,
+    "_isRandom": false,
     "_shouldDisplayAttempts": false,
     "_canShowModelAnswer": true,
-    "_canShowFeedback": false,
+    "_canShowFeedback": true,
     "_recordInteraction": true,
     "title": "Упражнение 3",
     "displayTitle": "",
     "body": "",
-    "instruction": "Соотнесите линию защиты и ее функцию",
+    "instruction": "Соотнесите линию защиты и ее функцию. Для этого последовательно кликайте на блоки из разных колонок",
     "_categoryTitle": "",
     "_optionTitle": "",
     "_defaultAnswerBGColor": "#C4C4C4",
     "_items": [
       {
-        "question": "<p>1-я линия защиты</p>",
-        "answer": "Принятие бизнес-решений с учетом оптимизации риска и доходности",
-        "questionBGColor": "#56DCDF"
+        "question": "<p>3-я линия защиты</p>",
+        "answer": "Оценка эффективности функционирования подразделений по работе с рисками",
+        "questionBGColor": "#0F7993"
       },
       {
         "question": "<p>2-я линия защиты</p>",
@@ -3218,9 +3218,9 @@
         "questionBGColor": "#3DAAB6"
       },
       {
-        "question": "<p>3-я линия защиты</p>",
-        "answer": "Оценка эффективности функционирования подразделений по работе с рисками",
-        "questionBGColor": "#0F7993"
+        "question": "<p>1-я линия защиты</p>",
+        "answer": "Принятие бизнес-решений с учетом оптимизации риска и доходности",
+        "questionBGColor": "#56DCDF"
       }
     ],
     "_feedback": {
@@ -3330,7 +3330,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "",
     "displayTitle": "",
     "body": "",
@@ -3355,7 +3355,7 @@
       },
       {
         "_score": 100,
-        "feedback": "<p>Совершенно верно!</p>",
+        "feedback": "<p>Совершенно верно! Идем дальше!</p>",
         "_allowRetry": false,
         "_classes": "high-score"
       }
@@ -3818,7 +3818,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "Тест",
     "displayTitle": "",
     "body": "",
@@ -4224,9 +4224,9 @@
         "feedback": ""
       }
     ],
-    "_attempts": 1,
+    "_attempts": -1,
     "_canShowModelAnswer": false,
-    "_canShowFeedback": false,
+    "_canShowFeedback": true,
     "_canShowMarking": false,
     "_shouldDisplayAttempts": false,
     "_isRandom": true,
@@ -4277,7 +4277,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "",
     "displayTitle": "",
     "body": "",
@@ -4587,9 +4587,9 @@
         "feedback": ""
       }
     ],
-    "_attempts": 1,
+    "_attempts": -1,
     "_canShowModelAnswer": false,
-    "_canShowFeedback": false,
+    "_canShowFeedback": true,
     "_canShowMarking": false,
     "_shouldDisplayAttempts": false,
     "_isRandom": true,
@@ -4640,7 +4640,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "",
     "displayTitle": "",
     "body": "",
@@ -5123,7 +5123,7 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_resetType": "hard",
+    "_resetType": "inherit",
     "title": "Тест",
     "displayTitle": "",
     "body": "",
