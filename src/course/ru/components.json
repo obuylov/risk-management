@@ -1902,7 +1902,7 @@
         "feedback": ""
       }
     ],
-    "_attempts": -1,
+    "_attempts": 1,
     "_canShowModelAnswer": true,
     "_canShowFeedback": true,
     "_canShowMarking": true,
@@ -3202,7 +3202,7 @@
     "title": "Упражнение 3",
     "displayTitle": "",
     "body": "",
-    "instruction": "Соотнесите линию защиты и ее функцию. Для этого последовательно кликайте на блоки из разных колонок",
+    "instruction": "Соотнесите линию защиты и ее функцию. Для этого последовательно кликайте на карточки из блока линий защиты и карточки функций. Соотнесенные блоки будут выделены одинаковым цветом.",
     "_categoryTitle": "",
     "_optionTitle": "",
     "_defaultAnswerBGColor": "#C4C4C4",
@@ -3322,44 +3322,6 @@
       "small": "course/ru/assets/case2-39.png",
       "attribution": ""
     }
-  },
-  {
-    "_component": "assessmentResults",
-    "_id": "praktika2-assessment",
-    "_parentId": "case2-block14",
-    "_type": "component",
-    "_classes": "",
-    "_layout": "full",
-    "_resetType": "inherit",
-    "title": "",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_isVisibleBeforeCompletion": true,
-    "_setCompletionOn": "pass",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "_assessmentId": "praktika2",
-    "_retry": {
-      "button": "Пройти заново",
-      "feedback": "<p>Пройдите кейс еще раз, стараясь не допускать ошибок.<p/>",
-      "_routeToAssessment": true
-    },
-    "_completionBody": "{{{feedback}}}",
-    "_bands": [
-      {
-        "_score": 0,
-        "feedback": "<p>К сожалению, Вы не справились!</p>",
-        "_allowRetry": true
-      },
-      {
-        "_score": 100,
-        "feedback": "<p>Совершенно верно! Идем дальше!</p>",
-        "_allowRetry": false,
-        "_classes": "high-score"
-      }
-    ]
   },
   {
     "_component": "mcq",
@@ -4224,7 +4186,7 @@
         "feedback": ""
       }
     ],
-    "_attempts": -1,
+    "_attempts": 1,
     "_canShowModelAnswer": false,
     "_canShowFeedback": true,
     "_canShowMarking": false,
@@ -4587,7 +4549,7 @@
         "feedback": ""
       }
     ],
-    "_attempts": -1,
+    "_attempts": 1,
     "_canShowModelAnswer": false,
     "_canShowFeedback": true,
     "_canShowMarking": false,

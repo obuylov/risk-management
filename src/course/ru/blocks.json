@@ -2141,7 +2141,7 @@
             "_isEnabled": true,
             "_autoScroll": true,
             "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
+            "_scrollTo": "@block +0",
             "_button": {
                 "_isEnabled": true,
                 "_styleBeforeCompletion": "hidden",
@@ -2166,58 +2166,13 @@
         "displayTitle": "",
         "body": "",
         "_classes": "block-padding",
-        "_trackingId": 70,
+        "_trackingId": 95,
         "instruction": "",
         "_isOptional": false,
         "_isAvailable": true,
         "_isHidden": false,
         "_isVisible": true,
         "_id": "case2-block13",
-        "_parentId": "case-2",
-        "_onScreen": {
-            "_isEnabled": false,
-            "_classes": "",
-            "_percentInviewVertical": 50
-        },
-        "_assessment": {
-            "_quizBankID": 1
-        },
-        "_trickle": {
-            "_isEnabled": true,
-            "_autoScroll": true,
-            "_scrollDuration": 500,
-            "_scrollTo": "@block +1",
-            "_button": {
-                "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
-                "_styleAfterClick": "visible",
-                "_isFullWidth": false,
-                "_autoHide": true,
-                "_className": "",
-                "text": "Далее",
-                "startText": "Begin",
-                "finalText": "Finish",
-                "_component": "trickle-button"
-            },
-            "_stepLocking": {
-                "_isEnabled": true,
-                "_isCompletionRequired": true,
-                "_isLockedOnRevisit": false
-            }
-        }
-    },
-    {
-        "title": "Концепция защиты от рисков | Кейс | Результаты",
-        "displayTitle": "",
-        "body": "",
-        "_classes": "",
-        "_trackingId": 89,
-        "instruction": "",
-        "_isOptional": false,
-        "_isAvailable": true,
-        "_isHidden": false,
-        "_isVisible": true,
-        "_id": "case2-block14",
         "_parentId": "case-2",
         "_type": "block",
         "_onScreen": {
@@ -2235,7 +2190,7 @@
             "_scrollTo": "@block +1",
             "_button": {
                 "_isEnabled": true,
-                "_styleBeforeCompletion": "hidden",
+                "_styleBeforeCompletion": "visible",
                 "_styleAfterClick": "hidden",
                 "_isFullWidth": false,
                 "_autoHide": true,
