@@ -3241,15 +3241,15 @@
         "ariaLabel": "Ответить"
       },
       "_reset": {
-        "buttonText": "Reset",
+        "buttonText": "Пройти ещё раз",
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
-        "buttonText": "Correct Answer",
+        "buttonText": "Показать правильный ответ",
         "ariaLabel": ""
       },
       "_hideCorrectAnswer": {
-        "buttonText": "My Answer",
+        "buttonText": "Показать мой ответ",
         "ariaLabel": ""
       },
       "_showFeedback": {
