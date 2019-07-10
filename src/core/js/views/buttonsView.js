@@ -1,7 +1,7 @@
 define([
     'core/js/adapt',
     'core/js/enums/buttonStateEnum'
-], function (Adapt, BUTTON_STATE) {
+], function(Adapt, BUTTON_STATE) {
 
     //convert BUTTON_STATE to property name
     var textPropertyName = {
@@ -16,7 +16,7 @@ define([
 
     var ButtonsView = Backbone.View.extend({
 
-        initialize: function (options) {
+        initialize: function(options) {
             this.parent = options.parent;
 
             this.listenTo(Adapt, 'remove', this.remove);
@@ -31,21 +31,21 @@ define([
             'click .buttons-feedback': 'onFeedbackClicked'
         },
 
-        render: function () {
+        render: function() {
             var data = this.model.toJSON();
             var template = Handlebars.templates['buttons'];
-            _.defer(_.bind(function () {
+            _.defer(_.bind(function() {
                 this.postRender();
                 Adapt.trigger('buttonsView:postRender', this);
             }, this));
             this.$el.html(template(data));
         },
 
-        postRender: function () {
+        postRender: function() {
             this.refresh();
         },
 
-        checkResetSubmittedState: function () {
+        checkResetSubmittedState: function() {
             var isSubmitted = this.model.get('_isSubmitted');
 
             if (!isSubmitted) {
@@ -65,17 +65,17 @@ define([
             }
         },
 
-        onActionClicked: function () {
+        onActionClicked: function() {
             var buttonState = this.model.get('_buttonState');
             this.trigger('buttons:stateUpdate', BUTTON_STATE(buttonState));
             this.checkResetSubmittedState();
         },
 
-        onFeedbackClicked: function () {
+        onFeedbackClicked: function() {
             this.trigger('buttons:stateUpdate', BUTTON_STATE.SHOW_FEEDBACK);
         },
 
-        onFeedbackMessageChanged: function (model, changedAttribute) {
+        onFeedbackMessageChanged: function(model, changedAttribute) {
             if (changedAttribute && this.model.get('_canShowFeedback')) {
                 //enable feedback button
                 this.$('.buttons-feedback').a11y_cntrl_enabled(true);
@@ -85,7 +85,7 @@ define([
             }
         },
 
-        onButtonStateChanged: function (model, changedAttribute) {
+        onButtonStateChanged: function(model, changedAttribute) {
 
             this.updateAttemptsCount();
 
@@ -118,7 +118,7 @@ define([
             }
         },
 
-        checkFeedbackState: function () {
+        checkFeedbackState: function(){
             var canShowFeedback = this.model.get('_canShowFeedback');
 
             this.$('.buttons-action').toggleClass('buttons-action-fullwidth buttons-action-enlarge', !canShowFeedback);
@@ -126,7 +126,7 @@ define([
             this.$('.buttons-marking-icon').toggleClass('no-feedback', !canShowFeedback);
         },
 
-        updateAttemptsCount: function (model, changedAttribute) {
+        updateAttemptsCount: function(model, changedAttribute) {
             var isInteractionComplete = this.model.get('_isInteractionComplete');
             var attemptsLeft = (this.model.get('_attemptsLeft')) ? this.model.get('_attemptsLeft') : this.model.get('_attempts');
             var isCorrect = this.model.get('_isCorrect');
@@ -139,7 +139,7 @@ define([
                 attemptsString = attemptsLeft + " ";
                 if (attemptsLeft > 1) {
                     attemptsString += this.model.get('_buttons').remainingAttemptsText;
-                } else if (attemptsLeft === 1) {
+                } else if (attemptsLeft === 1){
                     attemptsString += this.model.get('_buttons').remainingAttemptText;
                 }
 
@@ -154,7 +154,7 @@ define([
 
         },
 
-        showMarking: function () {
+        showMarking: function() {
             if (!this.model.get('_canShowMarking')) return;
 
             var isCorrect = this.model.get('_isCorrect');
@@ -166,7 +166,7 @@ define([
                 .attr('aria-label', isCorrect ? ariaLabels.answeredCorrectly : ariaLabels.answeredIncorrectly);
         },
 
-        refresh: function () {
+        refresh: function() {
             this.updateAttemptsCount();
             this.checkResetSubmittedState();
             this.checkFeedbackState();

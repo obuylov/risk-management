@@ -1,14 +1,14 @@
 define([
     'core/js/models/lockingModel',
     'core/js/wait'
-], function (lockingModel, Wait) {
+], function(lockingModel, Wait) {
 
     var AdaptModel = Backbone.Model.extend({
 
         defaults: {
             _canScroll: true, //to stop scrollTo behaviour,
             _outstandingCompletionChecks: 0,
-            _pluginWaitCount: 0,
+            _pluginWaitCount:0,
             _isStarted: false
         },
 
@@ -21,23 +21,23 @@ define([
         },
 
         //call when entering an asynchronous completion check
-        checkingCompletion: function () {
+        checkingCompletion: function() {
             var outstandingChecks = this.get("_outstandingCompletionChecks");
             this.set("_outstandingCompletionChecks", ++outstandingChecks);
         },
 
         //call when exiting an asynchronous completion check
-        checkedCompletion: function () {
+        checkedCompletion: function() {
             var outstandingChecks = this.get("_outstandingCompletionChecks");
             this.set("_outstandingCompletionChecks", --outstandingChecks);
         },
 
         //wait until there are no outstanding completion checks
-        deferUntilCompletionChecked: function (callback) {
+        deferUntilCompletionChecked: function(callback) {
 
             if (this.get("_outstandingCompletionChecks") === 0) return callback();
 
-            var checkIfAnyChecksOutstanding = function (model, outstandingChecks) {
+            var checkIfAnyChecksOutstanding = function(model, outstandingChecks) {
                 if (outstandingChecks !== 0) return;
 
                 Adapt.off("change:_outstandingCompletionChecks", checkIfAnyChecksOutstanding);
@@ -49,7 +49,7 @@ define([
 
         },
 
-        setupWait: function () {
+        setupWait: function() {
 
             this.wait = new Wait();
 
@@ -59,12 +59,12 @@ define([
                 this.wait.begin();
             }.bind(this);
 
-            var endWait = function () {
+            var endWait = function() {
                 Adapt.log.warn("DEPRECATED - Use Adapt.wait.end() as Adapt.trigger('plugin:endWait') may be removed in the future");
                 this.wait.end();
             }.bind(this);
 
-            var ready = function () {
+            var ready = function() {
 
                 if (this.wait.isWaiting()) {
                     return;
@@ -88,12 +88,12 @@ define([
 
         },
 
-        isWaitingForPlugins: function () {
+        isWaitingForPlugins:function() {
             Adapt.log.warn("DEPRECATED - Use Adapt.wait.isWaiting() as Adapt.isWaitingForPlugins() may be removed in the future");
             return this.wait.isWaiting();
         },
 
-        checkPluginsReady: function () {
+        checkPluginsReady:function() {
             Adapt.log.warn("DEPRECATED - Use Adapt.wait.isWaiting() as Adapt.checkPluginsReady() may be removed in the future");
             if (this.isWaitingForPlugins()) {
                 return;
@@ -111,10 +111,10 @@ define([
 
     Adapt.loadScript = window.__loadScript;
 
-    Adapt.initialize = function () {
+    Adapt.initialize = function() {
 
         //wait until no more completion checking
-        Adapt.deferUntilCompletionChecked(function () {
+        Adapt.deferUntilCompletionChecked(function() {
 
             //start adapt in a full restored state
             Adapt.trigger('adapt:start');
@@ -131,7 +131,7 @@ define([
 
     };
 
-    Adapt.navigateToElement = function (selector, settings) {
+    Adapt.navigateToElement = function(selector, settings) {
         // Allows a selector to be passed in and Adapt will navigate to this element
 
         // Setup settings object
@@ -145,37 +145,37 @@ define([
 
         // If current page - scrollTo element
         if (currentPage.get('_id') === Adapt.location._currentId) {
-            return Adapt.scrollTo(selector, settings);
+           return Adapt.scrollTo(selector, settings);
         }
 
         // If the element is on another page navigate and wait until pageView:ready is fired
         // Then scrollTo element
-        Adapt.once('pageView:ready', function () {
-            _.defer(function () {
+        Adapt.once('pageView:ready', function() {
+            _.defer(function() {
                 Adapt.router.set("_shouldNavigateFocus", true);
                 Adapt.scrollTo(selector, settings);
             });
         });
 
         var shouldReplaceRoute = settings.replace || false;
-
+        
         Adapt.router.set("_shouldNavigateFocus", false);
         Backbone.history.navigate('#/id/' + currentPage.get('_id'), {trigger: true, replace: shouldReplaceRoute});
     };
 
-    Adapt.register = function (name, object) {
+    Adapt.register = function(name, object) {
         // Used to register components
         // Store the component view
         if (Adapt.componentStore[name]) {
             throw Error('The component "' + name + '" already exists in your project');
         }
-
+        
         if (object.view) {
             //use view+model object
-            if (!object.view.template) object.view.template = name;
+            if(!object.view.template) object.view.template = name;
         } else {
             //use view object
-            if (!object.template) object.template = name;
+            if(!object.template) object.template = name;
         }
 
         Adapt.componentStore[name] = object;
@@ -183,7 +183,7 @@ define([
         return object;
     };
 
-    Adapt.getViewClass = function (name) {
+    Adapt.getViewClass = function(name) {
         var object = Adapt.componentStore[name];
         if (!object) {
             throw Error('The component "' + name + '" doesn\'t exist in your project');
@@ -192,7 +192,7 @@ define([
     };
 
     // Used to map ids to collections
-    Adapt.setupMapping = function () {
+    Adapt.setupMapping = function() {
         // Clear any existing mappings.
         Adapt.mappedIds = {};
 
@@ -214,12 +214,12 @@ define([
 
     };
 
-    Adapt.mapById = function (id) {
+    Adapt.mapById = function(id) {
         // Returns collection name that contains this models Id
         return Adapt.mappedIds[id];
     };
 
-    Adapt.findById = function (id) {
+    Adapt.findById = function(id) {
 
         // Return a model
         // Checks if the Id passed in is the course Id
@@ -238,7 +238,7 @@ define([
 
     };
 
-    Adapt.findViewByModelId = function (id) {
+    Adapt.findViewByModelId = function(id) {
         var model = Adapt.findById(id);
         if (!model) {
             return;
@@ -248,7 +248,7 @@ define([
 
         var idPathToView = [id];
         var currentLocationId = Adapt.location._currentId;
-        var currentLocationModel = _.find(model.getAncestorModels(), function (model) {
+        var currentLocationModel = _.find(model.getAncestorModels(), function(model) {
             var modelId = model.get('_id');
             if (modelId === currentLocationId) return true;
             idPathToView.unshift(modelId);
@@ -258,7 +258,7 @@ define([
             return console.warn('Adapt.findViewByModelId() unable to find view for model id: ' + id);
         }
 
-        var foundView = _.reduce(idPathToView, function (view, currentId) {
+        var foundView = _.reduce(idPathToView, function(view, currentId) {
             return view && view.childViews && view.childViews[currentId];
         }, Adapt.parentView);
 
@@ -274,7 +274,7 @@ define([
     //       offset: 1
     // }
     // Trickle uses this function to determine where it should scrollTo after it unlocks
-    Adapt.parseRelativeString = function (relativeString) {
+    Adapt.parseRelativeString = function(relativeString) {
 
         if (relativeString[0] === "@") {
             relativeString = relativeString.substr(1);
@@ -287,7 +287,7 @@ define([
         }
         type = type[0];
 
-        var offset = parseInt(relativeString.substr(type.length).trim() || 0);
+        var offset = parseInt(relativeString.substr(type.length).trim()||0);
         if (isNaN(offset)) {
             Adapt.log.error("Adapt.parseRelativeString() could not parse relative offset", relativeString);
             return;
@@ -300,10 +300,10 @@ define([
 
     };
 
-    Adapt.remove = function () {
+    Adapt.remove = function() {
         Adapt.trigger('preRemove');
         Adapt.trigger('remove');
-        _.defer(function () {
+        _.defer(function() {
             Adapt.trigger('postRemove');
         });
     };

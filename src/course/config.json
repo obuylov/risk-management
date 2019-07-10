@@ -63,6 +63,13 @@
   "_trickle": {
     "_completionAttribute": "_isComplete"
   },
+  "_iosscrollfix": {
+    "_isEnabled": true,
+    "_onHTMLClasses": ".ios, .os-ios",
+    "_isReflowFixEnabled": true,
+    "_isIFrameFixEnabled": true,
+    "_iFrameFixHeightTrim": 0
+  },
   "_accessibility": {
     "accessibilityToggleTextOn": "Turn accessibility on?",
     "accessibilityToggleTextOff": "Turn accessibility off?",

@@ -1,6 +1,6 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
+], function(Adapt) {
 
     //Basic API for setting and getting name+value pairs
     //Allows registration of a single handler.
@@ -18,7 +18,7 @@ define([
          * set .ready to false if an offlineStorage handler is being attached - we'll need to wait until the handler lets us know
          * it's ready before we can safely use offlineStorage
          */
-        initialize: function (handler) {
+        initialize: function(handler) {
             if (!handler) {
                 return;
             }
@@ -31,11 +31,11 @@ define([
          * Flag to indicate if an offlineStorage handler has been defined.
          * @returns {boolean} true if an offlineStorage handler has been defined, false otherwise
          */
-        hasHandler: function () {
+        hasHandler: function() {
             return this._handler !== undefined;
         },
 
-        set: function (name, value) {
+        set: function(name, value) {
             if (this._handler && this._handler.set) {
                 return this._handler.set.apply(this._handler, arguments);
             }
@@ -43,7 +43,7 @@ define([
             this[name] = value;
         },
 
-        get: function (name) {
+        get: function(name) {
             if (this._handler && this._handler.get) {
                 return this._handler.get.apply(this._handler, arguments);
             }
@@ -54,7 +54,7 @@ define([
         /**
          * Some forms of offlineStorage could take time to initialise, this allows us to let plugins know when it's ready to be used
          */
-        setReadyStatus: function () {
+        setReadyStatus: function() {
             this.ready = true;
             Adapt.trigger("offlineStorage:ready");
         }

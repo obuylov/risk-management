@@ -1,7 +1,7 @@
 define([
     'core/js/adapt',
     'bowser'
-], function (Adapt, Bowser) {
+], function(Adapt, Bowser) {
 
     var $html = $('html');
     var $window = $(window);
@@ -32,11 +32,11 @@ define([
         }
     });
 
-    Adapt.once('app:dataReady', function () {
+    Adapt.once('app:dataReady', function() {
         Adapt.device.screenSize = checkScreenSize();
 
         $html.addClass('size-' + Adapt.device.screenSize);
-
+        
         if (Adapt.device.orientation) {
             $html.addClass('orientation-' + Adapt.device.orientation);
         }
@@ -47,7 +47,7 @@ define([
 
     /**
      * Compares the calculated screen width to the breakpoints defined in config.json.
-     *
+     * 
      * @returns {string} 'large', 'medium' or 'small'
      */
     function checkScreenSize() {

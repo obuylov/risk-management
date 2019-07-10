@@ -1,7 +1,7 @@
 'use strict';
 // jquery.resize 2017-11-28 https://github.com/adaptlearning/jquery.resize
 
-(function () {
+(function() {
 
     // skip if library is already handling resize events
     if ($.event.special.resize) return;
@@ -13,7 +13,7 @@
 
         index: 0,
 
-        check: function (element) {
+        check: function(element) {
             // check that the element has a valid jquery expando property, or make one
 
             var hasExpando = (element[$.expando]);
@@ -23,7 +23,7 @@
 
         },
 
-        make: function (element, data) {
+        make: function(element, data) {
             // make a unique event id from the element's expando property and the event handler guid
 
             expando.check(element);
@@ -39,7 +39,7 @@
         registered: [],
         shouldReProcess: true,
 
-        register: function (element, data) {
+        register: function(element, data) {
 
             var $element = $(element);
             handlers.registered.push({
@@ -52,21 +52,21 @@
 
         },
 
-        unregister: function (element, data) {
+        unregister: function(element, data) {
 
             var registered = handlers.registered;
 
             var findId = expando.make(element, data);
-            for (var i = registered.length - 1, l = -1; i > l; i--) {
+            for (var i = registered.length-1, l = -1; i > l; i--) {
                 var item = registered[i]
                 if (item.id != findId) continue;
-                registered.splice(i, 1);
+                registered.splice(i,1);
                 handlers.shouldReProcess = true;
             }
 
         },
 
-        process: function () {
+        process: function() {
 
             var registered = handlers.registered;
             var registeredCount;
@@ -76,7 +76,7 @@
                 handlers.shouldReProcess = false;
 
                 registeredCount = registered.length;
-                if (registeredCount == 0) return;
+                if  (registeredCount == 0) return;
 
                 for (var i = 0; i < registeredCount; i++) {
                     var item = registered[i];
@@ -122,14 +122,14 @@
         intervalDuration: 100,
         hasRaf: false,
 
-        start: function () {
+        start: function() {
 
             loop.lastStartEvent = (new Date()).getTime();
             loop.repeat();
 
         },
 
-        force: function () {
+        force: function() {
 
             loop.lastStartEvent = (new Date()).getTime();
             loop.main(true);
@@ -137,7 +137,7 @@
 
         },
 
-        repeat: function () {
+        repeat: function() {
 
             loop.stop();
 
@@ -149,7 +149,7 @@
 
         },
 
-        hasExpired: function () {
+        hasExpired: function() {
 
             var timeSinceLast = (new Date()).getTime() - loop.lastStartEvent;
             if (timeSinceLast < 1500) return;
@@ -160,13 +160,13 @@
 
         lastMain: (new Date()).getTime(),
 
-        isThrottled: function () {
+        isThrottled: function() {
             var passedTime = (new Date()).getTime() - loop.lastMain;
             if (passedTime > loop.intervalDuration) return false;
             return true;
         },
 
-        main: function (force) {
+        main: function(force) {
 
             if (!force && loop.isThrottled()) {
                 loop.repeat();
@@ -198,7 +198,7 @@
 
         },
 
-        stop: function () {
+        stop: function() {
 
             var intervalAttached = (loop.timeoutHandle !== null);
             if (!intervalAttached) return;
@@ -222,13 +222,13 @@
 
             noBubble: true,
 
-            add: function (data) {
+            add: function(data) {
                 // allow window resize to be handled by browser
                 if (this === window) return;
                 handlers.register(this, data);
             },
 
-            remove: function (data) {
+            remove: function(data) {
                 // allow window resize to be handled by browser
                 if (this === window) return;
                 handlers.unregister(this, data);
@@ -240,20 +240,20 @@
 
     var measurements = {
 
-        featureDetect: function () {
+        featureDetect: function() {
 
             loop.hasRaf = (window.requestAnimationFrame && window.cancelAnimationFrame);
 
         },
 
-        get: function ($element) {
+        get: function($element) {
 
             var element = $element[0];
             var height = element.clientHeight;
             var width = element.clientWidth;
 
             return {
-                uniqueMeasurementId: height + "," + width
+                uniqueMeasurementId: height+","+width
             };
 
         }

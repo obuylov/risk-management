@@ -1,24 +1,24 @@
 define([
     'core/js/adapt',
     'core/js/views/adaptView'
-], function (Adapt, AdaptView) {
+], function(Adapt, AdaptView) {
 
     var ComponentView = AdaptView.extend({
 
-        attributes: function () {
+        attributes: function() {
             if (!this.model.get("_isA11yRegionEnabled")) {
                 return AdaptView.resultExtend('attributes', {}, this);
             }
             return AdaptView.resultExtend('attributes', {
-                "aria-labelledby": this.model.get('_id') + "-heading",
+                "aria-labelledby": this.model.get('_id')+"-heading",
                 "role": "region"
             }, this);
         },
 
-        className: function () {
+        className: function() {
             return [
                 'component',
-                this.model.get('_component') + '-component',
+                this.model.get('_component') +'-component',
                 this.model.get('_id'),
                 this.model.get('_classes'),
                 this.setVisibility(),
@@ -29,7 +29,7 @@ define([
             ].join(' ');
         },
 
-        renderState: function () {
+        renderState: function() {
             Adapt.log.warn("REMOVED - renderState is removed and moved to item title");
         },
 
@@ -41,20 +41,20 @@ define([
          * you want to perform additional checks before setting the component to completed - see adapt-contrib-assessmentResults
          * for an example. Defaults to `view.setCompletionStatus` if not specified.
          */
-        setupInviewCompletion: function (inviewElementSelector, callback) {
+        setupInviewCompletion: function(inviewElementSelector, callback) {
             this.$inviewElement = this.$(inviewElementSelector || '.component-inner');
             this.inviewCallback = (callback || this.setCompletionStatus);
 
             this.$inviewElement.on('inview.componentView', this.onInview.bind(this));
         },
 
-        removeInviewListener: function () {
+        removeInviewListener: function() {
             if (!this.$inviewElement) return;
             this.$inviewElement.off('inview.componentView');
             this.$inviewElement = null;
         },
 
-        onInview: function (event, visible, visiblePartX, visiblePartY) {
+        onInview: function(event, visible, visiblePartX, visiblePartY) {
             if (!visible) return;
 
             switch (visiblePartY) {
@@ -77,17 +77,16 @@ define([
             }
         },
 
-        postRender: function () {
-        },
+        postRender: function() {},
 
-        remove: function () {
+        remove: function() {
             this.removeInviewListener();
 
             AdaptView.prototype.remove.call(this);
         }
 
     }, {
-        type: 'component'
+        type:'component'
     });
 
     return ComponentView;

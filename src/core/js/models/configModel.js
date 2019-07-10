@@ -15,16 +15,16 @@ define([
             _disableAnimation: false
         },
 
-        initialize: function (attrs, options) {
+        initialize: function(attrs, options) {
             this.url = options.url;
             // Fetch data & if successful trigger event to enable plugins to stop course files loading
             // Then check if course files can load
             // 'configModel:loadCourseData' event starts the core content collections and models being fetched
             this.fetch({
-                success: function () {
+                success: function() {
                     Adapt.trigger('offlineStorage:prepare');
 
-                    Adapt.wait.queue(function () {
+                    Adapt.wait.queue(function() {
 
                         Adapt.trigger('configModel:dataLoaded');
 
@@ -32,7 +32,7 @@ define([
                             Adapt.trigger('configModel:loadCourseData');
                         }
 
-                        if (this.get('_defaultDirection') === 'rtl') {
+                        if (this.get('_defaultDirection') === 'rtl'){
                             // We're going to use rtl style
                             $('html').addClass('dir-rtl');
                         }
@@ -49,18 +49,18 @@ define([
                         }
                     }.bind(this));
                 }.bind(this),
-                error: function () {
+                error: function() {
                     console.log('Unable to load course/config.json');
                 }
             });
         },
 
-        loadData: function () {
+        loadData: function() {
 
         }
 
     });
 
-    return ConfigModel;
+   return ConfigModel;
 
 });

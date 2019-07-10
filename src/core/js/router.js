@@ -3,23 +3,23 @@ define([
     'core/js/models/routerModel',
     'core/js/views/pageView',
     'core/js/startController'
-], function (Adapt, RouterModel, PageView) {
+], function(Adapt, RouterModel, PageView) {
 
-    Adapt.router = new RouterModel(null, {reset: true});
+    Adapt.router = new RouterModel(null, { reset: true });
 
     var Router = Backbone.Router.extend({
 
         // Flag to indicate if the router has tried to redirect to the current location.
         _isCircularNavigationInProgress: false,
 
-        initialize: function () {
+        initialize: function() {
             this.showLoading();
 
             // Store #wrapper element and html to cache for later use.
             this.$wrapper = $('#wrapper');
             this.$html = $('html');
 
-            Adapt.once('app:dataReady', function () {
+            Adapt.once('app:dataReady', function() {
                 document.title = Adapt.course.get('title');
             });
 
@@ -38,7 +38,7 @@ define([
             ':pluginName(/*location)(/*action)': 'handleRoute'
         },
 
-        pruneArguments: function (args) {
+        pruneArguments: function(args) {
             var prunedArgs = _.toArray(args);
 
             if (prunedArgs.length !== 0) {
@@ -49,9 +49,9 @@ define([
             return prunedArgs;
         },
 
-        handleRoute: function () {
+        handleRoute: function() {
             var args = this.pruneArguments(arguments);
-
+            
             if (Adapt.router.get('_canNavigate')) {
                 // Reset _isCircularNavigationInProgress protection as code is allowed to navigate away.
                 this._isCircularNavigationInProgress = false;
@@ -67,7 +67,7 @@ define([
             // Re-check as _canNavigate can be set to false on 'router:navigate' event.
             if (Adapt.router.get('_canNavigate')) {
                 // Disable navigation whilst rendering.
-                Adapt.router.set('_canNavigate', false, {pluginName: 'adapt'});
+                Adapt.router.set('_canNavigate', false, { pluginName: 'adapt' });
 
                 switch (args.length) {
                     case 1:
@@ -98,26 +98,26 @@ define([
             this.navigateToCurrentRoute(true);
         },
 
-        handlePluginRouter: function (pluginName, location, action) {
+        handlePluginRouter: function(pluginName, location, action) {
             var pluginLocation = pluginName;
 
             if (location) {
-                pluginLocation = pluginLocation + '-' + location;
+                pluginLocation = pluginLocation + '-' +location;
 
                 if (action) {
                     pluginLocation = pluginLocation + '-' + action;
                 }
             }
 
-            this.updateLocation(pluginLocation, null, null, function () {
+            this.updateLocation(pluginLocation, null, null, function() {
                 Adapt.trigger('router:plugin:' + pluginName, pluginName, location, action);
                 Adapt.trigger('router:plugin', pluginName, location, action);
 
-                Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
+                Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
             });
         },
 
-        handleCourse: function () {
+        handleCourse: function() {
             if (Adapt.course.has('_start')) {
                 // Do not allow access to the menu when the start controller is enabled.
                 var startController = Adapt.course.get('_start');
@@ -129,15 +129,15 @@ define([
 
             this.showLoading();
 
-            this.removeViews(_.bind(function () {
+            this.removeViews(_.bind(function() {
                 Adapt.course.set('_isReady', false);
 
                 this.setContentObjectToVisited(Adapt.course);
-
-                this.updateLocation('course', null, null, _.bind(function () {
-                    Adapt.once('menuView:ready', function () {
+                
+                this.updateLocation('course', null, null, _.bind(function() {
+                    Adapt.once('menuView:ready', function() {
                         // Allow navigation.
-                        Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
+                        Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
                         this.handleNavigationFocus();
                     }.bind(this));
 
@@ -146,12 +146,12 @@ define([
             }, this));
         },
 
-        handleId: function (id) {
+        handleId: function(id) {
             var currentModel = Adapt.findById(id);
             var type = '';
 
             if (!currentModel) {
-                Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
+                Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
                 return;
             }
 
@@ -164,33 +164,33 @@ define([
                         Adapt.log.warn('Unable to navigate to locked id: ' + id);
                         Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
                         if (Adapt.location._previousId === undefined) {
-                            return this.navigate('#/', {trigger: true, replace: true});
+                            return this.navigate('#/', { trigger: true, replace: true });
                         } else {
                             return Backbone.history.history.back();
                         }
                     } else {
                         this.showLoading();
-                        this.removeViews(_.bind(function () {
+                        this.removeViews(_.bind(function() {
 
                             this.setContentObjectToVisited(currentModel);
 
                             if (type == 'page') {
                                 var location = 'page-' + id;
-                                this.updateLocation(location, 'page', id, _.bind(function () {
-                                    Adapt.once('pageView:ready', function () {
+                                this.updateLocation(location, 'page', id, _.bind(function() {
+                                    Adapt.once('pageView:ready', function() {
                                         // Allow navigation.
-                                        Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
+                                        Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
                                         this.handleNavigationFocus();
                                     }.bind(this));
                                     Adapt.trigger('router:page', currentModel);
-                                    this.$wrapper.append(new PageView({model: currentModel}).$el);
+                                    this.$wrapper.append(new PageView({ model: currentModel }).$el);
                                 }, this));
                             } else {
                                 var location = 'menu-' + id;
-                                this.updateLocation(location, 'menu', id, _.bind(function () {
-                                    Adapt.once('menuView:ready', function () {
+                                this.updateLocation(location, 'menu', id, _.bind(function() {
+                                    Adapt.once('menuView:ready', function() {
                                         // Allow navigation.
-                                        Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
+                                        Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
                                         this.handleNavigationFocus();
                                     }.bind(this));
                                     Adapt.trigger('router:menu', currentModel);
@@ -201,25 +201,25 @@ define([
                     break;
                 default:
                     // Allow navigation.
-                    Adapt.router.set('_canNavigate', true, {pluginName: 'adapt'});
-                    Adapt.navigateToElement('.' + id, {replace: true});
+                    Adapt.router.set('_canNavigate', true, { pluginName: 'adapt' });
+                    Adapt.navigateToElement('.' + id, { replace: true });
             }
         },
 
-        removeViews: function (onComplete) {
+        removeViews: function(onComplete) {
             Adapt.remove();
 
             Adapt.wait.queue(onComplete);
         },
 
-        showLoading: function () {
+        showLoading: function() {
             $('.loading').show();
         },
 
-        navigateToArguments: function (args) {
+        navigateToArguments: function(args) {
             args = this.pruneArguments(args);
 
-            var options = {trigger: false, replace: false};
+            var options = { trigger: false, replace: false };
 
             switch (args.length) {
                 case 0:
@@ -243,11 +243,11 @@ define([
             }
         },
 
-        skipNavigation: function () {
-            $('.' + Adapt.location._contentType).a11y_focus();
+        skipNavigation: function() {
+             $('.' + Adapt.location._contentType).a11y_focus();
         },
 
-        navigateToPreviousRoute: function (force) {
+        navigateToPreviousRoute: function(force) {
             // Sometimes a plugin might want to stop the default navigation.
             // Check whether default navigation has changed.
             if (Adapt.router.get('_canNavigate') || force) {
@@ -267,36 +267,36 @@ define([
             }
         },
 
-        navigateToHomeRoute: function (force) {
-            if (Adapt.router.get('_canNavigate') || force) {
-                this.navigate('#/', {trigger: true});
+        navigateToHomeRoute: function(force) {
+            if (Adapt.router.get('_canNavigate') || force ) {
+                this.navigate('#/', { trigger: true });
             }
         },
 
-        navigateToCurrentRoute: function (force) {
+        navigateToCurrentRoute: function(force) {
             if (Adapt.router.get('_canNavigate') || force) {
                 if (!Adapt.location._currentId) {
                     return;
                 }
                 var currentId = Adapt.location._currentId;
                 var route = (currentId === Adapt.course.get('_id')) ? '#/' : '#/id/' + currentId;
-                this.navigate(route, {trigger: true, replace: true});
+                this.navigate(route, { trigger: true, replace: true });
             }
         },
 
-        navigateToParent: function (force) {
+        navigateToParent: function(force) {
             if (Adapt.router.get('_canNavigate') || force) {
-                var parentId = Adapt.contentObjects.findWhere({_id: Adapt.location._currentId}).get('_parentId');
+                var parentId = Adapt.contentObjects.findWhere({ _id: Adapt.location._currentId }).get('_parentId');
                 var route = (parentId === Adapt.course.get('_id')) ? '#/' : '#/id/' + parentId;
-                this.navigate(route, {trigger: true});
+                this.navigate(route, { trigger: true });
             }
         },
 
-        setContentObjectToVisited: function (model) {
+        setContentObjectToVisited: function(model) {
             model.set('_isVisited', true);
         },
 
-        updateLocation: function (currentLocation, type, id, onComplete) {
+        updateLocation: function(currentLocation, type, id, onComplete) {
             // Handles updating the location.
             Adapt.location._previousId = Adapt.location._currentId;
             Adapt.location._previousContentType = Adapt.location._contentType;
@@ -322,42 +322,42 @@ define([
             }
 
             Adapt.location._currentLocation = currentLocation;
-
+            
             var locationModel = Adapt.findById(id) || Adapt.course;
             var htmlClassName = locationModel && locationModel.get('_htmlClassName') || '';
 
             var classes = (Adapt.location._currentId) ? 'location-'
-                + Adapt.location._contentType
-                + ' location-id-'
-                + Adapt.location._currentId :
-                'location-' + Adapt.location._currentLocation;
+                    + Adapt.location._contentType
+                    + ' location-id-'
+                    + Adapt.location._currentId :
+                    'location-' + Adapt.location._currentLocation;
 
             var previousClasses = Adapt.location._previousClasses;
             if (previousClasses) {
                 this.$html.removeClass(previousClasses);
             }
-
+            
             Adapt.location._previousClasses = classes + ' ' + htmlClassName;
-
+            
             this.$html
                 .addClass(classes)
                 .addClass(htmlClassName)
                 .attr('data-location', Adapt.location._currentLocation);
-
+                
             this.$wrapper
                 .removeClass()
                 .addClass(classes)
                 .attr('data-location', Adapt.location._currentLocation);
 
             this.setDocumentTitle();
-
+            
             // Trigger event when location changes.
             Adapt.trigger('router:location', Adapt.location);
 
             Adapt.wait.queue(onComplete);
         },
 
-        setDocumentTitle: function () {
+        setDocumentTitle: function() {
             if (!Adapt.location._currentId) return;
 
             var currentModel = Adapt.findById(Adapt.location._currentId);
@@ -365,7 +365,7 @@ define([
 
             if (currentModel && currentModel.get('_type') !== 'course') {
                 var currentTitle = currentModel.get('title');
-
+                
                 if (currentTitle) {
                     pageTitle = ' | ' + currentTitle;
                 }
@@ -374,12 +374,12 @@ define([
             var courseTitle = Adapt.course.get('title');
             var documentTitle = $('<div>' + courseTitle + pageTitle + '</div>').text();
 
-            Adapt.once('pageView:ready menuView:ready', function () {
+            Adapt.once('pageView:ready menuView:ready', function() {
                 document.title = documentTitle;
             });
         },
 
-        handleNavigationFocus: function () {
+        handleNavigationFocus: function() {
             if (!Adapt.router.get("_shouldNavigateFocus")) return;
             // Body will be forced to accept focus to start the
             // screen reader reading the page.
@@ -387,6 +387,6 @@ define([
         }
     });
 
-    return new Router({model: new Backbone.Model()});
+    return new Router({ model: new Backbone.Model() });
 
 });

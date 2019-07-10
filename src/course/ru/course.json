@@ -185,6 +185,9 @@
         "browserPromptIfIncomplete": "",
         "browserPromptIfComplete": ""
     },
+    "_keepScrollPosition": {
+        "_isEnabled": true
+    },
     "_drawerPageNavigation": {
         "_isEnabled": true,
         "title": "Содержание",

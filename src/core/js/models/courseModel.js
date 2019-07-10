@@ -5,7 +5,7 @@ define([
 
     var CourseModel = AdaptModel.extend({
 
-        initialize: function (attrs, options) {
+        initialize: function(attrs, options) {
             AdaptModel.prototype.initialize.apply(this, arguments);
             Adapt.trigger('courseModel:dataLoading');
 
@@ -14,14 +14,14 @@ define([
             this.on('sync', this.loadedData, this);
             if (this.url) {
                 this.fetch({
-                    error: _.bind(function (model, xhr, options) {
+                    error: _.bind(function(model, xhr, options) {
                         console.error("ERROR: unable to load file " + this.url);
                     }, this)
                 });
             }
         },
 
-        loadedData: function () {
+        loadedData: function() {
             Adapt.trigger('courseModel:dataLoaded');
         },
 

@@ -1,8 +1,8 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
+], function(Adapt) {
 
-    Adapt.on('popup:opened', function ($element) {
+    Adapt.on('popup:opened', function($element) {
 
         //capture currently active element or element specified
         var $activeElement = $element || $(document.activeElement);
@@ -11,7 +11,7 @@ define([
         $activeElement.a11y_popup();
     });
 
-    Adapt.on('popup:closed', function ($target) {
+    Adapt.on('popup:closed', function($target) {
 
         //restore tab indexes
         var $launchedElement = $.a11y_popdown();

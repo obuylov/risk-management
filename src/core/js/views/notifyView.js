@@ -1,10 +1,10 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
+], function(Adapt) {
 
     var NotifyView = Backbone.View.extend({
 
-        className: function () {
+        className: function() {
             var classes = 'notify ';
             classes += (this.model.get('_classes') || '');
             return classes;
@@ -20,7 +20,7 @@ define([
         isOpen: false,
         hasOpened: false,
 
-        initialize: function () {
+        initialize: function() {
             this.disableAnimation = Adapt.config.has('_disableAnimation') ? Adapt.config.get('_disableAnimation') : false;
 
             this.setupEventListeners();
@@ -28,7 +28,7 @@ define([
             this.render();
         },
 
-        setupEventListeners: function () {
+        setupEventListeners: function() {
             this.listenTo(Adapt, {
                 'remove page:scrollTo': this.closeNotify,
                 'notify:resize': this.resetNotifySize,
@@ -41,11 +41,11 @@ define([
             this.setupEscapeKey();
         },
 
-        setupEscapeKey: function () {
+        setupEscapeKey: function() {
             $(window).on('keyup', this._onKeyUp);
         },
 
-        onKeyUp: function (event) {
+        onKeyUp: function(event) {
             if (event.which != 27) return;
             event.preventDefault();
 
@@ -53,13 +53,13 @@ define([
         },
 
         events: {
-            'click .notify-popup-alert-button': 'onAlertButtonClicked',
+            'click .notify-popup-alert-button':'onAlertButtonClicked',
             'click .notify-popup-prompt-button': 'onPromptButtonClicked',
             'click .notify-popup-done': 'onCloseButtonClicked',
             'click .notify-shadow': 'onShadowClicked'
         },
 
-        render: function () {
+        render: function() {
             var data = this.model.toJSON();
             var template = Handlebars.templates['notify'];
 
@@ -76,64 +76,64 @@ define([
             return this;
         },
 
-        onAlertButtonClicked: function (event) {
+        onAlertButtonClicked: function(event) {
             event.preventDefault();
             //tab index preservation, notify must close before subsequent callback is triggered
             this.closeNotify();
             Adapt.trigger(this.model.get('_callbackEvent'), this);
         },
 
-        onPromptButtonClicked: function (event) {
+        onPromptButtonClicked: function(event) {
             event.preventDefault();
             //tab index preservation, notify must close before subsequent callback is triggered
             this.closeNotify();
             Adapt.trigger($(event.currentTarget).attr('data-event'), this);
         },
 
-        onCloseButtonClicked: function (event) {
+        onCloseButtonClicked: function(event) {
             event.preventDefault();
             //tab index preservation, notify must close before subsequent callback is triggered
             this.cancelNotify();
         },
 
-        onShadowClicked: function (event) {
+        onShadowClicked: function(event) {
             event.preventDefault();
             if (this.model.get("_closeOnShadowClick") === false) return;
             this.cancelNotify();
         },
 
-        cancelNotify: function () {
+        cancelNotify: function() {
             if (this.model.get("_isCancellable") === false) return;
             //tab index preservation, notify must close before subsequent callback is triggered
             this.closeNotify();
             Adapt.trigger('notify:cancelled', this);
         },
 
-        resetNotifySize: function () {
+        resetNotifySize: function() {
             $('.notify-popup').removeAttr('style');
 
             this.resizeNotify();
         },
 
-        resizeNotify: function () {
+        resizeNotify: function() {
             var windowHeight = $(window).height();
             var notifyHeight = this.$('.notify-popup').outerHeight();
 
             if (notifyHeight > windowHeight) {
                 this.$('.notify-popup').css({
-                    'height': '100%',
-                    'top': 0,
+                    'height':'100%',
+                    'top':0,
                     'overflow-y': 'scroll',
                     '-webkit-overflow-scrolling': 'touch'
                 });
             } else {
                 this.$('.notify-popup').css({
-                    'margin-top': -(notifyHeight / 2)
+                    'margin-top': -(notifyHeight/2)
                 });
             }
         },
 
-        showNotify: function () {
+        showNotify: function() {
             this.isOpen = true;
             this.addSubView();
 
@@ -145,16 +145,14 @@ define([
             this.$el.imageready(this.onLoaded.bind(this));
         },
 
-        onLoaded: function () {
+        onLoaded: function() {
             if (this.disableAnimation) {
                 this.$('.notify-shadow').css('display', 'block');
             } else {
 
-                this.$('.notify-shadow').velocity({opacity: 0}, {duration: 0}).velocity({opacity: 1}, {
-                    duration: 400, begin: function () {
-                        this.$('.notify-shadow').css('display', 'block');
-                    }.bind(this)
-                });
+                this.$('.notify-shadow').velocity({ opacity: 0 }, { duration: 0 }).velocity({ opacity: 1 }, {duration: 400, begin: function() {
+                    this.$('.notify-shadow').css('display', 'block');
+                }.bind(this)});
 
             }
 
@@ -167,19 +165,17 @@ define([
 
             } else {
 
-                this.$('.notify-popup').velocity({opacity: 0}, {duration: 0}).velocity({opacity: 1}, {
-                    duration: 400, begin: function () {
-                        // Make sure to make the notify visible and then set
-                        // focus, disabled scroll and manage tabs
-                        this.$('.notify-popup').css('visibility', 'visible');
-                        this.onOpened();
-                    }.bind(this)
-                });
+                this.$('.notify-popup').velocity({ opacity: 0 }, { duration: 0 }).velocity({ opacity: 1 }, { duration: 400, begin: function() {
+                    // Make sure to make the notify visible and then set
+                    // focus, disabled scroll and manage tabs
+                    this.$('.notify-popup').css('visibility', 'visible');
+                    this.onOpened();
+                }.bind(this)});
 
             }
         },
 
-        onOpened: function () {
+        onOpened: function() {
             this.hasOpened = true;
             // Allows popup manager to control focus
             Adapt.trigger('popup:opened', this.$('.notify-popup'));
@@ -190,7 +186,7 @@ define([
             this.$('.notify-popup').a11y_focus(true);
         },
 
-        addSubView: function () {
+        addSubView: function() {
 
             this.subView = this.model.get("_view");
             if (!this.subView) return;
@@ -207,7 +203,7 @@ define([
             // If closeNotify is called before showNotify has finished then wait
             // until it's open.
             if (!this.hasOpened) {
-                this.listenToOnce(Adapt, 'popup:opened', function () {
+                this.listenToOnce(Adapt, 'popup:opened', function() {
                     // Wait for popup:opened to finish processing
                     _.defer(this.onCloseReady.bind(this));
                 });
@@ -216,7 +212,7 @@ define([
             }
         },
 
-        onCloseReady: function () {
+        onCloseReady: function() {
             if (this.disableAnimation) {
 
                 this.$('.notify-popup').css('visibility', 'hidden');
@@ -226,18 +222,14 @@ define([
 
             } else {
 
-                this.$('.notify-popup').velocity({opacity: 0}, {
-                    duration: 400, complete: function () {
-                        this.$('.notify-popup').css('visibility', 'hidden');
-                    }.bind(this)
-                });
+                this.$('.notify-popup').velocity({ opacity: 0 }, {duration: 400, complete: function() {
+                    this.$('.notify-popup').css('visibility', 'hidden');
+                }.bind(this)});
 
-                this.$('.notify-shadow').velocity({opacity: 0}, {
-                    duration: 400, complete: function () {
-                        this.$el.css('visibility', 'hidden');
-                        this.remove();
-                    }.bind(this)
-                });
+                this.$('.notify-shadow').velocity({ opacity: 0 }, {duration: 400, complete:function() {
+                    this.$el.css('visibility', 'hidden');
+                    this.remove();
+                }.bind(this)});
             }
 
             $('body').scrollEnable();
@@ -249,13 +241,13 @@ define([
             Adapt.trigger('notify:closed', this);
         },
 
-        remove: function () {
+        remove: function() {
             this.removeSubView();
             $(window).off('keyup', this._onKeyUp);
             Backbone.View.prototype.remove.apply(this, arguments);
         },
 
-        removeSubView: function () {
+        removeSubView: function() {
             if (!this.subView) return;
             this.subView.remove();
             this.subView = null;

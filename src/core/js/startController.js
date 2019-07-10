@@ -1,35 +1,35 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
-
+], function(Adapt) {
+    
     var StartController = Backbone.Controller.extend({
 
         model: null,
 
-        initialize: function () {
+        initialize: function() {
             this.model = new Backbone.Model(Adapt.course.get("_start"));
         },
 
-        setStartLocation: function () {
+        setStartLocation: function() {
             if (!this.isEnabled()) return;
             window.history.replaceState('', '', this.getStartHash());
         },
 
-        getStartHash: function (alwaysForce) {
+        getStartHash: function(alwaysForce) {
             var startId = this.getStartId();
 
             var hasStartId = (startId)
                 ? true
                 : false;
-
-            var isRouteSpecified = (_.indexOf(window.location.href, "#") > -1);
+            
+            var isRouteSpecified = (_.indexOf(window.location.href,"#") > -1);
             var shouldForceStartId = alwaysForce || this.model.get("_force");
             var shouldNavigateToStartId = hasStartId && (!isRouteSpecified || shouldForceStartId);
 
             var startHash = "#/";
             if (shouldNavigateToStartId) {
                 if (startId !== Adapt.course.get("_id")) {
-                    startHash = "#/id/" + startId;
+                    startHash = "#/id/"+startId;
                 }
             } else {
                 //go to specified route or course main menu
@@ -43,30 +43,30 @@ define([
             return startHash;
         },
 
-        isEnabled: function () {
+        isEnabled: function() {
             if (!this.model || !this.model.get("_isEnabled")) return false;
             return true;
         },
 
-        getStartId: function () {
+        getStartId: function() {
             var startId = this.model.get("_id");
             var startIds = this.model.get("_startIds");
             var $html = $("html");
-
+            
             var hasStartIdsConfiguration = (startIds && startIds.length > 0);
             if (hasStartIdsConfiguration) {
-                for (var i = 0, l = startIds.length; i < l; i++) {
+                for (var i = 0, l =  startIds.length; i < l; i++) {
                     var item = startIds[i];
-                    var className = item._className;
+                    var className =  item._className;
                     var skipIfComplete = item._skipIfComplete;
-
+                    
                     var model = Adapt.findById(item._id);
-
+                    
                     if (!model) {
                         console.log("startController: cannot find id", item._id);
                         continue;
                     }
-
+                    
                     if (skipIfComplete) {
                         if (model.get("_isComplete")) continue;
                     }
@@ -83,7 +83,7 @@ define([
 
     });
 
-    Adapt.once("adapt:start", function () {
+    Adapt.once("adapt:start", function() {
         var startController = new StartController();
         startController.setStartLocation();
     });

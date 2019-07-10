@@ -1,16 +1,14 @@
-(function () {
+(function() {
 
     // Change location of Adapt CSS if incorrect
     (function () {
         var oldHRef = "adapt/css/adapt.css";
         var newHRef = "adapt.css";
-
         function fixCSSLocation() {
             var oldLinkElement = findOldLink();
             if (!oldLinkElement) return;
             replaceOldLink(oldLinkElement);
         }
-
         function findOldLink() {
             var nodeList = document.querySelectorAll("link");
             for (var i = 0, l = nodeList.length; i < l; i++) {
@@ -19,7 +17,6 @@
                 return linkElement;
             }
         }
-
         /**
          * replace link tag, otherwise issues with Google Chrome sourcemaps
          */
@@ -29,10 +26,9 @@
             parent.removeChild(oldLinkElement);
             var newLinkElement = document.createElement("link");
             newLinkElement.href = newHRef;
-            newLinkElement.rel = "stylesheet";
+            newLinkElement.rel ="stylesheet";
             parent.appendChild(newLinkElement);
         }
-
         /**
          * wait for document to load otherwise link tag isn't available
          */
@@ -43,7 +39,7 @@
         }
     })();
 
-    function loadScript(url, callback) {
+    function loadScript(url, callback){
         if (!url || typeof url !== 'string') return;
         var script = document.createElement('script');
         script.onload = callback;
@@ -93,7 +89,7 @@
 
     //4. Wait until JQuery gets loaded completely then load foundation libraries
     function checkJQueryStatus() {
-        if (window.jQuery === undefined) {
+        if(window.jQuery === undefined) {
             setTimeout(checkJQueryStatus, 100);
         } else {
             setupModernizr();
@@ -132,7 +128,7 @@
 
     //7. Allow cross-domain AJAX then load Adapt
     function loadAdapt() {
-        $.ajaxPrefilter(function (options) {
+        $.ajaxPrefilter(function( options ) {
             options.crossDomain = true;
         });
         loadScript('adapt/js/adapt.min.js');

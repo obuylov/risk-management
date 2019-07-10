@@ -4,27 +4,26 @@
 	It still works exactly like Model, View and Collection, in that it has the Events API, .extend and an initialize function
 */
 define("backbone.controller", [
-    "backbone",
-    "underscore"
-], function (Backbone, _) {
+	"backbone", 
+	"underscore"
+], function(Backbone, _) {
 
-    var Controller = Backbone.Controller = function (options) {
-        options || (options = {});
-        _.extend(this, _.pick(options, controllerOptions));
-        this.initialize.apply(this, arguments);
-    };
+	var Controller = Backbone.Controller = function(options) {
+		options || (options = {});
+		_.extend(this, _.pick(options, controllerOptions));
+		this.initialize.apply(this, arguments);
+	};
 
-    var controllerOptions = ['model', 'collection'];
+	var controllerOptions = ['model', 'collection'];
 
-    _.extend(Controller.prototype, Backbone.Events, {
+	_.extend(Controller.prototype, Backbone.Events, {
 
-        initialize: function () {
-        }
+		initialize: function() {}
 
-    });
+	});
 
-    Controller.extend = Backbone.View.extend;
+	Controller.extend = Backbone.View.extend;
 
-    return Backbone;
+	return Backbone;
 
 });

@@ -107,7 +107,7 @@ define([
                 var currentIndex = this.model.get('_index');
                 var flippedIndex = (currentIndex == 0) ? 1 : 0;
 
-                if (this.model.collection.where({_isActive: true}).length === 1) {
+                if (this.model.collection.where({ _isActive: true }).length === 1) {
                     flippedIndex = 0;
                 }
 

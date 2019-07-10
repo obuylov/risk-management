@@ -1,5 +1,5 @@
 //2017-03-06 BASIC ENUMERATION SUPPORT https://github.com/cgkineo/enum
-(function () {
+(function() {
 
     function ENUM(namesArray, lookupModifierFunction) {
 
@@ -8,14 +8,14 @@
         var lookupHash = {};
 
         // Create lookup & storage function
-        var ENUMERATION = function (lookupValue) {
+        var ENUMERATION = function(lookupValue){
 
             if (lookupModifierFunction) {
                 lookupValue = lookupModifierFunction(lookupValue);
             }
 
             lookupValue = lookupHash[lookupValue];
-
+           
             return ENUMERATION[lookupValue];
 
         };
@@ -72,7 +72,7 @@
         return ENUMERATION;
 
     };
-
+    
     window.ENUM = ENUM;
-
+    
 })();

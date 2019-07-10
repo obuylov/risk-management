@@ -1,4 +1,4 @@
-define(function () {
+define(function() {
 
     var ItemModel = Backbone.Model.extend({
 
@@ -7,11 +7,11 @@ define(function () {
             _isVisited: false
         },
 
-        reset: function () {
-            this.set({_isActive: false, _isVisited: false});
+        reset: function() {
+            this.set({ _isActive: false, _isVisited: false });
         },
 
-        toggleActive: function (isActive) {
+        toggleActive: function(isActive) {
             if (isActive === undefined) {
                 isActive = !this.get('_isActive');
             }
@@ -19,7 +19,7 @@ define(function () {
             this.set('_isActive', isActive);
         },
 
-        toggleVisited: function (isVisited) {
+        toggleVisited: function(isVisited) {
             if (isVisited === undefined) {
                 isVisited = !this.get('_isVisited');
             }

@@ -2,7 +2,7 @@ define([
     'core/js/adapt',
     'core/js/models/componentModel',
     'core/js/enums/buttonStateEnum'
-], function (Adapt, ComponentModel, BUTTON_STATE) {
+], function(Adapt, ComponentModel, BUTTON_STATE) {
 
     var QuestionModel = ComponentModel.extend({
 
@@ -11,7 +11,7 @@ define([
         ////
 
         // Used to set model defaults
-        defaults: function () {
+        defaults: function() {
             // Extend from the ComponentModel defaults
             return ComponentModel.resultExtend("defaults", {
                 _isQuestionType: true,
@@ -32,20 +32,20 @@ define([
             '_attemptsLeft'
         ]),
 
-        init: function () {
+        init: function() {
             this.setupDefaultSettings();
             this.listenToOnce(Adapt, "adapt:initialize", this.onAdaptInitialize);
         },
 
         // Calls default methods to setup on questions
-        setupDefaultSettings: function () {
+        setupDefaultSettings: function() {
             // Not sure this is needed anymore, keeping to maintain API
             this.setupWeightSettings();
             this.setupButtonSettings();
         },
 
         // Used to setup either global or local button text
-        setupButtonSettings: function () {
+        setupButtonSettings: function() {
             var globalButtons = Adapt.course.get("_buttons");
 
             // Check if  '_buttons' attribute exists and if not use the globally defined buttons.
@@ -77,7 +77,7 @@ define([
         },
 
         // Used to setup either global or local question weight/score
-        setupWeightSettings: function () {
+        setupWeightSettings: function() {
             // Not needed as handled by model defaults, keeping to maintain API
         },
 
@@ -87,13 +87,12 @@ define([
 
 
         // Used to add post-load changes to the model
-        onAdaptInitialize: function () {
+        onAdaptInitialize: function() {
             this.restoreUserAnswers();
         },
 
         // Used to restore the user answers
-        restoreUserAnswers: function () {
-        },
+        restoreUserAnswers: function() {},
 
 
         //////
@@ -102,11 +101,10 @@ define([
 
         // Use to check if the user is allowed to submit the question
         // Maybe the user has to select an item?
-        canSubmit: function () {
-        },
+        canSubmit: function() {},
 
         // Used to update the amount of attempts the user has left
-        updateAttempts: function () {
+        updateAttempts: function() {
             if (!this.get('_attemptsLeft')) {
                 this.set("_attemptsLeft", this.get('_attempts'));
             }
@@ -114,7 +112,7 @@ define([
         },
 
         // Used to set _isEnabled and _isSubmitted on the model
-        setQuestionAsSubmitted: function () {
+        setQuestionAsSubmitted: function() {
             this.set({
                 _isEnabled: false,
                 _isSubmitted: true
@@ -123,11 +121,10 @@ define([
 
         // This is important for returning or showing the users answer
         // This should preserve the state of the users answers
-        storeUserAnswer: function () {
-        },
+        storeUserAnswer: function() {},
 
         // Sets _isCorrect:true/false based upon isCorrect method below
-        markQuestion: function () {
+        markQuestion: function() {
 
             if (this.isCorrect()) {
                 this.set('_isCorrect', true);
@@ -137,17 +134,15 @@ define([
 
         },
 
-        // Should return a boolean based upon whether to question is correct or not
-        isCorrect: function () {
-        },
+         // Should return a boolean based upon whether to question is correct or not
+        isCorrect: function() {},
 
         // Used to set the score based upon the _questionWeight
-        setScore: function () {
-        },
+        setScore: function() {},
 
         // Checks if the question should be set to complete
         // Calls setCompletionStatus and adds complete classes
-        checkQuestionCompletion: function () {
+        checkQuestionCompletion: function() {
 
             var isComplete = (this.get('_isCorrect') || this.get('_attemptsLeft') === 0);
 
@@ -161,7 +156,7 @@ define([
 
         // Updates buttons based upon question state by setting
         // _buttonState on the model which buttonsView listens to
-        updateButtons: function () {
+        updateButtons: function() {
 
             var isInteractionComplete = this.get('_isInteractionComplete');
             var isCorrect = this.get('_isCorrect');
@@ -200,7 +195,7 @@ define([
         },
 
         // Used to setup the correct, incorrect and partly correct feedback
-        setupFeedback: function () {
+        setupFeedback: function() {
             if (!this.has('_feedback')) return;
 
             if (this.get('_isCorrect')) {
@@ -214,17 +209,16 @@ define([
 
         // Used by the question to determine if the question is incorrect or partly correct
         // Should return a boolean
-        isPartlyCorrect: function () {
-        },
+        isPartlyCorrect: function() {},
 
-        setupCorrectFeedback: function () {
+        setupCorrectFeedback: function() {
             this.set({
                 feedbackTitle: this.getFeedbackTitle(),
                 feedbackMessage: this.get('_feedback').correct
             });
         },
 
-        setupPartlyCorrectFeedback: function () {
+        setupPartlyCorrectFeedback: function() {
             var feedback = this.get('_feedback')._partlyCorrect;
 
             if (feedback && feedback.final) {
@@ -234,11 +228,11 @@ define([
             }
         },
 
-        setupIncorrectFeedback: function () {
+        setupIncorrectFeedback: function() {
             this.setAttemptSpecificFeedback(this.get('_feedback')._incorrect);
         },
 
-        setAttemptSpecificFeedback: function (feedback) {
+        setAttemptSpecificFeedback: function(feedback) {
             var body = this.get('_attemptsLeft') && feedback.notFinal || feedback.final;
 
             this.set({
@@ -247,20 +241,20 @@ define([
             });
         },
 
-        getFeedbackTitle: function () {
-            return this.get('_feedback').title || this.get('displayTitle') || this.get('title') || "";
+        getFeedbackTitle: function() {
+            return this.get('_feedback').title || this.get('displayTitle') ||  this.get('title') || "";
         },
 
         /**
          * Used to determine whether the learner is allowed to interact with the question component or not.
          * @return {Boolean}
          */
-        isInteractive: function () {
+        isInteractive: function() {
             return !this.get('_isComplete') || (this.get('_isEnabled') && !this.get('_isSubmitted'));
         },
 
         // Reset the model to let the user have another go (not the same as attempts)
-        reset: function (type, force) {
+        reset: function(type, force) {
             if (!this.get("_canReset") && !force) return;
 
             type = type || true; //hard reset by default, can be "soft", "hard"/true
@@ -277,7 +271,7 @@ define([
         },
 
         // Reset question for subsequent attempts
-        setQuestionAsReset: function () {
+        setQuestionAsReset: function() {
             this.set({
                 _isEnabled: true,
                 _isSubmitted: false
@@ -285,20 +279,19 @@ define([
         },
 
         // Used by the question view to reset the stored user answer
-        resetUserAnswer: function () {
-        },
+        resetUserAnswer: function() {},
 
-        refresh: function () {
+        refresh: function() {
             this.trigger('question:refresh');
         },
 
-        getButtonState: function () {
+        getButtonState: function() {
             if (this.get('_isCorrect')) {
                 return BUTTON_STATE.CORRECT;
             }
 
             if (this.get('_attemptsLeft') === 0) {
-                return this.get('_canShowModelAnswer') ? BUTTON_STATE.SHOW_CORRECT_ANSWER : BUTTON_STATE.INCORRECT;
+                 return this.get('_canShowModelAnswer') ? BUTTON_STATE.SHOW_CORRECT_ANSWER : BUTTON_STATE.INCORRECT;
             }
 
             return this.get('_isSubmitted') ? BUTTON_STATE.RESET : BUTTON_STATE.SUBMIT;
@@ -308,17 +301,15 @@ define([
         // is a 'choice' this should contain an object with:
         // - correctResponsesPattern[]
         // - choices[]
-        getInteractionObject: function () {
+        getInteractionObject: function() {
             return {};
         },
 
         // Returns a string detailing how the user answered the question.
-        getResponse: function () {
-        },
+        getResponse: function() {},
 
         // Returns a string describing the type of interaction: "choice" and "matching" supported (see scorm wrapper)
-        getResponseType: function () {
-        }
+        getResponseType: function() {}
 
     });
 

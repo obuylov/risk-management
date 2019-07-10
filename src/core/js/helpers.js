@@ -1,75 +1,69 @@
 define([
     'handlebars',
     'core/js/adapt'
-], function (Handlebars, Adapt) {
+], function(Handlebars, Adapt){
 
     var helpers = {
 
-        lowercase: function (text) {
+        lowercase: function(text) {
             return text.toLowerCase();
         },
 
-        capitalise: function (text) {
+        capitalise:  function(text) {
             return text.charAt(0).toUpperCase() + text.slice(1);
         },
 
-        inc: function (index) {
-            return index + 1;
+        inc: function(index) {
+            return index+1;
         },
 
-        dec: function (index) {
-            return index - 1;
+        dec: function(index) {
+            return index-1;
         },
 
         odd: function (index) {
-            return (index + 1) % 2 === 0 ? 'even' : 'odd';
+            return (index +1) % 2 === 0  ? 'even' : 'odd';
         },
 
-        equals: function (value, text, block) {
+        equals: function(value, text, block) {
             return helpers.compare.call(this, value, "==", text, block);
         },
 
-        compare: function (value, operator, text, block) {
+        compare: function(value, operator, text, block) {
             // Comparison operators
             switch (operator) {
-                case "===":
-                    if (value === text) return block.fn(this);
-                    break;
-                case "=":
-                case "==":
-                    if (value == text) return block.fn(this);
-                    break;
-                case ">=":
-                    if (value >= text) return block.fn(this);
-                    break;
-                case "<=":
-                    if (value <= text) return block.fn(this);
-                    break;
-                case ">":
-                    if (value > text) return block.fn(this);
-                    break;
-                case "<":
-                    if (value < text) return block.fn(this);
-                    break;
+            case "===":
+                if (value === text) return block.fn(this);
+                break;
+            case "=": case "==":
+                if (value == text) return block.fn(this);
+                break;
+            case ">=":
+                if (value >= text) return block.fn(this);
+                break;
+            case "<=":
+                if (value <= text) return block.fn(this);
+                break;
+            case ">":
+                if (value > text) return block.fn(this);
+                break;
+            case "<":
+                if (value < text) return block.fn(this);
+                break;
             }
             return block.inverse(this);
         },
 
-        math: function (lvalue, operator, rvalue, options) {
+        math: function(lvalue, operator, rvalue, options) {
             // Mathematical operators
             lvalue = parseFloat(lvalue);
             rvalue = parseFloat(rvalue);
             switch (operator) {
-                case "+":
-                    return lvalue + rvalue;
-                case "-":
-                    return lvalue - rvalue;
-                case "*":
-                    return lvalue * rvalue;
-                case "/":
-                    return lvalue / rvalue;
-                case "%":
-                    return lvalue % rvalue;
+            case "+": return lvalue + rvalue;
+            case "-": return lvalue - rvalue;
+            case "*": return lvalue * rvalue;
+            case "/": return lvalue / rvalue;
+            case "%": return lvalue % rvalue;
             }
         },
 
@@ -81,7 +75,7 @@ define([
          * <div class="component__header {{_component}}__header"></div>
          * {{/any}}
          */
-        any: function () {
+        any: function() {
             var args = Array.prototype.slice.call(arguments, 0, -1);
             var block = Array.prototype.slice.call(arguments, -1)[0];
 
@@ -96,7 +90,7 @@ define([
          * <div class="component__header {{_component}}__header"></div>
          * {{/all}}
          */
-        all: function () {
+        all: function() {
             var args = Array.prototype.slice.call(arguments, 0, -1);
             var block = Array.prototype.slice.call(arguments, -1)[0];
 
@@ -106,7 +100,7 @@ define([
         /**
          * Allow JSON to be a template i.e. you can use handlebars {{expressions}} within your JSON
          */
-        compile: function (template, context) {
+        compile: function(template, context) {
             if (!template) return "";
             if (template instanceof Object) template = template.toString();
             var data = this;
@@ -120,7 +114,7 @@ define([
         /**
          * Allow JSON to be a template and accessible text
          */
-        compile_a11y_text: function (template, context) {
+        compile_a11y_text: function(template, context) {
             Adapt.log.warn("DEPRECATED: a11y_text is no longer required. https://tink.uk/understanding-screen-reader-interaction-modes/");
             return helpers.compile.call(this, template, context);
         },
@@ -128,7 +122,7 @@ define([
         /**
          * Allow JSON to be a template and normalized text
          */
-        compile_a11y_normalize: function (template, context) {
+        compile_a11y_normalize: function(template, context) {
             if (!template) return "";
             if (template instanceof Object) template = template.toString();
             return Handlebars.helpers.a11y_normalize.call(this, helpers.compile.call(this, template, context));
@@ -137,7 +131,7 @@ define([
         /**
          * Remove all html tags except styling tags
          */
-        compile_a11y_remove_breaks: function (template, context) {
+        compile_a11y_remove_breaks: function(template, context) {
             if (!template) return "";
             return Handlebars.helpers.a11y_remove_breaks.call(this, helpers.compile.call(this, template, context));
         },
@@ -145,7 +139,7 @@ define([
         /**
          * makes the _globals object in course.json available to a template
          */
-        import_globals: function (context) {
+        import_globals: function(context) {
             if (context.data.root._globals) return "";
             context.data.root._globals = Adapt.course.get('_globals');
             return "";
@@ -154,21 +148,21 @@ define([
         /**
          * makes the Adapt module data available to a template
          */
-        import_adapt: function (context) {
+        import_adapt: function(context) {
 
             if (context.data.root.Adapt) return;
             var adapt = context.data.root.Adapt = {};
 
             var i, l, name;
 
-            var directImport = ['config', 'course'];
+            var directImport = ['config','course'];
             for (i = 0, l = directImport.length; i < l; i++) {
                 name = directImport[i];
                 // convert the model to a json object and add to the current context
                 adapt[name] = Adapt[name].toJSON();
             }
 
-            var indexedImport = ['contentObjects', 'articles', 'blocks', 'components'];
+            var indexedImport = ['contentObjects','articles','blocks','components'];
             for (i = 0, l = indexedImport.length; i < l; i++) {
                 name = indexedImport[i];
                 // convert the collection of models to an array of json objects
@@ -190,20 +184,20 @@ define([
         /**
          * Allow components to fetch their component description.
          */
-        component_description: function (override, context) {
+        component_description: function(override, context) {
             if (!this._isA11yComponentDescriptionEnabled) return;
-            if (!this._globals._components || !this._globals._components['_' + this._component]) return;
+            if (!this._globals._components || !this._globals._components['_'+this._component]) return;
             var hasOverride = (arguments.length > 1);
             var description;
             if (hasOverride) {
                 description = override;
                 description = helpers.compile(description, context);
             } else {
-                description = this._globals._components['_' + this._component].ariaRegion;
+                description = this._globals._components['_'+this._component].ariaRegion;
                 description = helpers.compile(description, override);
             }
             if (!description) return;
-            return new Handlebars.SafeString('<div class="aria-label">' + description + '</div>');
+            return new Handlebars.SafeString('<div class="aria-label">'+description+'</div>');
         }
 
     };
@@ -215,7 +209,7 @@ define([
 
     for (var name in helpers) {
         if (helpers.hasOwnProperty(name)) {
-            Handlebars.registerHelper(name, helpers[name]);
+             Handlebars.registerHelper(name, helpers[name]);
         }
     }
 

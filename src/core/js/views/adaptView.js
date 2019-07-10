@@ -1,23 +1,23 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
+], function(Adapt) {
 
     var AdaptView = Backbone.View.extend({
 
-        attributes: function () {
+        attributes: function() {
             return {
                 "data-adapt-id": this.model.get('_id')
             };
         },
 
-        initialize: function () {
+        initialize: function() {
             this.listenTo(Adapt, 'remove', this.remove);
             this.listenTo(this.model, {
                 'change:_isVisible': this.toggleVisibility,
                 'change:_isHidden': this.toggleHidden,
                 'change:_isComplete': this.onIsCompleteChange
             });
-            this.model.set({
+            this.model.set( {
                 '_globals': Adapt.course.get('_globals'),
                 '_isReady': false
             });
@@ -26,20 +26,19 @@ define([
             if (Adapt.location._currentId === this.model.get('_id')) {
                 Adapt.parentView = this;
             }
-
+            
             this.preRender();
             this.render();
             this.setupOnScreenHandler();
         },
 
-        preRender: function () {
-        },
+        preRender: function() {},
 
-        postRender: function () {
+        postRender: function() {
             this.addChildren();
         },
 
-        render: function () {
+        render: function() {
             Adapt.trigger(this.constructor.type + 'View:preRender', this);
 
             var data = this.model.toJSON();
@@ -49,9 +48,9 @@ define([
 
             Adapt.trigger(this.constructor.type + 'View:render', this);
 
-            _.defer(function () {
+            _.defer(function() {
                 // don't call postRender after remove
-                if (this._isRemoved) return;
+                if(this._isRemoved) return;
 
                 this.postRender();
                 Adapt.trigger(this.constructor.type + 'View:postRender', this);
@@ -60,7 +59,7 @@ define([
             return this;
         },
 
-        setupOnScreenHandler: function () {
+        setupOnScreenHandler: function() {
             var onscreen = this.model.get('_onScreen');
 
             if (!onscreen || !onscreen._isEnabled) return;
@@ -73,12 +72,12 @@ define([
 
                 if (m.percentInviewVertical < minVerticalInview) return;
 
-                this.$el.addClass(onscreen._classes || 'onscreen').off('onscreen.adaptView');
+                this.$el.addClass( onscreen._classes || 'onscreen' ).off('onscreen.adaptView');
 
             }.bind(this));
         },
 
-        addChildren: function () {
+        addChildren: function() {
             var nthChild = 0;
             var children = this.model.getChildren();
             var models = children.models;
@@ -100,7 +99,7 @@ define([
                 }
 
                 var $parentContainer = this.$(this.constructor.childContainer);
-                var childView = new ChildView({model: model});
+                var childView = new ChildView({ model: model });
 
                 this.childViews[model.get('_id')] = childView;
 
@@ -108,9 +107,9 @@ define([
             }
         },
 
-        findDescendantViews: function (isParentFirst) {
+        findDescendantViews: function(isParentFirst) {
             var descendants = [];
-            this.childViews && _.each(this.childViews, function (view) {
+            this.childViews && _.each(this.childViews, function(view) {
                 if (isParentFirst) descendants.push(view);
                 var children = view.findDescendantViews && view.findDescendantViews(isParentFirst);
                 if (children) descendants.push.apply(descendants, children);
@@ -119,11 +118,11 @@ define([
             return descendants;
         },
 
-        setReadyStatus: function () {
+        setReadyStatus: function() {
             this.model.set('_isReady', true);
         },
 
-        setCompletionStatus: function () {
+        setCompletionStatus: function() {
             if (this.model.get('_isVisible')) {
                 this.model.set({
                     '_isComplete': true,
@@ -132,28 +131,27 @@ define([
             }
         },
 
-        resetCompletionStatus: function (type) {
+        resetCompletionStatus: function(type) {
             if (!this.model.get("_canReset")) return;
 
             var descendantComponents = this.model.findDescendantModels('components');
             if (descendantComponents.length === 0) {
                 this.model.reset(type);
             } else {
-                _.each(descendantComponents, function (model) {
+                _.each(descendantComponents, function(model) {
                     model.reset(type);
                 });
             }
         },
 
-        preRemove: function () {
-        },
+        preRemove: function() {},
 
-        remove: function () {
+        remove: function() {
 
             this.preRemove();
             this._isRemoved = true;
 
-            Adapt.wait.for(function (end) {
+            Adapt.wait.for(function(end) {
 
                 this.$el.off('onscreen.adaptView');
                 this.model.setOnChildren('_isReady', false);
@@ -166,7 +164,7 @@ define([
             return this;
         },
 
-        setVisibility: function () {
+        setVisibility: function() {
             var visible = "visibility-hidden";
             if (this.model.get('_isVisible')) {
                 visible = "";
@@ -174,14 +172,14 @@ define([
             return visible;
         },
 
-        toggleVisibility: function () {
+        toggleVisibility: function() {
             if (this.model.get('_isVisible')) {
                 return this.$el.removeClass('visibility-hidden');
             }
             this.$el.addClass('visibility-hidden');
         },
 
-        setHidden: function () {
+        setHidden: function() {
             var hidden = "";
             if (this.model.get('_isHidden')) {
                 hidden = "display-none";
@@ -189,18 +187,18 @@ define([
             return hidden;
         },
 
-        toggleHidden: function () {
+        toggleHidden: function() {
             if (!this.model.get('_isHidden')) {
                 return this.$el.removeClass('display-none');
             }
             this.$el.addClass('display-none');
         },
 
-        onIsCompleteChange: function (model, isComplete) {
+        onIsCompleteChange: function(model, isComplete){
             this.$el.toggleClass('completed', isComplete);
         },
 
-        getChildViews: function () {
+        getChildViews: function() {
             return this.childViews;
         }
 

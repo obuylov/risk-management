@@ -1,7 +1,7 @@
 define([
     'core/js/adapt',
     'a11y'
-], function (Adapt) {
+], function(Adapt) {
 
     var defaultAriaLevels = {
         '_menu': 1,
@@ -18,7 +18,7 @@ define([
         $html: $('html'),
         config: null,
 
-        initialize: function () {
+        initialize: function() {
 
             this.removeLegacyElements();
 
@@ -36,7 +36,7 @@ define([
             });
         },
 
-        initialSetup: function () {
+        initialSetup: function() {
             this.config = Adapt.config.get('_accessibility');
 
             this.config._isActive = false;
@@ -46,7 +46,7 @@ define([
             this.setupHelpers();
         },
 
-        removeLegacyElements: function () {
+        removeLegacyElements: function() {
             var $legacyElements = $('body').children('#accessibility-toggle, #accessibility-instructions');
             var $navigationElements = $('.navigation').find('#accessibility-toggle, #accessibility-instructions');
 
@@ -57,7 +57,7 @@ define([
             $navigationElements.remove();
         },
 
-        setupAccessibility: function () {
+        setupAccessibility: function() {
             if (!this.isEnabled()) return;
 
             Adapt.offlineStorage.set('a11y', false);
@@ -68,49 +68,49 @@ define([
             this.setupLogging();
         },
 
-        setupHelpers: function () {
+        setupHelpers: function() {
             var helpers = {
 
-                a11y_text: function (text) {
+                a11y_text: function(text) {
                     Adapt.log.warn('DEPRECATED: a11y_text is no longer required. https://tink.uk/understanding-screen-reader-interaction-modes/');
                     return text;
                 },
 
-                a11y_normalize: function (texts) {
-                    var values = Array.prototype.slice.call(arguments, 0, -1);
+                a11y_normalize: function(texts) {
+                    var values = Array.prototype.slice.call(arguments, 0,-1);
                     values = values.filter(Boolean);
                     return $.a11y_normalize(values.join(' '));
                 },
 
-                a11y_remove_breaks: function (texts) {
-                    var values = Array.prototype.slice.call(arguments, 0, -1);
+                a11y_remove_breaks: function(texts) {
+                    var values = Array.prototype.slice.call(arguments, 0,-1);
                     values = values.filter(Boolean);
                     return $.a11y_remove_breaks(values.join(' '));
                 },
 
-                a11y_aria_label: function (texts) {
-                    var values = Array.prototype.slice.call(arguments, 0, -1);
+                a11y_aria_label: function(texts) {
+                    var values = Array.prototype.slice.call(arguments, 0,-1);
                     values = values.filter(Boolean);
-                    return new Handlebars.SafeString('<div class="aria-label">' + values.join(' ') + '</div>');
+                    return new Handlebars.SafeString('<div class="aria-label">'+values.join(' ')+'</div>');
                 },
 
-                a11y_aria_label_relative: function (texts) {
-                    var values = Array.prototype.slice.call(arguments, 0, -1);
+                a11y_aria_label_relative: function(texts) {
+                    var values = Array.prototype.slice.call(arguments, 0,-1);
                     values = values.filter(Boolean);
-                    return new Handlebars.SafeString('<div class="aria-label relative">' + values.join(' ') + '</div>');
+                    return new Handlebars.SafeString('<div class="aria-label relative">'+values.join(' ')+'</div>');
                 },
 
-                a11y_aria_image: function (texts) {
-                    var values = Array.prototype.slice.call(arguments, 0, -1);
+                a11y_aria_image: function(texts) {
+                    var values = Array.prototype.slice.call(arguments, 0,-1);
                     values = values.filter(Boolean);
-                    return new Handlebars.SafeString('<div class="aria-label" role="img" aria-label="' + values.join(' ') + '"></div>');
+                    return new Handlebars.SafeString('<div class="aria-label" role="img" aria-label="'+values.join(' ')+'"></div>');
                 },
 
-                a11y_wrap_focus: function (text) {
+                a11y_wrap_focus: function(text) {
                     return new Handlebars.SafeString('<a class="a11y-focusguard a11y-ignore a11y-ignore-focus" role="presentation">&nbsp;</a>');
                 },
 
-                a11y_attrs_heading: function (levelOrType) {
+                a11y_attrs_heading: function(levelOrType) {
                     // get the global configuration from config.json
                     var cfg = Adapt.config.get('_accessibility');
                     // default level to use if nothing overrides it
@@ -124,18 +124,19 @@ define([
                     if (isNaN(levelOrType) === false) {
                         // if a number is passed just use this
                         level = levelOrType;
-                    } else if (_.isString(levelOrType)) {
+                    }
+                    else if (_.isString(levelOrType)) {
                         // if a string is passed check if it is defined in global configuration
                         cfg._ariaLevels = cfg._ariaLevels || defaultAriaLevels;
-                        if (cfg._ariaLevels && cfg._ariaLevels["_" + levelOrType] !== undefined) {
-                            level = cfg._ariaLevels["_" + levelOrType];
+                        if (cfg._ariaLevels && cfg._ariaLevels["_"+levelOrType] !== undefined) {
+                            level = cfg._ariaLevels["_"+levelOrType];
                         }
                     }
 
-                    return new Handlebars.SafeString(' role="heading" aria-level="' + level + '" ');
+                    return new Handlebars.SafeString(' role="heading" aria-level="'+level+'" ');
                 },
 
-                a11y_attrs_tabbable: function () {
+                a11y_attrs_tabbable: function() {
                     return new Handlebars.SafeString(' role="region" tabindex="0" ');
                 }
 
@@ -149,7 +150,7 @@ define([
 
         },
 
-        setupNoSelect: function () {
+        setupNoSelect: function() {
             if (!this.config || !this.config._disableTextSelectOnClasses) return;
 
             var classes = this.config._disableTextSelectOnClasses.split(' ');
@@ -165,7 +166,7 @@ define([
             $('html').toggleClass('no-select', isMatch);
         },
 
-        configureA11yLibrary: function () {
+        configureA11yLibrary: function() {
 
             $.a11y.options.OS = Adapt.device.OS.toLowerCase();
             $.a11y.options.isTouchDevice = Adapt.device.touch;
@@ -186,14 +187,14 @@ define([
         /**
          * stop document reading, move focus to appropriate location
          */
-        onNavigationStart: function () {
-            _.defer(function () {
+        onNavigationStart: function() {
+            _.defer(function() {
                 $.a11y_on(false, '.page');
                 $.a11y_on(false, '.menu');
             });
         },
 
-        onNavigationEnd: function (view) {
+        onNavigationEnd: function(view) {
             //prevent sub-menu items provoking behaviour
             if (view && view.model) {
                 if (view.model.get('_id') !== Adapt.location._currentId) return;
@@ -207,25 +208,25 @@ define([
 
         },
 
-        isActive: function () {
+        isActive: function() {
             Adapt.log.warn('REMOVED - accessibility is now always active when enabled. Please unify your user experiences.');
             return false;
         },
 
-        isEnabled: function () {
+        isEnabled: function() {
             return this.config && this.config._isEnabled;
         },
 
-        setupDocument: function () {
+        setupDocument: function() {
             this.$html.addClass('accessibility');
             $.a11y(true);
         },
 
-        setupPopupListeners: function () {
+        setupPopupListeners: function() {
             this.listenTo(Adapt, 'popup:opened popup:closed', this.onPop);
         },
 
-        setupLogging: function () {
+        setupLogging: function() {
             if (!this.config || !this.config._logReading) return;
             $(document).on('reading', this.onRead);
         },
@@ -233,14 +234,14 @@ define([
         /**
          * output read text to console
          */
-        onRead: function (event, text) {
+        onRead: function(event, text) {
             console.log('READING: ' + text);
         },
 
         /**
          * make sure popup is configured correctly with aria labels, tabindexes etc
          */
-        onPop: function () {
+        onPop: function() {
             $.a11y_update();
         }
 

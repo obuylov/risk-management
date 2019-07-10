@@ -3,8 +3,8 @@ define([
 ], function (AdaptModel) {
 
     var ContentObjectModel = AdaptModel.extend({
-        _parent: 'course',
-        _siblings: 'contentObjects',
+    	_parent:'course',
+    	_siblings:'contentObjects',
         _children: 'contentObjects'
     });
 

@@ -1,12 +1,12 @@
 define([
     'core/js/adapt'
-], function (Adapt) {
+], function(Adapt) {
 
     var NavigationView = Backbone.View.extend({
 
         className: "navigation",
 
-        initialize: function () {
+        initialize: function() {
             this.listenToOnce(Adapt, {
                 'courseModel:dataLoading': this.remove
             });
@@ -16,19 +16,19 @@ define([
         },
 
         events: {
-            'click [data-event]': 'triggerEvent'
+            'click [data-event]':'triggerEvent'
         },
 
         attributes: {
             'role': 'navigation'
         },
 
-        preRender: function () {
+        preRender: function() {
             Adapt.trigger('navigationView:preRender', this);
             this.render();
         },
 
-        render: function () {
+        render: function() {
             var template = Handlebars.templates[this.template];
             this.$el.html(template(
                 {
@@ -37,20 +37,20 @@ define([
                 }
             )).insertBefore('#app');
 
-            _.defer(_.bind(function () {
+            _.defer(_.bind(function() {
                 Adapt.trigger('navigationView:postRender', this);
             }, this));
 
             return this;
         },
 
-        triggerEvent: function (event) {
+        triggerEvent: function(event) {
             event.preventDefault();
             var currentEvent = $(event.currentTarget).attr('data-event');
             Adapt.trigger('navigation:' + currentEvent);
         },
 
-        hideNavigationButton: function (model) {
+        hideNavigationButton: function(model) {
             if (model.get('_type') === "course") {
                 $('.navigation-back-button, .navigation-home-button').addClass('display-none');
             } else {
@@ -58,7 +58,7 @@ define([
             }
         },
 
-        showNavigationButton: function () {
+        showNavigationButton: function() {
             $('.navigation-back-button, .navigation-home-button').removeClass('display-none');
         }
 

@@ -1,17 +1,17 @@
 define([
     'core/js/adapt',
     'core/js/views/drawerView'
-], function (Adapt, DrawerView) {
+], function(Adapt, DrawerView) {
 
-    var DrawerCollection = new Backbone.Collection(null, {comparator: 'drawerOrder'});
+    var DrawerCollection = new Backbone.Collection(null, { comparator: 'drawerOrder' });
     var Drawer = {};
 
-    Drawer.addItem = function (drawerObject, eventCallback) {
+    Drawer.addItem = function(drawerObject, eventCallback) {
         drawerObject.eventCallback = eventCallback;
         DrawerCollection.add(drawerObject);
     };
 
-    Drawer.triggerCustomView = function (view, hasBackButton) {
+    Drawer.triggerCustomView = function(view, hasBackButton) {
         if (hasBackButton !== false) {
             hasBackButton = true;
         }
@@ -19,10 +19,10 @@ define([
     };
 
     Adapt.on({
-        'adapt:start': function () {
-            new DrawerView({collection: DrawerCollection});
+        'adapt:start': function() {
+            new DrawerView({ collection: DrawerCollection });
         },
-        'app:languageChanged': function () {
+        'app:languageChanged': function() {
             Adapt.trigger('drawer:remove');
         }
     });

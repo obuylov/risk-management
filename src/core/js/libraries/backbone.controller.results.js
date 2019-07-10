@@ -6,9 +6,9 @@
 define('backbone.controller.results', [
     'underscore.results',
     'backbone.controller'
-], function (_, Backbone) {
+], function(_, Backbone) {
 
-    var extend = [Backbone.View, Backbone.Model, Backbone.Collection, Backbone.Controller];
+    var extend = [ Backbone.View, Backbone.Model, Backbone.Collection, Backbone.Controller ];
 
     function resultExtendClass() {
 
@@ -27,8 +27,8 @@ define('backbone.controller.results', [
         return _.resultExtend.apply(this, args);
 
     };
-
-    _.each(extend, function (item) {
+    
+    _.each(extend, function(item) {
 
         item.resultExtend = resultExtendClass;
         item.prototype.resultExtend = resultExtendInstance;

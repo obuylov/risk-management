@@ -1,4 +1,4 @@
-define(function () {
+define(function() {
 
     var ModelEvent = Backbone.Controller.extend({
 
@@ -15,18 +15,18 @@ define(function () {
          * @param {Backbone.Model} target Origin model
          * @param {*} [value] Any value that should be carried through on the event
          */
-        initialize: function (type, target, value) {
+        initialize: function(type, target, value) {
             this.type = type;
             this.target = target;
             this.value = value;
             this.deepPath = [target];
         },
 
-        stopPropagation: function () {
+        stopPropagation: function() {
             this.canBubble = false;
         },
 
-        addPath: function (target) {
+        addPath: function(target) {
             this.deepPath.unshift(target);
         }
 

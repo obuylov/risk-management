@@ -1,6 +1,6 @@
 //https://github.com/adaptlearning/jquery.imageready 2017-07-11
 
-;(function ($) {
+;(function( $ ) {
 
     if ($.fn.imageready) return;
 
@@ -37,7 +37,7 @@
 
             for (var i = 0, len = tags.length; i < len; i++) {
 
-                el = tags[i];
+                el = tags[i];  
 
                 var hasNoValue = (el.currentStyle[scriptName] == 'none');
                 if (hasNoValue) continue;
@@ -50,7 +50,7 @@
 
             for (var i = 0, len = tags.length; i < len; i++) {
 
-                el = tags[i];
+                el = tags[i];  
 
                 var hasNoValue = (document.defaultView.getComputedStyle(el, null).getPropertyValue(name) == 'none');
                 if (hasNoValue) continue;
@@ -65,29 +65,27 @@
     }
 
     function changeCSSAttributeNameFormat(CSSName) {
-        var noDash = CSSName.replace(/-/g, " ");
+        var noDash = CSSName.replace(/-/g," ");
         var titleCase = toTitleCase(noDash);
         var noSpace = titleCase.replace(/ /g, "");
-        var lowerCaseStart = noSpace.substr(0, 1).toLowerCase() + noSpace.substr(1);
+        var lowerCaseStart = noSpace.substr(0,1).toLowerCase() + noSpace.substr(1);
         return lowerCaseStart;
     }
 
-    function toTitleCase(str) {
-        return str.replace(/\w\S*/g, function (txt) {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-        });
+    function toTitleCase(str){
+        return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
     }
 
     function getAllImages($set) {
 
         //get all child images
-        var $images = $set.find("img").add($set.filter("img"));
+        var $images = $set.find("img").add( $set.filter("img") );
 
         //get all background images
-        $set.each(function () {
+        $set.each(function() {
 
             var $backgroundImageElements = $(getElementsByCSSAttributeName.call(this, "background-image"));
-            $backgroundImageElements.each(function () {
+            $backgroundImageElements.each(function() {
 
                 var $image = $(new Image());
                 var backgroundImageValue = $(this).css("background-image");
@@ -95,7 +93,7 @@
                 // stripCSSURL
                 var matches = /url\(([^)]*)\)/g.exec(backgroundImageValue);
                 if (matches === null) return;
-
+                
                 // stripCSSQuotes
                 var url = matches[1].replace(/[\"\']/g, "");
                 $image.attr("src", url);
@@ -104,7 +102,7 @@
             });
 
         });
-
+        
         $images.loaded = 0;
 
         //return undefined if no images found
@@ -113,7 +111,7 @@
 
     }
 
-    $.fn.imageready = function (callback, options) {
+    $.fn.imageready = function(callback, options) {
         //setup options
         options = options || {};
         if (options.allowTimeout === undefined) {
@@ -126,13 +124,12 @@
 
         //callback timeout event
         var timeoutHandle;
-
         function check() {
 
             clearTimeout(timeoutHandle);
             var notLoadedImg = [];
 
-            $images.each(function () {
+            $images.each(function() {
 
                 if (this._isImageReadyComplete) return;
 
@@ -168,14 +165,14 @@
         }
 
         //attach load event listeners
-        $images.each(function () {
+        $images.each(function() {
             var $this = $(this);
 
             if (isImageLoaded($this)) return $images.loaded++;
 
             $this.one("load", complete);
             $this.one("error", complete);
-
+            
             // hack for onload event not firing for cached images in IE9-11 http://garage.socialisten.at/2013/06/how-to-fix-the-ie9-image-onload-bug/
             // reset the src attribute
             $this.attr("src", $this.attr("src"));
@@ -187,7 +184,7 @@
 
         //setup timeout event
         if (!options.allowTimeout) return;
-
+        
         //set a timeout to callback on slow / missing image load
         timeoutHandle = setTimeout(check, options.timeoutDuration)
 
@@ -195,4 +192,4 @@
     $.fn.imageready.timeoutDuration = 1;
     $.fn.imageready.allowTimeout = false;
 
-})(jQuery);
+}) ( jQuery );

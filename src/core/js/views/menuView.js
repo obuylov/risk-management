@@ -1,46 +1,46 @@
 define([
     'core/js/adapt',
     'core/js/views/adaptView'
-], function (Adapt, AdaptView) {
+], function(Adapt, AdaptView) {
 
     var MenuView = AdaptView.extend({
 
-        className: function () {
+    	className: function() {
             var visible = "visibility-hidden";
             if (this.model.get('_isVisible')) {
                 visible = "";
             }
-            return 'menu ' +
-                'menu-' +
-                this.model.get('_id') +
-                " " + this.model.get('_classes') +
-                " " + this.setVisibility() +
-                " " + (this.model.get('_isComplete') ? 'completed' : '');
-        },
+    		return 'menu ' +
+            'menu-' +
+            this.model.get('_id') +
+            " " + this.model.get('_classes') +
+            " " + this.setVisibility() +
+            " " + (this.model.get('_isComplete') ? 'completed' : '');
+    	},
 
-        preRender: function () {
+        preRender: function() {
             this.disableAnimation = Adapt.config.has('_disableAnimation') ? Adapt.config.get('_disableAnimation') : false;
             this.$el.css('opacity', 0);
             this.listenTo(this.model, 'change:_isReady', this.isReady);
         },
 
-        postRender: function () {
+        postRender: function() {
         },
 
-        isReady: function () {
+        isReady: function() {
             if (this.model.get('_isReady')) {
-                _.defer(function () {
+                _.defer(function() {
                     $('.loading').hide();
                     $(window).scrollTop(0);
                     Adapt.trigger('menuView:ready', this);
-                    var styleOptions = {opacity: 1};
+                    var styleOptions = { opacity: 1 };
                     if (this.disableAnimation) {
                         this.$el.css(styleOptions);
                         $.inview();
                     } else {
                         this.$el.velocity(styleOptions, {
                             duration: 'fast',
-                            complete: function () {
+                            complete: function() {
                                 $.inview();
                             }
                         });
@@ -51,7 +51,7 @@ define([
         }
 
     }, {
-        type: 'menu'
+        type:'menu'
     });
 
     return MenuView;

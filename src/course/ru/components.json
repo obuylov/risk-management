@@ -3192,13 +3192,6 @@
     "_type": "component",
     "_classes": "",
     "_layout": "full",
-    "_attempts": -1,
-    "_questionWeight": 1,
-    "_isRandom": false,
-    "_shouldDisplayAttempts": false,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_recordInteraction": true,
     "title": "Упражнение 3",
     "displayTitle": "",
     "body": "",
@@ -3223,6 +3216,14 @@
         "questionBGColor": "#56DCDF"
       }
     ],
+    "_attempts": -1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
     "_feedback": {
       "title": "Упражнение",
       "correct": "Упражнение выполнено верно.",
@@ -3241,7 +3242,7 @@
         "ariaLabel": "Ответить"
       },
       "_reset": {
-        "buttonText": "Пройти ещё раз",
+        "buttonText": "Скорректировать ответ",
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {

@@ -3,8 +3,8 @@ define([
 ], function (AdaptModel) {
 
     var ComponentModel = AdaptModel.extend({
-        _parent: 'blocks',
-        _siblings: 'components',
+        _parent:'blocks',
+        _siblings:'components',
 
         defaults: AdaptModel.resultExtend('defaults', {
             _isA11yComponentDescriptionEnabled: true
