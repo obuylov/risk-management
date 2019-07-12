@@ -3221,7 +3221,7 @@
     "_canShowFeedback": true,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": false,
+    "_isRandom": true,
     "_recordInteraction": false,
     "_questionWeight": 1,
     "_feedback": {
@@ -3242,7 +3242,7 @@
         "ariaLabel": "Ответить"
       },
       "_reset": {
-        "buttonText": "Скорректировать ответ",
+        "buttonText": "Пройти еще раз",
         "ariaLabel": ""
       },
       "_showCorrectAnswer": {
