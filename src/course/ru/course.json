@@ -10,8 +10,8 @@
             "ariaLabel": "Принять ответ"
         },
         "_reset": {
-            "buttonText": "Скорректировать ответ",
-            "ariaLabel": "Скорректировать ответ"
+            "buttonText": "Пройти еще раз",
+            "ariaLabel": "Пройти еще раз"
         },
         "_showCorrectAnswer": {
             "buttonText": "Показать правильный ответ",
