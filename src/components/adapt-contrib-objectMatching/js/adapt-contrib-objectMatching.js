@@ -195,6 +195,7 @@ define([
 
             _.each(this.model.get('optionItems'), function (item, index) {
                 var $item = this.$('.objectMatching-option-item-cotainer').eq(index);
+                $item.removeClass('correct incorrect');
                 $item.addClass(item._isCorrect ? 'correct' : 'incorrect');
             }, this);
         },
