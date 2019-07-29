@@ -12,7 +12,7 @@
     "_duration": 400
   },
   "_devtools": {
-    "_isEnabled": true,
+    "_isEnabled": false,
     "_theme": "theme-dark"
   },
   "_accessibility": {
@@ -41,9 +41,9 @@
     "_tracking": {
       "_requireCourseCompleted": true,
       "_requireAssessmentPassed": false,
-      "_shouldSubmitScore": false,
-      "_shouldStoreResponses": false,
-      "_shouldRecordInteractions": false
+      "_shouldSubmitScore": true,
+      "_shouldStoreResponses": true,
+      "_shouldRecordInteractions": true
     },
     "_reporting": {
       "_onTrackingCriteriaMet": "completed",
@@ -81,7 +81,7 @@
   },
   "_altxapi": {
     "_isEnabled": true,
-    "_courseID": "https://sberbank.ru/introduction-to-compliance/",
+    "_courseID": "https://sberbank.ru/risk-management/",
     "_identifyById": true,
     "_localLoggingOnly": false,
     "_saveLoadState": false,

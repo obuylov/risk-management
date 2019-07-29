@@ -26,6 +26,23 @@ button.objectMatching-cursor-pointer {
   min-height: 65px;
 }
 
-.incorrect .objectMatching-incorrect-icon, .correct .objectMatching-correct-icon {
-  display: block;
+.objectMatching-option-item-cotainer {
+
+  &.incorrect {
+    .objectMatching-incorrect-icon {
+      display: block;
+    }
+    .objectMatching-correct-icon {
+      display: none;
+    }
+  }
+
+  &.correct {
+    .objectMatching-incorrect-icon {
+      display: none;
+    }
+    .objectMatching-correct-icon {
+      display: block;
+    }
+  }
 }
